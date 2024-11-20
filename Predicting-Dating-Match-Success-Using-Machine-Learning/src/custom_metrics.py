@@ -1,6 +1,6 @@
-from sklearn.metrics import f1_score, precision_score, recall_score
+from sklearn.metrics import precision_score, recall_score
 
-BETA = 0.55
+BETA = 0.55  # gives precision a weight of 70%
 
 
 def calculate_fbeta_score(y_true, y_pred):

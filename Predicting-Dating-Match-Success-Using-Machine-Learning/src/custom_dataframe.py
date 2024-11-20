@@ -33,11 +33,6 @@ class CustomDataframeAccessor:
         return None
 
 
-# Usage
-# df = pd.DataFrame({'A': [1, 2, 3], 'C': [4, 5, 6], 'B': [7, 8, 9]})
-# print(df.custom.columns())
-
-
 @pd.api.extensions.register_series_accessor("custom")
 class CustomSeriesAccessor:
     def __init__(self, series):

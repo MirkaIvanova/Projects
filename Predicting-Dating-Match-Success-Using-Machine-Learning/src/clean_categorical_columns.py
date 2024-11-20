@@ -384,8 +384,7 @@ def clean_university_names(df):
     return df
 
 
-# MII_REF17: It is better this f-n to return a copy of the df
-def clean_field_of_study(df, col):
+def clean_field_of_study(_df, col):
     def clean_field(field):
         # Convert to lowercase
         field = field.lower()
@@ -447,13 +446,8 @@ def clean_field_of_study(df, col):
 
         return field
 
+    df = _df.copy()
     # Apply the cleaning function to the 'field' column
     df[col] = df[col].apply(clean_field)
 
     return df
-
-
-# Example usage:
-# df = pd.read_csv('your_data.csv')
-# df = clean_field_column(df)
-# print(df['field'])
