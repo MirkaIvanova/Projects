@@ -1,0 +1,32 @@
+//prettier-ignore
+{
+    "model__n_estimators":      [300, 400, 500],    // [100, 200, 300, 500],
+    "model__max_depth":         [null, 5, 10],      // [None, 5, 10, 15, 20, 30],
+    "model__min_samples_split": [2, 5, 10, 15],     
+    "model__min_samples_leaf":  [1, 2, 4, 8],   
+    "model__criterion":         ["gini"],           // ['gini', 'entropy', 'log_loss'],
+    "model__class_weight":      [null],             // [ None, 'balanced', 'balanced_subsample'],
+    "model__max_features":      ["log2"],           // ['sqrt', 'log2', None],
+    "model__bootstrap":         [true],
+    "model__max_samples":       [0.95, 1]           // If bootstrap=True, samples a subset of features
+
+    // "model__bootstrap":                [true],     // default: true
+    // "model__ccp_alpha":                [0.0],      // default: 0.0
+    // "model__class_weight":             [null],     // default: null
+    // "model__criterion":                ["gini"],   // default: gini
+    // "model__max_depth":                [null],     // default: null
+    // "model__max_features":             ["sqrt"],   // default: sqrt
+    // "model__max_leaf_nodes":           [null],     // default: null
+    // "model__max_samples":              [null],     // default: null
+    // "model__min_impurity_decrease":    [0.0],      // default: 0.0
+    // "model__min_samples_leaf":         [1],        // default: 1
+    // "model__min_samples_split":        [2],        // default: 2
+    // "model__min_weight_fraction_leaf": [0.0],      // default: 0.0
+    // "model__monotonic_cst":            [null],     // default: null
+    // "model__n_estimators":             [100],      // default: 100
+    // "model__n_jobs":                   [null],     // default: null
+    // "model__oob_score":                [false],    // default: False
+    // "model__random_state":             [42],       // default: 42
+    // "model__verbose":                  [0],        // default: 0
+    // "model__warm_start":               [false]     // default: False
+}

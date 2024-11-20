@@ -1,0 +1,7 @@
+//prettier-ignore
+{
+    "model__C":            [0.01, 0.1, 1, 10, 100],      // [0.01, 0.1, 1, 10, 100],
+    "model__kernel":       ["rbf"],                      // ["linear", "rbf", "poly", "sigmoid"],
+    "model__gamma":        ["scale"],                    // ["scale", "auto"],
+    "model__class_weight": [null]                        // [None, "balanced"],
+}

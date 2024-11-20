@@ -1,0 +1,34 @@
+//prettier-ignore
+
+{
+    "model__n_estimators":        [300],                  // [100, 200, 300],
+    "model__max_depth":           [3, 5, 7, 10],          // [3, 5, 7, 10],
+    "model__min_samples_split":   [2],                    // [2, 5, 10]
+    "model__min_samples_leaf":    [1],                    // [1, 2, 4]
+    "model__learning_rate":       [0.01],                 //  [0.01, 0.05, 0.1, 0.5, 0.7]
+    "model__subsample":           [0.5],                  // [0.5, 0.75, 1.0, 0.8, 0.9, 1.0]
+    "model__max_features":        ["sqrt", "log2", null], // ["sqrt", "log2", null]
+    "model__loss":                ["log_loss"]            // ['log_loss', 'exponential'],
+
+
+    // "model__ccp_alpha":                [0.0],            // default: 0.0
+    // "model__criterion":                ["friedman_mse"], // default: friedman_mse
+    // "model__init":                     [null],           // default: null
+    // "model__learning_rate":            [0.1],            // default: 0.1
+    // "model__loss":                     ["log_loss"],     // default: log_loss
+    // "model__max_depth":                [3],              // default: 3
+    // "model__max_features":             [null],           // default: null
+    // "model__max_leaf_nodes":           [null],           // default: null
+    // "model__min_impurity_decrease":    [0.0],            // default: 0.0
+    // "model__min_samples_leaf":         [1],              // default: 1
+    // "model__min_samples_split":        [2],              // default: 2
+    // "model__min_weight_fraction_leaf": [0.0],            // default: 0.0
+    // "model__n_estimators":             [100],            // default: 100
+    // "model__n_iter_no_change":         [null],           // default: null
+    // "model__random_state":             [42],             // default: 42
+    // "model__subsample":                [1.0],            // default: 1.0
+    // "model__tol":                      [0.0001],         // default: 0.0001
+    // "model__validation_fraction":      [0.1],            // default: 0.1
+    // "model__verbose":                  [0],              // default: 0
+    // "model__warm_start":               [false]           // default: False
+}
