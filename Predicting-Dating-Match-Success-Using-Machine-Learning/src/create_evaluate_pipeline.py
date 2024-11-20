@@ -24,7 +24,7 @@ def print_info(msg, end=True, dst="automl_debug.log"):
 
 def evaluate_parameter_grid(param_grid, X, y):
     results = []
-    cache = _load_cache()
+    cache = _load_cache(location="./")
 
     for grid in param_grid:
         param_combinations = _generate_param_combinations(grid)
@@ -66,7 +66,7 @@ def evaluate_parameter_grid(param_grid, X, y):
                 "selected_featured": _extract_feature_info(pipeline, X)["selected_features"],
             }
             _save_object(dict(pipeline.steps), cached_params_filename)  # save model and params
-            _save_cache(cache)
+            _save_cache(cache, location="./")
 
             results.append(result)
 
