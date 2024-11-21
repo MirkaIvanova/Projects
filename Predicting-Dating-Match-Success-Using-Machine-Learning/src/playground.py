@@ -4,10 +4,7 @@ from copy import deepcopy
 from .custom_metrics import calculate_fbeta_score
 
 
-# @mii MII_REF09 💛 explain that X, y are train, why we use stratified split
-# @mii MII_REF09 💛 do not print but return and print in the caller!
-# @now rename precision
-def feature_selection_precision_based_cv(_model, _X, _y, stratify_var, target_features=12, n_splits=5):
+def feature_selection(_model, _X, _y, stratify_var, target_features=12, n_splits=5):
     """
     Perform feature selection using cross-validation.
 
@@ -24,7 +21,7 @@ def feature_selection_precision_based_cv(_model, _X, _y, stratify_var, target_fe
     n_features_now = len(X.columns)
     selected_features = list(X.columns)  # Start with all features
     least_important_features = []
-    best_precision = 0
+    best_score = 0
     best_threshold = 0
     best_selected_features = []
     best_model = None
@@ -39,17 +36,13 @@ def feature_selection_precision_based_cv(_model, _X, _y, stratify_var, target_fe
     # print_feature_importances(feature_importances)
 
     for _ in range(n_features_now - target_features):
-        # Get best threshold and precision score using predict_proba
-        current_predict_proba_threshold, current_predict_proba_precision_score = (
-            get_predict_proba_best_threshold_and_precision_cv(
-                model, X[selected_features], y, stratify_var, n_splits=n_splits
-            )
+        # Get best threshold and score using predict_proba
+        current_threshold, current_score = get_predict_proba_best_threshold(
+            model, X[selected_features], y, stratify_var, n_splits=n_splits
         )
 
         print(f"\nNumber of features: {len(selected_features)}")
-        print(
-            f"predict_proba precision: {current_predict_proba_precision_score:.4f}, predict_proba threshold: {current_predict_proba_threshold:.4f}"
-        )
+        # print(f"Current score: {current_score:.4f}, Current threshold: {current_threshold:.4f}")
         print("Removed features:", ", ".join(f"'{item}'" for item in least_important_features))
 
         # Fit model on full dataset to get feature importances
@@ -57,19 +50,19 @@ def feature_selection_precision_based_cv(_model, _X, _y, stratify_var, target_fe
         importances = model.feature_importances_
 
         # Update best scores
-        if current_predict_proba_precision_score >= best_precision:
+        if current_score >= best_score:
             best_model = deepcopy(model)
-            best_precision = current_predict_proba_precision_score
-            best_threshold = current_predict_proba_threshold
+            best_score = current_score
+            best_threshold = current_threshold
             best_selected_features = deepcopy(selected_features)
 
         # Remove least important feature
         least_important_features.append(selected_features[np.argmin(importances)])
         selected_features.remove(selected_features[np.argmin(importances)])
 
-    print(f"\nBest predict_proba precision score: {best_precision:.4f}")
+    # print(f"\nBest score: {best_score:.4f}")
 
-    return best_model, best_precision, best_threshold, best_selected_features
+    return best_model, best_score, best_threshold, best_selected_features
 
 
 def print_feature_importances(feature_importances):
@@ -93,7 +86,7 @@ def print_feature_importances(feature_importances):
         print(f"{top_feat:<12}: {top_imp:.3f}    {bot_feat:<12}: {bot_imp:.3f}")
 
 
-def get_predict_proba_best_threshold_and_precision_cv(model, X, y, stratify_var, n_splits=5, random_state=42):
+def get_predict_proba_best_threshold(model, X, y, stratify_var, n_splits=5, random_state=42):
     """
     Optimize the classification threshold and calculate the precision score using cross_val_predict.
     """

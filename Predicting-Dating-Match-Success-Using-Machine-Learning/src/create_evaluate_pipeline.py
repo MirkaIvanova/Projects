@@ -16,12 +16,6 @@ from .color import Color
 from .custom_metrics import calculate_fbeta_score
 
 
-# ❤️MII_21 DELETEME!
-def print_info(msg, end=True, dst="automl_debug.log"):
-    with open(dst, "a") as f:
-        f.write(msg + ("\n" if end else ""))
-
-
 def evaluate_parameter_grid(param_grid, X, y):
     results = []
     cache = _load_cache(location="./")
@@ -47,6 +41,7 @@ def evaluate_parameter_grid(param_grid, X, y):
                     )
                     cached_params = _load_object(cached_params_filename, location="param_grid_pkl")
                     cached_score["parameters"] = cached_params
+                    cached_score["hash"] = params_hash
 
                     results.append(cached_score)
                     continue
@@ -217,17 +212,10 @@ def _save_object(obj, filename, location="param_grid_pkl"):
 
 
 def _load_object(filename, location="param_grid_pkl"):
-    """
-    Loads an object from a specified file and location using pickle.
-
-    Parameters:
-    filename (str): The name of the file (e.g., 'data.pkl').
-    location (str): The directory where the file is located.
-
-    Returns:
-    object: The loaded object.
-    """
+    """Loads an object from a specified file and location using pickle"""
     filepath = os.path.join(location, filename)
+    if not os.path.exists(filepath):
+        return None
     with open(filepath, "rb") as file:
         obj = pickle.load(file)
     return obj
