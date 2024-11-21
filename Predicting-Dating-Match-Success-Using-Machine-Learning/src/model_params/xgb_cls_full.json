@@ -16,7 +16,7 @@
     "model__objective":         ["binary:logistic"],    // default: binary:logistic, dont use binary:hinge if you need probabilities
     "model__scale_pos_weight":  [1],                    // default=1, Balance for positive classes
     "model__subsample":         [1.0],                  // default: 1
-    "model__tree_method":       ["hist"         ]       // [💛"exact", "approx"] Method for building trees
+    "model__tree_method":       ["hist"]                // [💛"exact", "approx"] Method for building trees
                                                         //   - "hist" is faster and memory-efficient for large datasets.
                                                         //   - "exact" is slower but can work better for small datasets.  
                                                         //   - "approx" is suitable for datasets where the exact method is computationally infeasible. 

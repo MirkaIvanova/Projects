@@ -33,7 +33,7 @@ def _impute_column_by_gender(_df, col, new_value_0, new_value_1, old_value=None)
     return df
 
 
-# @later separate train abd test
+# @later separate train and test
 def questionnaire_impute_0(X_train, X_test, cols_main, cols_other, prefix, min_nan=1, max_nan=5, sum_value=100):
     X_train_copy = X_train.copy()
     X_test_copy = X_test.copy()

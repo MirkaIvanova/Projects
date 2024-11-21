@@ -19030,5 +19030,6021 @@
             "recall": "0.6890"
         },
         "selected_featured": null
+    },
+    "d0e361c666c95de52990ec375da49ad7": {
+        "scores": {
+            "weighted_fbeta": "0.6539",
+            "precision": "0.7016",
+            "recall": "0.6947"
+        },
+        "selected_featured": null
+    },
+    "b4ab9a30901ce86ffef5a6ab6c87f563": {
+        "scores": {
+            "weighted_fbeta": "0.6544",
+            "precision": "0.7021",
+            "recall": "0.6951"
+        },
+        "selected_featured": null
+    },
+    "a6453bd4edf60f59de8d8dd1f37cba83": {
+        "scores": {
+            "weighted_fbeta": "0.6572",
+            "precision": "0.7044",
+            "recall": "0.6975"
+        },
+        "selected_featured": null
+    },
+    "f4423de002b5129a82c26a5eea21fab3": {
+        "scores": {
+            "weighted_fbeta": "0.6578",
+            "precision": "0.7049",
+            "recall": "0.6979"
+        },
+        "selected_featured": null
+    },
+    "2a2f855d5939c1044146650c69a8e8c9": {
+        "scores": {
+            "weighted_fbeta": "0.6565",
+            "precision": "0.7042",
+            "recall": "0.6965"
+        },
+        "selected_featured": null
+    },
+    "e873eb42b78c73eab21aed131a68f9a9": {
+        "scores": {
+            "weighted_fbeta": "0.6565",
+            "precision": "0.7041",
+            "recall": "0.6969"
+        },
+        "selected_featured": null
+    },
+    "026cb1a8d28472fedca43a0fe15bb031": {
+        "scores": {
+            "weighted_fbeta": "0.6530",
+            "precision": "0.7011",
+            "recall": "0.6949"
+        },
+        "selected_featured": null
+    },
+    "6878e7f88672da0e262b78db8e96b6cb": {
+        "scores": {
+            "weighted_fbeta": "0.6532",
+            "precision": "0.7013",
+            "recall": "0.6951"
+        },
+        "selected_featured": null
+    },
+    "e9b3da0f2d106a01baed6e3ec588eb03": {
+        "scores": {
+            "weighted_fbeta": "0.6559",
+            "precision": "0.7042",
+            "recall": "0.6933"
+        },
+        "selected_featured": null
+    },
+    "f336bd9c66a19bf3bf6503dbb7956551": {
+        "scores": {
+            "weighted_fbeta": "0.6593",
+            "precision": "0.7067",
+            "recall": "0.6968"
+        },
+        "selected_featured": null
+    },
+    "b2572683b0aa344e55bdf79dfe255fbe": {
+        "scores": {
+            "weighted_fbeta": "0.6611",
+            "precision": "0.7081",
+            "recall": "0.6984"
+        },
+        "selected_featured": null
+    },
+    "7127b6999faa9145e175c8daf7841580": {
+        "scores": {
+            "weighted_fbeta": "0.6588",
+            "precision": "0.7060",
+            "recall": "0.6973"
+        },
+        "selected_featured": null
+    },
+    "edfd24bebdb120367f7f9efff5d6c810": {
+        "scores": {
+            "weighted_fbeta": "0.6590",
+            "precision": "0.7061",
+            "recall": "0.6975"
+        },
+        "selected_featured": null
+    },
+    "e117b3c3d681838529e71377412de0ce": {
+        "scores": {
+            "weighted_fbeta": "0.6474",
+            "precision": "0.6991",
+            "recall": "0.6835"
+        },
+        "selected_featured": null
+    },
+    "96a19cf44fb1c4b011f0d82688adb00b": {
+        "scores": {
+            "weighted_fbeta": "0.6587",
+            "precision": "0.7061",
+            "recall": "0.6961"
+        },
+        "selected_featured": null
+    },
+    "12e93e42236c506908590e29332c2a28": {
+        "scores": {
+            "weighted_fbeta": "0.6549",
+            "precision": "0.7029",
+            "recall": "0.6939"
+        },
+        "selected_featured": null
+    },
+    "8f4ab58fa9ad35ce9da4c7606b0d4fcd": {
+        "scores": {
+            "weighted_fbeta": "0.6575",
+            "precision": "0.7047",
+            "recall": "0.6971"
+        },
+        "selected_featured": null
+    },
+    "14282fbe05cc333e2f38fedc0bd6af5b": {
+        "scores": {
+            "weighted_fbeta": "0.6571",
+            "precision": "0.7044",
+            "recall": "0.6967"
+        },
+        "selected_featured": null
+    },
+    "796adf381d26ef3e6084d4c04ecc2870": {
+        "scores": {
+            "weighted_fbeta": "0.6549",
+            "precision": "0.7038",
+            "recall": "0.6916"
+        },
+        "selected_featured": null
+    },
+    "b28208db54a0a445ebae6a09c9a8ac72": {
+        "scores": {
+            "weighted_fbeta": "0.6566",
+            "precision": "0.7042",
+            "recall": "0.6958"
+        },
+        "selected_featured": null
+    },
+    "7ce453d94127f02a4ff2551cfe1c1ef2": {
+        "scores": {
+            "weighted_fbeta": "0.6571",
+            "precision": "0.7045",
+            "recall": "0.6968"
+        },
+        "selected_featured": null
+    },
+    "198ff5ac369640ba71f1f796262337f0": {
+        "scores": {
+            "weighted_fbeta": "0.6518",
+            "precision": "0.6999",
+            "recall": "0.6937"
+        },
+        "selected_featured": null
+    },
+    "2b7cf78e03c6c5c5424c37df15e47c96": {
+        "scores": {
+            "weighted_fbeta": "0.6516",
+            "precision": "0.6998",
+            "recall": "0.6936"
+        },
+        "selected_featured": null
+    },
+    "0822705337b8b9e5e9bd30a5e6389488": {
+        "scores": {
+            "weighted_fbeta": "0.6548",
+            "precision": "0.7031",
+            "recall": "0.6932"
+        },
+        "selected_featured": null
+    },
+    "5e1ae4205bca1baffe92def913570f0f": {
+        "scores": {
+            "weighted_fbeta": "0.6566",
+            "precision": "0.7042",
+            "recall": "0.6957"
+        },
+        "selected_featured": null
+    },
+    "dc2981b28a4ae7a74f78482590cfedf8": {
+        "scores": {
+            "weighted_fbeta": "0.6569",
+            "precision": "0.7043",
+            "recall": "0.6970"
+        },
+        "selected_featured": null
+    },
+    "b6856882518b1bbec3da561f0d1e225d": {
+        "scores": {
+            "weighted_fbeta": "0.6582",
+            "precision": "0.7056",
+            "recall": "0.6978"
+        },
+        "selected_featured": null
+    },
+    "28ee93f2b878863710d7d84a731babc8": {
+        "scores": {
+            "weighted_fbeta": "0.6586",
+            "precision": "0.7059",
+            "recall": "0.6980"
+        },
+        "selected_featured": null
+    },
+    "6131efb41aeedfbc6ce77ae1aee7c30c": {
+        "scores": {
+            "weighted_fbeta": "0.6471",
+            "precision": "0.6974",
+            "recall": "0.6862"
+        },
+        "selected_featured": null
+    },
+    "8e268ee39afd1fe119a4176716a3e8e0": {
+        "scores": {
+            "weighted_fbeta": "0.6472",
+            "precision": "0.6966",
+            "recall": "0.6880"
+        },
+        "selected_featured": null
+    },
+    "cf445201de9cde9460a09c08ab3422c4": {
+        "scores": {
+            "weighted_fbeta": "0.6446",
+            "precision": "0.6947",
+            "recall": "0.6856"
+        },
+        "selected_featured": null
+    },
+    "3f4a8540bd0fef2ad315eaea8c4f480d": {
+        "scores": {
+            "weighted_fbeta": "0.6488",
+            "precision": "0.6980",
+            "recall": "0.6892"
+        },
+        "selected_featured": null
+    },
+    "b6bc77eaee3b7d6e8947f844a066c12f": {
+        "scores": {
+            "weighted_fbeta": "0.6490",
+            "precision": "0.6982",
+            "recall": "0.6893"
+        },
+        "selected_featured": null
+    },
+    "a9eced8fc649fd5f422972076a762405": {
+        "scores": {
+            "weighted_fbeta": "0.6530",
+            "precision": "0.7031",
+            "recall": "0.6885"
+        },
+        "selected_featured": null
+    },
+    "91a89fdc99a521d0a531f1485beded02": {
+        "scores": {
+            "weighted_fbeta": "0.6551",
+            "precision": "0.7033",
+            "recall": "0.6935"
+        },
+        "selected_featured": null
+    },
+    "9639cd1b1dbb963b653f2d45fc34443b": {
+        "scores": {
+            "weighted_fbeta": "0.6566",
+            "precision": "0.7043",
+            "recall": "0.6956"
+        },
+        "selected_featured": null
+    },
+    "7eec91cb29bfabcf5e60cd2ac45bb7d6": {
+        "scores": {
+            "weighted_fbeta": "0.6581",
+            "precision": "0.7052",
+            "recall": "0.6976"
+        },
+        "selected_featured": null
+    },
+    "a4c2f1a5c69ccec07923427944bea7e8": {
+        "scores": {
+            "weighted_fbeta": "0.6577",
+            "precision": "0.7048",
+            "recall": "0.6973"
+        },
+        "selected_featured": null
+    },
+    "0bb40c0f2e10eb7b949d79f8e568aa27": {
+        "scores": {
+            "weighted_fbeta": "0.6531",
+            "precision": "0.7024",
+            "recall": "0.6901"
+        },
+        "selected_featured": null
+    },
+    "19ea2571ac5b961a1aa56eaf9821f595": {
+        "scores": {
+            "weighted_fbeta": "0.6564",
+            "precision": "0.7044",
+            "recall": "0.6945"
+        },
+        "selected_featured": null
+    },
+    "05d683d224ff8f75abbef74fe495df50": {
+        "scores": {
+            "weighted_fbeta": "0.6565",
+            "precision": "0.7041",
+            "recall": "0.6958"
+        },
+        "selected_featured": null
+    },
+    "a29847d4fed4316a4b4523ddfb1f1648": {
+        "scores": {
+            "weighted_fbeta": "0.6557",
+            "precision": "0.7034",
+            "recall": "0.6957"
+        },
+        "selected_featured": null
+    },
+    "cb773c8e0be4f1977a0c1149652ad519": {
+        "scores": {
+            "weighted_fbeta": "0.6560",
+            "precision": "0.7035",
+            "recall": "0.6959"
+        },
+        "selected_featured": null
+    },
+    "1820e7b3a62cc4a441c5028bf08e9666": {
+        "scores": {
+            "weighted_fbeta": "0.6555",
+            "precision": "0.7044",
+            "recall": "0.6920"
+        },
+        "selected_featured": null
+    },
+    "8db0d9ad8ac6c9cf88e37aa940810010": {
+        "scores": {
+            "weighted_fbeta": "0.6594",
+            "precision": "0.7070",
+            "recall": "0.6965"
+        },
+        "selected_featured": null
+    },
+    "99baadd37f15b517ad63ea6cf281380b": {
+        "scores": {
+            "weighted_fbeta": "0.6575",
+            "precision": "0.7051",
+            "recall": "0.6963"
+        },
+        "selected_featured": null
+    },
+    "b8c798ba4162d4a66b60b2070b293de4": {
+        "scores": {
+            "weighted_fbeta": "0.6592",
+            "precision": "0.7064",
+            "recall": "0.6981"
+        },
+        "selected_featured": null
+    },
+    "4846efb3329ff8b4e5260057144a4093": {
+        "scores": {
+            "weighted_fbeta": "0.6580",
+            "precision": "0.7054",
+            "recall": "0.6973"
+        },
+        "selected_featured": null
+    },
+    "ecdf2398b1a46bdbc568c7946ba6f58e": {
+        "scores": {
+            "weighted_fbeta": "0.6547",
+            "precision": "0.7035",
+            "recall": "0.6919"
+        },
+        "selected_featured": null
+    },
+    "652758644c52df0397b90ba3a0b2316d": {
+        "scores": {
+            "weighted_fbeta": "0.6553",
+            "precision": "0.7035",
+            "recall": "0.6935"
+        },
+        "selected_featured": null
+    },
+    "af72d8685b7ea6f8f6dccc6b478cc2d5": {
+        "scores": {
+            "weighted_fbeta": "0.6567",
+            "precision": "0.7046",
+            "recall": "0.6946"
+        },
+        "selected_featured": null
+    },
+    "5589d720b11d68639822febcb3e0ea7f": {
+        "scores": {
+            "weighted_fbeta": "0.6550",
+            "precision": "0.7031",
+            "recall": "0.6940"
+        },
+        "selected_featured": null
+    },
+    "3a6fd735999e5caadf991454d93470f5": {
+        "scores": {
+            "weighted_fbeta": "0.6550",
+            "precision": "0.7031",
+            "recall": "0.6940"
+        },
+        "selected_featured": null
+    },
+    "998afcdfe5b9ad7a7d96d9508739a2fe": {
+        "scores": {
+            "weighted_fbeta": "0.6519",
+            "precision": "0.7025",
+            "recall": "0.6872"
+        },
+        "selected_featured": null
+    },
+    "7f1e5cc47c62011305e227b6e3e0da2a": {
+        "scores": {
+            "weighted_fbeta": "0.6583",
+            "precision": "0.7060",
+            "recall": "0.6957"
+        },
+        "selected_featured": null
+    },
+    "5d855a879fadc1ab39a0f57d26f6b4e8": {
+        "scores": {
+            "weighted_fbeta": "0.6587",
+            "precision": "0.7058",
+            "recall": "0.6975"
+        },
+        "selected_featured": null
+    },
+    "fbe81bf3c126da92f668e5b5107891ef": {
+        "scores": {
+            "weighted_fbeta": "0.6542",
+            "precision": "0.7019",
+            "recall": "0.6951"
+        },
+        "selected_featured": null
+    },
+    "cf88f44980877fef4f616e472d56e822": {
+        "scores": {
+            "weighted_fbeta": "0.6542",
+            "precision": "0.7019",
+            "recall": "0.6950"
+        },
+        "selected_featured": null
+    },
+    "28c7df756f952a5b878dde01f25fc216": {
+        "scores": {
+            "weighted_fbeta": "0.6491",
+            "precision": "0.6992",
+            "recall": "0.6868"
+        },
+        "selected_featured": null
+    },
+    "866dc302d97ea815c186d9337dee4788": {
+        "scores": {
+            "weighted_fbeta": "0.6550",
+            "precision": "0.7031",
+            "recall": "0.6939"
+        },
+        "selected_featured": null
+    },
+    "0131f2008d271b068ee3f406127ef0e9": {
+        "scores": {
+            "weighted_fbeta": "0.6528",
+            "precision": "0.7013",
+            "recall": "0.6923"
+        },
+        "selected_featured": null
+    },
+    "219fc598930bee52f61f347d243d8173": {
+        "scores": {
+            "weighted_fbeta": "0.6533",
+            "precision": "0.7015",
+            "recall": "0.6937"
+        },
+        "selected_featured": null
+    },
+    "b7183682fb47d08af93386d85c082fce": {
+        "scores": {
+            "weighted_fbeta": "0.6533",
+            "precision": "0.7015",
+            "recall": "0.6937"
+        },
+        "selected_featured": null
+    },
+    "7ecab38313efcf31e5d117ccd2b757ff": {
+        "scores": {
+            "weighted_fbeta": "0.6556",
+            "precision": "0.7040",
+            "recall": "0.6928"
+        },
+        "selected_featured": null
+    },
+    "a965564c88a02b72fc2cd1c6b643c45e": {
+        "scores": {
+            "weighted_fbeta": "0.6611",
+            "precision": "0.7082",
+            "recall": "0.6987"
+        },
+        "selected_featured": null
+    },
+    "2d332c8014213aa0a27aab0f073743c1": {
+        "scores": {
+            "weighted_fbeta": "0.6589",
+            "precision": "0.7062",
+            "recall": "0.6976"
+        },
+        "selected_featured": null
+    },
+    "e28aafba4cabef3a74b0cf56effc6ac6": {
+        "scores": {
+            "weighted_fbeta": "0.6552",
+            "precision": "0.7030",
+            "recall": "0.6953"
+        },
+        "selected_featured": null
+    },
+    "d8e6c5e7ca8b7b57c7cf7f5b178f3e37": {
+        "scores": {
+            "weighted_fbeta": "0.6548",
+            "precision": "0.7027",
+            "recall": "0.6950"
+        },
+        "selected_featured": null
+    },
+    "d3719bdba5f33383bf255b432218ac77": {
+        "scores": {
+            "weighted_fbeta": "0.6526",
+            "precision": "0.7016",
+            "recall": "0.6908"
+        },
+        "selected_featured": null
+    },
+    "227631e8a29ace6c3e6985a31403565a": {
+        "scores": {
+            "weighted_fbeta": "0.6502",
+            "precision": "0.6994",
+            "recall": "0.6894"
+        },
+        "selected_featured": null
+    },
+    "8a59f68c5bd112f59955f6a5873b9ad2": {
+        "scores": {
+            "weighted_fbeta": "0.6517",
+            "precision": "0.7002",
+            "recall": "0.6916"
+        },
+        "selected_featured": null
+    },
+    "e6d6c73259346a334aba52a31a7cf679": {
+        "scores": {
+            "weighted_fbeta": "0.6528",
+            "precision": "0.7010",
+            "recall": "0.6931"
+        },
+        "selected_featured": null
+    },
+    "85ae688af4308412f48867742c62c422": {
+        "scores": {
+            "weighted_fbeta": "0.6522",
+            "precision": "0.7005",
+            "recall": "0.6927"
+        },
+        "selected_featured": null
+    },
+    "b02244789a9baaad48005e240b9518db": {
+        "scores": {
+            "weighted_fbeta": "0.6474",
+            "precision": "0.6994",
+            "recall": "0.6836"
+        },
+        "selected_featured": null
+    },
+    "afa3596039eaabb395ab2a5c60443791": {
+        "scores": {
+            "weighted_fbeta": "0.6534",
+            "precision": "0.7022",
+            "recall": "0.6920"
+        },
+        "selected_featured": null
+    },
+    "9d1cc2da4dde50ae452ffb0d98604791": {
+        "scores": {
+            "weighted_fbeta": "0.6487",
+            "precision": "0.6979",
+            "recall": "0.6893"
+        },
+        "selected_featured": null
+    },
+    "aa645527a96c6ef4ab3e3a8d19ec22bb": {
+        "scores": {
+            "weighted_fbeta": "0.6564",
+            "precision": "0.7037",
+            "recall": "0.6976"
+        },
+        "selected_featured": null
+    },
+    "50c4757149f966ba7d634a790bf3a822": {
+        "scores": {
+            "weighted_fbeta": "0.6566",
+            "precision": "0.7039",
+            "recall": "0.6978"
+        },
+        "selected_featured": null
+    },
+    "83bec78230746979635636f40d504c72": {
+        "scores": {
+            "weighted_fbeta": "0.6530",
+            "precision": "0.7022",
+            "recall": "0.6903"
+        },
+        "selected_featured": null
+    },
+    "892f4255357c2717af1a1dc0b7faa3c4": {
+        "scores": {
+            "weighted_fbeta": "0.6547",
+            "precision": "0.7029",
+            "recall": "0.6940"
+        },
+        "selected_featured": null
+    },
+    "2d8361932d61c7208b023dc1a0e4099e": {
+        "scores": {
+            "weighted_fbeta": "0.6592",
+            "precision": "0.7065",
+            "recall": "0.6977"
+        },
+        "selected_featured": null
+    },
+    "9e2dee62b245346a378de48b1af73203": {
+        "scores": {
+            "weighted_fbeta": "0.6555",
+            "precision": "0.7031",
+            "recall": "0.6961"
+        },
+        "selected_featured": null
+    },
+    "7305ff8a8ac30109a29c1badcfc08356": {
+        "scores": {
+            "weighted_fbeta": "0.6563",
+            "precision": "0.7037",
+            "recall": "0.6968"
+        },
+        "selected_featured": null
+    },
+    "fc91e911e40f085fe4aa56f4a555c43d": {
+        "scores": {
+            "weighted_fbeta": "0.6519",
+            "precision": "0.7011",
+            "recall": "0.6903"
+        },
+        "selected_featured": null
+    },
+    "d24ed3aa7416684b4c6bc6c1d1961dfa": {
+        "scores": {
+            "weighted_fbeta": "0.6540",
+            "precision": "0.7022",
+            "recall": "0.6932"
+        },
+        "selected_featured": null
+    },
+    "f6d1c403c917a62cf5d6465fc220667e": {
+        "scores": {
+            "weighted_fbeta": "0.6543",
+            "precision": "0.7022",
+            "recall": "0.6943"
+        },
+        "selected_featured": null
+    },
+    "f722c5361a10199176ee263dafd3dd73": {
+        "scores": {
+            "weighted_fbeta": "0.6533",
+            "precision": "0.7011",
+            "recall": "0.6945"
+        },
+        "selected_featured": null
+    },
+    "63e2ca94ad22b28616824f9c6b7f4156": {
+        "scores": {
+            "weighted_fbeta": "0.6539",
+            "precision": "0.7016",
+            "recall": "0.6950"
+        },
+        "selected_featured": null
+    },
+    "c81e35453777e24e177c760beeda1495": {
+        "scores": {
+            "weighted_fbeta": "0.6532",
+            "precision": "0.7024",
+            "recall": "0.6905"
+        },
+        "selected_featured": null
+    },
+    "72db7b65ee61a6f4573657331eb78515": {
+        "scores": {
+            "weighted_fbeta": "0.6549",
+            "precision": "0.7032",
+            "recall": "0.6930"
+        },
+        "selected_featured": null
+    },
+    "9d2e7ee1ea6fdee1653378092a03510e": {
+        "scores": {
+            "weighted_fbeta": "0.6522",
+            "precision": "0.7009",
+            "recall": "0.6915"
+        },
+        "selected_featured": null
+    },
+    "afbf97c6c22433a77662ef84ddd8b5e5": {
+        "scores": {
+            "weighted_fbeta": "0.6550",
+            "precision": "0.7030",
+            "recall": "0.6943"
+        },
+        "selected_featured": null
+    },
+    "b2fac2eb87092b7963c59c0b14fe8de4": {
+        "scores": {
+            "weighted_fbeta": "0.6548",
+            "precision": "0.7029",
+            "recall": "0.6940"
+        },
+        "selected_featured": null
+    },
+    "66011e02d82400b900d5276eb1c24740": {
+        "scores": {
+            "weighted_fbeta": "0.6538",
+            "precision": "0.7021",
+            "recall": "0.6931"
+        },
+        "selected_featured": null
+    },
+    "22c7ff23e2870ad9f15f1c28e4e6d1c2": {
+        "scores": {
+            "weighted_fbeta": "0.6550",
+            "precision": "0.7026",
+            "recall": "0.6959"
+        },
+        "selected_featured": null
+    },
+    "a8a9f6326b57f99008802fa4a638898e": {
+        "scores": {
+            "weighted_fbeta": "0.6530",
+            "precision": "0.7010",
+            "recall": "0.6949"
+        },
+        "selected_featured": null
+    },
+    "4ffd868ab16afa3eabfd8f34d9dc409b": {
+        "scores": {
+            "weighted_fbeta": "0.6506",
+            "precision": "0.6990",
+            "recall": "0.6932"
+        },
+        "selected_featured": null
+    },
+    "b5d755e107c012b33a2c05810d66cc89": {
+        "scores": {
+            "weighted_fbeta": "0.6502",
+            "precision": "0.6987",
+            "recall": "0.6929"
+        },
+        "selected_featured": null
+    },
+    "7701934315bd764b7c680283e00b133d": {
+        "scores": {
+            "weighted_fbeta": "0.6534",
+            "precision": "0.7015",
+            "recall": "0.6932"
+        },
+        "selected_featured": null
+    },
+    "f6e83c4cef80f59b44ee8e421882548e": {
+        "scores": {
+            "weighted_fbeta": "0.6545",
+            "precision": "0.7023",
+            "recall": "0.6952"
+        },
+        "selected_featured": null
+    },
+    "f48355c1e01366d0a17445d2fb87286d": {
+        "scores": {
+            "weighted_fbeta": "0.6545",
+            "precision": "0.7021",
+            "recall": "0.6961"
+        },
+        "selected_featured": null
+    },
+    "0fc1b898b70f80df2eb80b8fc4362dd5": {
+        "scores": {
+            "weighted_fbeta": "0.6554",
+            "precision": "0.7029",
+            "recall": "0.6965"
+        },
+        "selected_featured": null
+    },
+    "798da6bbdbe1aabd2c5fa0f4fd41a3b5": {
+        "scores": {
+            "weighted_fbeta": "0.6563",
+            "precision": "0.7037",
+            "recall": "0.6973"
+        },
+        "selected_featured": null
+    },
+    "a32e8d8c2f7c74e596ad6b82de7123e7": {
+        "scores": {
+            "weighted_fbeta": "0.6469",
+            "precision": "0.6964",
+            "recall": "0.6884"
+        },
+        "selected_featured": null
+    },
+    "e78a23319126b47de62c4f9d961b132c": {
+        "scores": {
+            "weighted_fbeta": "0.6552",
+            "precision": "0.7029",
+            "recall": "0.6962"
+        },
+        "selected_featured": null
+    },
+    "d3cbb7421698d5c36bbb9ad918f6a84d": {
+        "scores": {
+            "weighted_fbeta": "0.6590",
+            "precision": "0.7060",
+            "recall": "0.6997"
+        },
+        "selected_featured": null
+    },
+    "360a6c86e1a00ef243466e90e73ddb21": {
+        "scores": {
+            "weighted_fbeta": "0.6570",
+            "precision": "0.7042",
+            "recall": "0.6984"
+        },
+        "selected_featured": null
+    },
+    "433a1975da97d0c7ef004a9a6b3a5939": {
+        "scores": {
+            "weighted_fbeta": "0.6566",
+            "precision": "0.7038",
+            "recall": "0.6981"
+        },
+        "selected_featured": null
+    },
+    "2b7c690763cf6c787eeec92ea2561b0b": {
+        "scores": {
+            "weighted_fbeta": "0.6507",
+            "precision": "0.6993",
+            "recall": "0.6913"
+        },
+        "selected_featured": null
+    },
+    "7993e124716e9b26995c3a3fa99624f6": {
+        "scores": {
+            "weighted_fbeta": "0.6515",
+            "precision": "0.6997",
+            "recall": "0.6930"
+        },
+        "selected_featured": null
+    },
+    "16ae98204330a619ba2d2770e84400cf": {
+        "scores": {
+            "weighted_fbeta": "0.6506",
+            "precision": "0.6991",
+            "recall": "0.6921"
+        },
+        "selected_featured": null
+    },
+    "a2eb036ec483682cd921d3d5162f52e0": {
+        "scores": {
+            "weighted_fbeta": "0.6560",
+            "precision": "0.7035",
+            "recall": "0.6972"
+        },
+        "selected_featured": null
+    },
+    "7933cb90634e1ad4bdfc199ebd3f13f2": {
+        "scores": {
+            "weighted_fbeta": "0.6554",
+            "precision": "0.7030",
+            "recall": "0.6967"
+        },
+        "selected_featured": null
+    },
+    "1abbc72537d55664e14914b99b167f9d": {
+        "scores": {
+            "weighted_fbeta": "0.6492",
+            "precision": "0.6984",
+            "recall": "0.6895"
+        },
+        "selected_featured": null
+    },
+    "bce3c715507dbc8bd6566f00cdb7ca74": {
+        "scores": {
+            "weighted_fbeta": "0.6486",
+            "precision": "0.6975",
+            "recall": "0.6903"
+        },
+        "selected_featured": null
+    },
+    "f0c607e840153eed769735d3957a8318": {
+        "scores": {
+            "weighted_fbeta": "0.6477",
+            "precision": "0.6966",
+            "recall": "0.6899"
+        },
+        "selected_featured": null
+    },
+    "24e531e56fc8462bc1280cbd3bc136e5": {
+        "scores": {
+            "weighted_fbeta": "0.6471",
+            "precision": "0.6960",
+            "recall": "0.6900"
+        },
+        "selected_featured": null
+    },
+    "a02b5e0bd2ed254af5d88e42cfc1c749": {
+        "scores": {
+            "weighted_fbeta": "0.6473",
+            "precision": "0.6961",
+            "recall": "0.6902"
+        },
+        "selected_featured": null
+    },
+    "79b6855f79f8de73914cb76ab8f336cc": {
+        "scores": {
+            "weighted_fbeta": "0.6538",
+            "precision": "0.7020",
+            "recall": "0.6936"
+        },
+        "selected_featured": null
+    },
+    "62f059181b1bedc0b4454d533e290ef8": {
+        "scores": {
+            "weighted_fbeta": "0.6492",
+            "precision": "0.6977",
+            "recall": "0.6913"
+        },
+        "selected_featured": null
+    },
+    "dac19f105539793f80d604788298cdab": {
+        "scores": {
+            "weighted_fbeta": "0.6435",
+            "precision": "0.6930",
+            "recall": "0.6871"
+        },
+        "selected_featured": null
+    },
+    "c5d9db4cc0354ce66722305ad5029b19": {
+        "scores": {
+            "weighted_fbeta": "0.6492",
+            "precision": "0.6976",
+            "recall": "0.6919"
+        },
+        "selected_featured": null
+    },
+    "23bff7ce3d384aff67add46a35848d7c": {
+        "scores": {
+            "weighted_fbeta": "0.6489",
+            "precision": "0.6973",
+            "recall": "0.6917"
+        },
+        "selected_featured": null
+    },
+    "23ba50182c61989904a0d4a3022ab88f": {
+        "scores": {
+            "weighted_fbeta": "0.6446",
+            "precision": "0.6945",
+            "recall": "0.6863"
+        },
+        "selected_featured": null
+    },
+    "ad932c28ed6de068aa7e611d0371ef95": {
+        "scores": {
+            "weighted_fbeta": "0.6506",
+            "precision": "0.6990",
+            "recall": "0.6918"
+        },
+        "selected_featured": null
+    },
+    "bfeb8755e33d57f316a1c5333531461c": {
+        "scores": {
+            "weighted_fbeta": "0.6523",
+            "precision": "0.7005",
+            "recall": "0.6926"
+        },
+        "selected_featured": null
+    },
+    "72826fbc1d2ca732a82f6e2f978163d3": {
+        "scores": {
+            "weighted_fbeta": "0.6512",
+            "precision": "0.6996",
+            "recall": "0.6920"
+        },
+        "selected_featured": null
+    },
+    "bb8ca0f508377fee41dc08393e474bf2": {
+        "scores": {
+            "weighted_fbeta": "0.6512",
+            "precision": "0.6996",
+            "recall": "0.6920"
+        },
+        "selected_featured": null
+    },
+    "d387d11bdb45dadbe2eaee9dabdcb118": {
+        "scores": {
+            "weighted_fbeta": "0.6524",
+            "precision": "0.7006",
+            "recall": "0.6931"
+        },
+        "selected_featured": null
+    },
+    "cf9584146e32943d1f22053a38521667": {
+        "scores": {
+            "weighted_fbeta": "0.6511",
+            "precision": "0.6995",
+            "recall": "0.6921"
+        },
+        "selected_featured": null
+    },
+    "e060b76e784b8377805c8099e5e32077": {
+        "scores": {
+            "weighted_fbeta": "0.6542",
+            "precision": "0.7021",
+            "recall": "0.6946"
+        },
+        "selected_featured": null
+    },
+    "7e9fa471baf619f90d1f5ba42d4a9f83": {
+        "scores": {
+            "weighted_fbeta": "0.6541",
+            "precision": "0.7019",
+            "recall": "0.6951"
+        },
+        "selected_featured": null
+    },
+    "a85d617bf3c4710aa7fddb6a7a3d80a4": {
+        "scores": {
+            "weighted_fbeta": "0.6545",
+            "precision": "0.7023",
+            "recall": "0.6954"
+        },
+        "selected_featured": null
+    },
+    "5cf608ab4a0fb17567cf17ee6c358760": {
+        "scores": {
+            "weighted_fbeta": "0.6482",
+            "precision": "0.6977",
+            "recall": "0.6879"
+        },
+        "selected_featured": null
+    },
+    "d013ef685c62f8761eec1ba26e5579e9": {
+        "scores": {
+            "weighted_fbeta": "0.6496",
+            "precision": "0.6982",
+            "recall": "0.6910"
+        },
+        "selected_featured": null
+    },
+    "a5941717c4cb517ff34ff9943973d84b": {
+        "scores": {
+            "weighted_fbeta": "0.6523",
+            "precision": "0.7003",
+            "recall": "0.6940"
+        },
+        "selected_featured": null
+    },
+    "7f7b472dabb0e4a9001724712e64001e": {
+        "scores": {
+            "weighted_fbeta": "0.6534",
+            "precision": "0.7012",
+            "recall": "0.6950"
+        },
+        "selected_featured": null
+    },
+    "77050418fa9c012c99b66da4b68d65ce": {
+        "scores": {
+            "weighted_fbeta": "0.6534",
+            "precision": "0.7012",
+            "recall": "0.6950"
+        },
+        "selected_featured": null
+    },
+    "3bf7bc04a718b52fd0939e954468e41b": {
+        "scores": {
+            "weighted_fbeta": "0.6534",
+            "precision": "0.7014",
+            "recall": "0.6934"
+        },
+        "selected_featured": null
+    },
+    "76d9e33633f137f90c5a9b3e371ac892": {
+        "scores": {
+            "weighted_fbeta": "0.6461",
+            "precision": "0.6954",
+            "recall": "0.6879"
+        },
+        "selected_featured": null
+    },
+    "f81284621ed5759a86f40955dd802c3a": {
+        "scores": {
+            "weighted_fbeta": "0.6457",
+            "precision": "0.6951",
+            "recall": "0.6878"
+        },
+        "selected_featured": null
+    },
+    "03ad0d873ef9870bf5d2f8d3d2d50d9b": {
+        "scores": {
+            "weighted_fbeta": "0.6462",
+            "precision": "0.6955",
+            "recall": "0.6886"
+        },
+        "selected_featured": null
+    },
+    "21f606f728ccd05970f5222de65e6d88": {
+        "scores": {
+            "weighted_fbeta": "0.6464",
+            "precision": "0.6957",
+            "recall": "0.6888"
+        },
+        "selected_featured": null
+    },
+    "2faa45757d4c40d6a4ba1d28422c1544": {
+        "scores": {
+            "weighted_fbeta": "0.6484",
+            "precision": "0.6974",
+            "recall": "0.6896"
+        },
+        "selected_featured": null
+    },
+    "f04b8f5e73def778493adb14dd3d0f50": {
+        "scores": {
+            "weighted_fbeta": "0.6554",
+            "precision": "0.7030",
+            "recall": "0.6958"
+        },
+        "selected_featured": null
+    },
+    "aab5ab98fbd12e0969f32e244c060f6c": {
+        "scores": {
+            "weighted_fbeta": "0.6543",
+            "precision": "0.7020",
+            "recall": "0.6953"
+        },
+        "selected_featured": null
+    },
+    "c119d220d485ae4c07df879118fab8e6": {
+        "scores": {
+            "weighted_fbeta": "0.6492",
+            "precision": "0.6978",
+            "recall": "0.6917"
+        },
+        "selected_featured": null
+    },
+    "91b6a735d09e120c01c1a82da894c995": {
+        "scores": {
+            "weighted_fbeta": "0.6492",
+            "precision": "0.6978",
+            "recall": "0.6917"
+        },
+        "selected_featured": null
+    },
+    "9eb8fdaacb5f13e205ed4483dfc1a04f": {
+        "scores": {
+            "weighted_fbeta": "0.6532",
+            "precision": "0.7016",
+            "recall": "0.6928"
+        },
+        "selected_featured": null
+    },
+    "f5c8574c40cde12d2bace31e0dac1032": {
+        "scores": {
+            "weighted_fbeta": "0.6494",
+            "precision": "0.6983",
+            "recall": "0.6902"
+        },
+        "selected_featured": null
+    },
+    "2cf063519ffc7c8b5ddbc9bca4702b47": {
+        "scores": {
+            "weighted_fbeta": "0.6510",
+            "precision": "0.6994",
+            "recall": "0.6922"
+        },
+        "selected_featured": null
+    },
+    "106c5019b9493a97156f83c079104bb9": {
+        "scores": {
+            "weighted_fbeta": "0.6534",
+            "precision": "0.7013",
+            "recall": "0.6946"
+        },
+        "selected_featured": null
+    },
+    "dca08738b812d40bf36680415193021a": {
+        "scores": {
+            "weighted_fbeta": "0.6510",
+            "precision": "0.6993",
+            "recall": "0.6928"
+        },
+        "selected_featured": null
+    },
+    "df5ecc2b8c9783022d7d8fc7866e3012": {
+        "scores": {
+            "weighted_fbeta": "0.6400",
+            "precision": "0.6909",
+            "recall": "0.6819"
+        },
+        "selected_featured": null
+    },
+    "e0eed6f74bbf1a8e205299c3386452f2": {
+        "scores": {
+            "weighted_fbeta": "0.6483",
+            "precision": "0.6972",
+            "recall": "0.6897"
+        },
+        "selected_featured": null
+    },
+    "740d37f7e6cee266a213983e34ac1f4f": {
+        "scores": {
+            "weighted_fbeta": "0.6466",
+            "precision": "0.6956",
+            "recall": "0.6893"
+        },
+        "selected_featured": null
+    },
+    "018ccfdbc477e63cc04f209762d697ae": {
+        "scores": {
+            "weighted_fbeta": "0.6507",
+            "precision": "0.6989",
+            "recall": "0.6931"
+        },
+        "selected_featured": null
+    },
+    "e48766c487f4c7c63e5fd3cf5a6e414d": {
+        "scores": {
+            "weighted_fbeta": "0.6505",
+            "precision": "0.6987",
+            "recall": "0.6930"
+        },
+        "selected_featured": null
+    },
+    "b213f0a1b250e69a71a195fa8a88e768": {
+        "scores": {
+            "weighted_fbeta": "0.6537",
+            "precision": "0.7019",
+            "recall": "0.6929"
+        },
+        "selected_featured": null
+    },
+    "f7d7ac2750044d7dff76d3a85948efe2": {
+        "scores": {
+            "weighted_fbeta": "0.6562",
+            "precision": "0.7037",
+            "recall": "0.6966"
+        },
+        "selected_featured": null
+    },
+    "91196be7f85dc302f06644faf33c863d": {
+        "scores": {
+            "weighted_fbeta": "0.6562",
+            "precision": "0.7036",
+            "recall": "0.6967"
+        },
+        "selected_featured": null
+    },
+    "454efdbb0d5b8e088a1df09550174f56": {
+        "scores": {
+            "weighted_fbeta": "0.6488",
+            "precision": "0.6975",
+            "recall": "0.6912"
+        },
+        "selected_featured": null
+    },
+    "d6241d60532f7e570e12d1e63b45a12f": {
+        "scores": {
+            "weighted_fbeta": "0.6486",
+            "precision": "0.6974",
+            "recall": "0.6909"
+        },
+        "selected_featured": null
+    },
+    "8d39cc4e2485532b0be23f77ddf87820": {
+        "scores": {
+            "weighted_fbeta": "0.6457",
+            "precision": "0.6951",
+            "recall": "0.6875"
+        },
+        "selected_featured": null
+    },
+    "d4293b16f7377eeb28a82e911520b20a": {
+        "scores": {
+            "weighted_fbeta": "0.6482",
+            "precision": "0.6971",
+            "recall": "0.6904"
+        },
+        "selected_featured": null
+    },
+    "ee6e315f7ab92930ec589d14dc25980c": {
+        "scores": {
+            "weighted_fbeta": "0.6443",
+            "precision": "0.6937",
+            "recall": "0.6879"
+        },
+        "selected_featured": null
+    },
+    "bdda3685ba179078b59c9ffd481c349c": {
+        "scores": {
+            "weighted_fbeta": "0.6493",
+            "precision": "0.6979",
+            "recall": "0.6917"
+        },
+        "selected_featured": null
+    },
+    "cc50ec3962dbddc9479b1909d7b0fcb9": {
+        "scores": {
+            "weighted_fbeta": "0.6491",
+            "precision": "0.6977",
+            "recall": "0.6916"
+        },
+        "selected_featured": null
+    },
+    "398d73403e4d76ea0f5a7e2ee933ad6b": {
+        "scores": {
+            "weighted_fbeta": "0.6488",
+            "precision": "0.6980",
+            "recall": "0.6893"
+        },
+        "selected_featured": null
+    },
+    "9247dcdd7b9fd4ab22837d2eae26a7ba": {
+        "scores": {
+            "weighted_fbeta": "0.6498",
+            "precision": "0.6985",
+            "recall": "0.6910"
+        },
+        "selected_featured": null
+    },
+    "0d1c356921d079f532876c6ff0c31c01": {
+        "scores": {
+            "weighted_fbeta": "0.6539",
+            "precision": "0.7020",
+            "recall": "0.6941"
+        },
+        "selected_featured": null
+    },
+    "75173206e0ed90b1bd7d056b546d348a": {
+        "scores": {
+            "weighted_fbeta": "0.6543",
+            "precision": "0.7023",
+            "recall": "0.6947"
+        },
+        "selected_featured": null
+    },
+    "dbdc499a8eacd44933ad925a042544d0": {
+        "scores": {
+            "weighted_fbeta": "0.6547",
+            "precision": "0.7026",
+            "recall": "0.6950"
+        },
+        "selected_featured": null
+    },
+    "2a01adcdef02c61d0b85cc8399c1d72d": {
+        "scores": {
+            "weighted_fbeta": "0.6494",
+            "precision": "0.6984",
+            "recall": "0.6899"
+        },
+        "selected_featured": null
+    },
+    "93163c07a1ddacca445ef5ecee41129e": {
+        "scores": {
+            "weighted_fbeta": "0.6467",
+            "precision": "0.6960",
+            "recall": "0.6888"
+        },
+        "selected_featured": null
+    },
+    "3332c6e5b9df53b56614080ae97db2af": {
+        "scores": {
+            "weighted_fbeta": "0.6450",
+            "precision": "0.6944",
+            "recall": "0.6883"
+        },
+        "selected_featured": null
+    },
+    "cebf902c6ecbc652a53d700d45fd9f12": {
+        "scores": {
+            "weighted_fbeta": "0.6423",
+            "precision": "0.6919",
+            "recall": "0.6866"
+        },
+        "selected_featured": null
+    },
+    "441b0f21aeaf833b9849f8d1d7673ae0": {
+        "scores": {
+            "weighted_fbeta": "0.6422",
+            "precision": "0.6917",
+            "recall": "0.6865"
+        },
+        "selected_featured": null
+    },
+    "cd2bbae56d8a47cd8712a49f0a0d44dd": {
+        "scores": {
+            "weighted_fbeta": "0.6497",
+            "precision": "0.6991",
+            "recall": "0.6890"
+        },
+        "selected_featured": null
+    },
+    "fcc9dfe46582f42873ad6d1c21cfb9c9": {
+        "scores": {
+            "weighted_fbeta": "0.6477",
+            "precision": "0.6968",
+            "recall": "0.6896"
+        },
+        "selected_featured": null
+    },
+    "83361e41528a413716e6bbe1198beddb": {
+        "scores": {
+            "weighted_fbeta": "0.6538",
+            "precision": "0.7017",
+            "recall": "0.6947"
+        },
+        "selected_featured": null
+    },
+    "87b5fa21a144fa08b41667e5ee24da84": {
+        "scores": {
+            "weighted_fbeta": "0.6506",
+            "precision": "0.6991",
+            "recall": "0.6925"
+        },
+        "selected_featured": null
+    },
+    "51c3da54adaaa7d124bad300339d037a": {
+        "scores": {
+            "weighted_fbeta": "0.6514",
+            "precision": "0.6998",
+            "recall": "0.6931"
+        },
+        "selected_featured": null
+    },
+    "06a67914e2a97a6749d9306201b2fcb8": {
+        "scores": {
+            "weighted_fbeta": "0.6491",
+            "precision": "0.6979",
+            "recall": "0.6904"
+        },
+        "selected_featured": null
+    },
+    "39beae3fa168aca3d4f0a97e69b10031": {
+        "scores": {
+            "weighted_fbeta": "0.6469",
+            "precision": "0.6958",
+            "recall": "0.6894"
+        },
+        "selected_featured": null
+    },
+    "1bee8cd776eb16a15d727ad4b48a7464": {
+        "scores": {
+            "weighted_fbeta": "0.6472",
+            "precision": "0.6960",
+            "recall": "0.6902"
+        },
+        "selected_featured": null
+    },
+    "021b1cecdb171697ee37a34c44ead41b": {
+        "scores": {
+            "weighted_fbeta": "0.6510",
+            "precision": "0.6991",
+            "recall": "0.6931"
+        },
+        "selected_featured": null
+    },
+    "459dfdd99a5eda22ce2a7ad934b0c04d": {
+        "scores": {
+            "weighted_fbeta": "0.6506",
+            "precision": "0.6988",
+            "recall": "0.6927"
+        },
+        "selected_featured": null
+    },
+    "2080f71878fe4269fce6aadbd06c317b": {
+        "scores": {
+            "weighted_fbeta": "0.6556",
+            "precision": "0.7031",
+            "recall": "0.6953"
+        },
+        "selected_featured": null
+    },
+    "88afbbcca921b4adb1211b2b39e781dd": {
+        "scores": {
+            "weighted_fbeta": "0.6509",
+            "precision": "0.6994",
+            "recall": "0.6917"
+        },
+        "selected_featured": null
+    },
+    "096f4e31f88f5883047a7c308addfc72": {
+        "scores": {
+            "weighted_fbeta": "0.6541",
+            "precision": "0.7020",
+            "recall": "0.6944"
+        },
+        "selected_featured": null
+    },
+    "c64374ce1b7c4f2358779cf2abe85d56": {
+        "scores": {
+            "weighted_fbeta": "0.6510",
+            "precision": "0.6994",
+            "recall": "0.6926"
+        },
+        "selected_featured": null
+    },
+    "9ccfcc931a087d3d752223b0a124ec67": {
+        "scores": {
+            "weighted_fbeta": "0.6504",
+            "precision": "0.6989",
+            "recall": "0.6922"
+        },
+        "selected_featured": null
+    },
+    "c0b533fdebfdce692ea2705f73287da0": {
+        "scores": {
+            "weighted_fbeta": "0.6487",
+            "precision": "0.6978",
+            "recall": "0.6891"
+        },
+        "selected_featured": null
+    },
+    "9ad722b7c280da34ded212dbe63be6f0": {
+        "scores": {
+            "weighted_fbeta": "0.6503",
+            "precision": "0.6988",
+            "recall": "0.6916"
+        },
+        "selected_featured": null
+    },
+    "ae449a507713ba270e4e433fb4d3a557": {
+        "scores": {
+            "weighted_fbeta": "0.6477",
+            "precision": "0.6967",
+            "recall": "0.6908"
+        },
+        "selected_featured": null
+    },
+    "e3d47fb8d13a904264df49cc3f42e953": {
+        "scores": {
+            "weighted_fbeta": "0.6455",
+            "precision": "0.6947",
+            "recall": "0.6893"
+        },
+        "selected_featured": null
+    },
+    "5adbc6b6e754a65a4a4aa958c813df96": {
+        "scores": {
+            "weighted_fbeta": "0.6449",
+            "precision": "0.6942",
+            "recall": "0.6888"
+        },
+        "selected_featured": null
+    },
+    "5569b14d5b5e1175d326cb8a0e79f29e": {
+        "scores": {
+            "weighted_fbeta": "0.6485",
+            "precision": "0.6973",
+            "recall": "0.6898"
+        },
+        "selected_featured": null
+    },
+    "2996730ec54afc9f8be1c3de7aa973ce": {
+        "scores": {
+            "weighted_fbeta": "0.6418",
+            "precision": "0.6916",
+            "recall": "0.6855"
+        },
+        "selected_featured": null
+    },
+    "4d82f193bd2fc01e57e99267c30b89bd": {
+        "scores": {
+            "weighted_fbeta": "0.6456",
+            "precision": "0.6946",
+            "recall": "0.6887"
+        },
+        "selected_featured": null
+    },
+    "99d4269df73fff5a09fd210fea8e626b": {
+        "scores": {
+            "weighted_fbeta": "0.6466",
+            "precision": "0.6954",
+            "recall": "0.6902"
+        },
+        "selected_featured": null
+    },
+    "bd2f1b97c21bd6ba6c71868fe0717813": {
+        "scores": {
+            "weighted_fbeta": "0.6464",
+            "precision": "0.6953",
+            "recall": "0.6901"
+        },
+        "selected_featured": null
+    },
+    "8d07ee7ff07e0f745c0fb82fcbcd66cd": {
+        "scores": {
+            "weighted_fbeta": "0.6506",
+            "precision": "0.6991",
+            "recall": "0.6926"
+        },
+        "selected_featured": null
+    },
+    "7fcba31a234f9c0fdbc18b5589083a12": {
+        "scores": {
+            "weighted_fbeta": "0.6479",
+            "precision": "0.6968",
+            "recall": "0.6905"
+        },
+        "selected_featured": null
+    },
+    "3e6d0e47b1ebc0d6e1912327ec631291": {
+        "scores": {
+            "weighted_fbeta": "0.6564",
+            "precision": "0.7039",
+            "recall": "0.6983"
+        },
+        "selected_featured": null
+    },
+    "85c8b9f68fd2f318b0b1432e6605cf1d": {
+        "scores": {
+            "weighted_fbeta": "0.6548",
+            "precision": "0.7024",
+            "recall": "0.6970"
+        },
+        "selected_featured": null
+    },
+    "4c2b1bada872d329825b755beadb1292": {
+        "scores": {
+            "weighted_fbeta": "0.6554",
+            "precision": "0.7029",
+            "recall": "0.6975"
+        },
+        "selected_featured": null
+    },
+    "7c0fdfcce0bc8ce40dce84925cad5f56": {
+        "scores": {
+            "weighted_fbeta": "0.6536",
+            "precision": "0.7015",
+            "recall": "0.6952"
+        },
+        "selected_featured": null
+    },
+    "25269fbda85e57449e7c32c614c06592": {
+        "scores": {
+            "weighted_fbeta": "0.6497",
+            "precision": "0.6983",
+            "recall": "0.6926"
+        },
+        "selected_featured": null
+    },
+    "786beb8a256fe6b0830a063f0a65eeb9": {
+        "scores": {
+            "weighted_fbeta": "0.6499",
+            "precision": "0.6985",
+            "recall": "0.6924"
+        },
+        "selected_featured": null
+    },
+    "4ec5e55738e3b2f57362a5eb2092fc1b": {
+        "scores": {
+            "weighted_fbeta": "0.6515",
+            "precision": "0.6996",
+            "recall": "0.6942"
+        },
+        "selected_featured": null
+    },
+    "4147ac7647dd5c322dbc529ded4e2d92": {
+        "scores": {
+            "weighted_fbeta": "0.6517",
+            "precision": "0.6998",
+            "recall": "0.6944"
+        },
+        "selected_featured": null
+    },
+    "32d614014d2d4a856709d02ba84cc07a": {
+        "scores": {
+            "weighted_fbeta": "0.6502",
+            "precision": "0.6989",
+            "recall": "0.6906"
+        },
+        "selected_featured": null
+    },
+    "bd0a0d9e2530bcde7a7fec3feeed053e": {
+        "scores": {
+            "weighted_fbeta": "0.6523",
+            "precision": "0.7002",
+            "recall": "0.6940"
+        },
+        "selected_featured": null
+    },
+    "7592592a68263a71204c61191aa8d3ac": {
+        "scores": {
+            "weighted_fbeta": "0.6489",
+            "precision": "0.6974",
+            "recall": "0.6916"
+        },
+        "selected_featured": null
+    },
+    "d8bde66f3784995271e97e40654c7255": {
+        "scores": {
+            "weighted_fbeta": "0.6480",
+            "precision": "0.6966",
+            "recall": "0.6915"
+        },
+        "selected_featured": null
+    },
+    "36d4926ffa9f1868bc5f19c22d38c8cc": {
+        "scores": {
+            "weighted_fbeta": "0.6480",
+            "precision": "0.6966",
+            "recall": "0.6915"
+        },
+        "selected_featured": null
+    },
+    "48288389e1d672311cd71c4f3b46db21": {
+        "scores": {
+            "weighted_fbeta": "0.6448",
+            "precision": "0.6942",
+            "recall": "0.6874"
+        },
+        "selected_featured": null
+    },
+    "236ed974f822a0326a0ab7374dd59440": {
+        "scores": {
+            "weighted_fbeta": "0.6519",
+            "precision": "0.7001",
+            "recall": "0.6933"
+        },
+        "selected_featured": null
+    },
+    "05a370c69f9963de7f97f333242e0132": {
+        "scores": {
+            "weighted_fbeta": "0.6510",
+            "precision": "0.6992",
+            "recall": "0.6935"
+        },
+        "selected_featured": null
+    },
+    "60173fcdbc989b71eb87aacf0498c6df": {
+        "scores": {
+            "weighted_fbeta": "0.6494",
+            "precision": "0.6979",
+            "recall": "0.6922"
+        },
+        "selected_featured": null
+    },
+    "47b0cffbaf03ebc1cfdd6df29cb40d7b": {
+        "scores": {
+            "weighted_fbeta": "0.6499",
+            "precision": "0.6982",
+            "recall": "0.6926"
+        },
+        "selected_featured": null
+    },
+    "ca01a0e405cd5175f16a1b7a0d982a70": {
+        "scores": {
+            "weighted_fbeta": "0.6458",
+            "precision": "0.6953",
+            "recall": "0.6879"
+        },
+        "selected_featured": null
+    },
+    "60c1e3252ab647f14d1c54b98d855816": {
+        "scores": {
+            "weighted_fbeta": "0.6504",
+            "precision": "0.6992",
+            "recall": "0.6917"
+        },
+        "selected_featured": null
+    },
+    "8227b093e6ac5c97bbe757491176a5e3": {
+        "scores": {
+            "weighted_fbeta": "0.6507",
+            "precision": "0.6993",
+            "recall": "0.6921"
+        },
+        "selected_featured": null
+    },
+    "daefcdabf5f1c3a32ce6fa084d88b144": {
+        "scores": {
+            "weighted_fbeta": "0.6517",
+            "precision": "0.7001",
+            "recall": "0.6935"
+        },
+        "selected_featured": null
+    },
+    "03542583d9ba8392d6b1279de66ebdbb": {
+        "scores": {
+            "weighted_fbeta": "0.6511",
+            "precision": "0.6996",
+            "recall": "0.6930"
+        },
+        "selected_featured": null
+    },
+    "50e01b6d3e9fe5a27f37a4742754b1ad": {
+        "scores": {
+            "weighted_fbeta": "0.6504",
+            "precision": "0.6992",
+            "recall": "0.6904"
+        },
+        "selected_featured": null
+    },
+    "565915ec30f54c2761e781920889cce3": {
+        "scores": {
+            "weighted_fbeta": "0.6486",
+            "precision": "0.6975",
+            "recall": "0.6900"
+        },
+        "selected_featured": null
+    },
+    "63acd5d2a478a60e8a1fd071417d6f57": {
+        "scores": {
+            "weighted_fbeta": "0.6491",
+            "precision": "0.6979",
+            "recall": "0.6907"
+        },
+        "selected_featured": null
+    },
+    "f91b5195e9b6700e20cacea7a0a065d9": {
+        "scores": {
+            "weighted_fbeta": "0.6515",
+            "precision": "0.6997",
+            "recall": "0.6929"
+        },
+        "selected_featured": null
+    },
+    "462c528df7e0e0ef0599028a166d39f7": {
+        "scores": {
+            "weighted_fbeta": "0.6517",
+            "precision": "0.6999",
+            "recall": "0.6930"
+        },
+        "selected_featured": null
+    },
+    "a4c63738ff5f4f9308b438aa4431d9ce": {
+        "scores": {
+            "weighted_fbeta": "0.6521",
+            "precision": "0.7002",
+            "recall": "0.6935"
+        },
+        "selected_featured": null
+    },
+    "45c702ccf1077884807a9db64325d88b": {
+        "scores": {
+            "weighted_fbeta": "0.6544",
+            "precision": "0.7022",
+            "recall": "0.6950"
+        },
+        "selected_featured": null
+    },
+    "de7b6468ff1cef23581a0c4769fc9beb": {
+        "scores": {
+            "weighted_fbeta": "0.6536",
+            "precision": "0.7014",
+            "recall": "0.6953"
+        },
+        "selected_featured": null
+    },
+    "e0354b64ee3ac118653a14af134ec1a9": {
+        "scores": {
+            "weighted_fbeta": "0.6511",
+            "precision": "0.6994",
+            "recall": "0.6940"
+        },
+        "selected_featured": null
+    },
+    "63d9d8a2ca8deafeff97fb0a746e277f": {
+        "scores": {
+            "weighted_fbeta": "0.6511",
+            "precision": "0.6994",
+            "recall": "0.6941"
+        },
+        "selected_featured": null
+    },
+    "2e59f0e6596c8f45f3bfaca4eaa55db3": {
+        "scores": {
+            "weighted_fbeta": "0.6448",
+            "precision": "0.6945",
+            "recall": "0.6868"
+        },
+        "selected_featured": null
+    },
+    "48b1b6355c274acd334599a0391e1def": {
+        "scores": {
+            "weighted_fbeta": "0.6509",
+            "precision": "0.6995",
+            "recall": "0.6919"
+        },
+        "selected_featured": null
+    },
+    "ab729e84ef8a875205cfe675b5f42383": {
+        "scores": {
+            "weighted_fbeta": "0.6459",
+            "precision": "0.6950",
+            "recall": "0.6889"
+        },
+        "selected_featured": null
+    },
+    "25b14edb5e64cb6d764c62a9036ced5c": {
+        "scores": {
+            "weighted_fbeta": "0.6484",
+            "precision": "0.6971",
+            "recall": "0.6916"
+        },
+        "selected_featured": null
+    },
+    "5410a5debe9bde1185f238f845fa9026": {
+        "scores": {
+            "weighted_fbeta": "0.6491",
+            "precision": "0.6977",
+            "recall": "0.6921"
+        },
+        "selected_featured": null
+    },
+    "ef1887b7c96631127a9186cb49a4878f": {
+        "scores": {
+            "weighted_fbeta": "0.6407",
+            "precision": "0.6909",
+            "recall": "0.6838"
+        },
+        "selected_featured": null
+    },
+    "dd8b750b9adb8ca49ab17786ea819d62": {
+        "scores": {
+            "weighted_fbeta": "0.6447",
+            "precision": "0.6941",
+            "recall": "0.6871"
+        },
+        "selected_featured": null
+    },
+    "3657463ffc4990d568ebe187fe6ae6f5": {
+        "scores": {
+            "weighted_fbeta": "0.6443",
+            "precision": "0.6937",
+            "recall": "0.6874"
+        },
+        "selected_featured": null
+    },
+    "4602233da6a32e00cabdb9c0cf7b5938": {
+        "scores": {
+            "weighted_fbeta": "0.6440",
+            "precision": "0.6934",
+            "recall": "0.6871"
+        },
+        "selected_featured": null
+    },
+    "b8d4e334f490a20e69e2ba62df055e62": {
+        "scores": {
+            "weighted_fbeta": "0.6440",
+            "precision": "0.6934",
+            "recall": "0.6870"
+        },
+        "selected_featured": null
+    },
+    "2efd5f83657e87c8f1d313d512eae0d4": {
+        "scores": {
+            "weighted_fbeta": "0.6533",
+            "precision": "0.7014",
+            "recall": "0.6942"
+        },
+        "selected_featured": null
+    },
+    "d8b3c1fdd54a4e4efc6453c04c9da0bc": {
+        "scores": {
+            "weighted_fbeta": "0.6564",
+            "precision": "0.7040",
+            "recall": "0.6958"
+        },
+        "selected_featured": null
+    },
+    "6fec2f769ed9ba15dd1465f6109e2e59": {
+        "scores": {
+            "weighted_fbeta": "0.6564",
+            "precision": "0.7041",
+            "recall": "0.6961"
+        },
+        "selected_featured": null
+    },
+    "f86bf8237e7542d89b7d59c33adca0bc": {
+        "scores": {
+            "weighted_fbeta": "0.6560",
+            "precision": "0.7035",
+            "recall": "0.6960"
+        },
+        "selected_featured": null
+    },
+    "dc92040900c92f336eee7940b04a7b12": {
+        "scores": {
+            "weighted_fbeta": "0.6557",
+            "precision": "0.7033",
+            "recall": "0.6958"
+        },
+        "selected_featured": null
+    },
+    "069618054b2c1b19202b71c0f80f5ac1": {
+        "scores": {
+            "weighted_fbeta": "0.6510",
+            "precision": "0.7003",
+            "recall": "0.6906"
+        },
+        "selected_featured": null
+    },
+    "310e4a975df7b2be4ff46d474cffa2d4": {
+        "scores": {
+            "weighted_fbeta": "0.6531",
+            "precision": "0.7012",
+            "recall": "0.6939"
+        },
+        "selected_featured": null
+    },
+    "e871c20301ff5cc6aec14101d1611bd2": {
+        "scores": {
+            "weighted_fbeta": "0.6470",
+            "precision": "0.6962",
+            "recall": "0.6892"
+        },
+        "selected_featured": null
+    },
+    "1e5fbd5958b82efd20d79e149edd51e2": {
+        "scores": {
+            "weighted_fbeta": "0.6469",
+            "precision": "0.6959",
+            "recall": "0.6896"
+        },
+        "selected_featured": null
+    },
+    "ce73a973d1fab2b6bf461e0f6163d2a8": {
+        "scores": {
+            "weighted_fbeta": "0.6477",
+            "precision": "0.6966",
+            "recall": "0.6902"
+        },
+        "selected_featured": null
+    },
+    "ea4d6c6b83064bc2b53e508aa62b7cc5": {
+        "scores": {
+            "weighted_fbeta": "0.6428",
+            "precision": "0.6924",
+            "recall": "0.6862"
+        },
+        "selected_featured": null
+    },
+    "a7c55c06fd096270ab6eccaaefb902f4": {
+        "scores": {
+            "weighted_fbeta": "0.6468",
+            "precision": "0.6957",
+            "recall": "0.6895"
+        },
+        "selected_featured": null
+    },
+    "d2e7c48a0f4e4f881919d392ba4b5637": {
+        "scores": {
+            "weighted_fbeta": "0.6426",
+            "precision": "0.6922",
+            "recall": "0.6861"
+        },
+        "selected_featured": null
+    },
+    "31e1dd7605bc3850797acf7494d23713": {
+        "scores": {
+            "weighted_fbeta": "0.6493",
+            "precision": "0.6978",
+            "recall": "0.6920"
+        },
+        "selected_featured": null
+    },
+    "264d5e87b81eb2cb8077cca655ff25b3": {
+        "scores": {
+            "weighted_fbeta": "0.6487",
+            "precision": "0.6973",
+            "recall": "0.6916"
+        },
+        "selected_featured": null
+    },
+    "5dc3c0cb19b4b15e75b479de2a663e26": {
+        "scores": {
+            "weighted_fbeta": "0.6431",
+            "precision": "0.6933",
+            "recall": "0.6856"
+        },
+        "selected_featured": null
+    },
+    "a5e379e193bb2171a00eeb6cf9fda27d": {
+        "scores": {
+            "weighted_fbeta": "0.6426",
+            "precision": "0.6924",
+            "recall": "0.6857"
+        },
+        "selected_featured": null
+    },
+    "69ccfe2813a9ca2dcd5f66f456e8c00f": {
+        "scores": {
+            "weighted_fbeta": "0.6468",
+            "precision": "0.6959",
+            "recall": "0.6895"
+        },
+        "selected_featured": null
+    },
+    "bf3677632b2bb38d4ef3ed9f60898632": {
+        "scores": {
+            "weighted_fbeta": "0.6427",
+            "precision": "0.6924",
+            "recall": "0.6863"
+        },
+        "selected_featured": null
+    },
+    "4ff86cf948fbbdeb4b883536b014073f": {
+        "scores": {
+            "weighted_fbeta": "0.6435",
+            "precision": "0.6931",
+            "recall": "0.6869"
+        },
+        "selected_featured": null
+    },
+    "c4c2f85039a7985dd26ddc58bbd4811e": {
+        "scores": {
+            "weighted_fbeta": "0.6472",
+            "precision": "0.6966",
+            "recall": "0.6885"
+        },
+        "selected_featured": null
+    },
+    "66b7044743a53e18e58419a516333570": {
+        "scores": {
+            "weighted_fbeta": "0.6509",
+            "precision": "0.6995",
+            "recall": "0.6917"
+        },
+        "selected_featured": null
+    },
+    "e5b4999e6f92f1516b58edd7c5b8ebb9": {
+        "scores": {
+            "weighted_fbeta": "0.6523",
+            "precision": "0.7006",
+            "recall": "0.6929"
+        },
+        "selected_featured": null
+    },
+    "123c13aeee86a9cca04bb08275aef8a6": {
+        "scores": {
+            "weighted_fbeta": "0.6536",
+            "precision": "0.7016",
+            "recall": "0.6944"
+        },
+        "selected_featured": null
+    },
+    "d0d89fdd8a4a9f955bb1c9db987ee309": {
+        "scores": {
+            "weighted_fbeta": "0.6536",
+            "precision": "0.7016",
+            "recall": "0.6944"
+        },
+        "selected_featured": null
+    },
+    "99bbf91eea48df2de792250916efa388": {
+        "scores": {
+            "weighted_fbeta": "0.6494",
+            "precision": "0.6980",
+            "recall": "0.6909"
+        },
+        "selected_featured": null
+    },
+    "838ab9b74ebe939a43fad730e5019530": {
+        "scores": {
+            "weighted_fbeta": "0.6537",
+            "precision": "0.7016",
+            "recall": "0.6946"
+        },
+        "selected_featured": null
+    },
+    "df0a71a90dbcd04fbb670337d32e5167": {
+        "scores": {
+            "weighted_fbeta": "0.6527",
+            "precision": "0.7007",
+            "recall": "0.6947"
+        },
+        "selected_featured": null
+    },
+    "40b1f6ae3cb26d5ca6491b3331830004": {
+        "scores": {
+            "weighted_fbeta": "0.6502",
+            "precision": "0.6986",
+            "recall": "0.6928"
+        },
+        "selected_featured": null
+    },
+    "6cb2633a6ca4b0e7909f00e642d77480": {
+        "scores": {
+            "weighted_fbeta": "0.6504",
+            "precision": "0.6987",
+            "recall": "0.6930"
+        },
+        "selected_featured": null
+    },
+    "326ab17f7c6353914700d7c938c72de4": {
+        "scores": {
+            "weighted_fbeta": "0.6500",
+            "precision": "0.6988",
+            "recall": "0.6904"
+        },
+        "selected_featured": null
+    },
+    "4d559ad2313871baf492ddbf0c1c0d84": {
+        "scores": {
+            "weighted_fbeta": "0.6465",
+            "precision": "0.6958",
+            "recall": "0.6886"
+        },
+        "selected_featured": null
+    },
+    "9159e7e16fa23dd0826bfe22bed91cf5": {
+        "scores": {
+            "weighted_fbeta": "0.6464",
+            "precision": "0.6954",
+            "recall": "0.6893"
+        },
+        "selected_featured": null
+    },
+    "25ffa5c43c946aff771ae96568d8be2f": {
+        "scores": {
+            "weighted_fbeta": "0.6420",
+            "precision": "0.6920",
+            "recall": "0.6852"
+        },
+        "selected_featured": null
+    },
+    "a7be38324e62e60bfc1ce7b8a9668c0a": {
+        "scores": {
+            "weighted_fbeta": "0.6405",
+            "precision": "0.6907",
+            "recall": "0.6842"
+        },
+        "selected_featured": null
+    },
+    "6a07455011d87ec174ed1e042673c3b3": {
+        "scores": {
+            "weighted_fbeta": "0.6434",
+            "precision": "0.6930",
+            "recall": "0.6867"
+        },
+        "selected_featured": null
+    },
+    "8a0f9717ea93dfb0bf2532d91d18feb6": {
+        "scores": {
+            "weighted_fbeta": "0.6420",
+            "precision": "0.6920",
+            "recall": "0.6848"
+        },
+        "selected_featured": null
+    },
+    "8bd259ff8eea3a6704a997cf72827401": {
+        "scores": {
+            "weighted_fbeta": "0.6457",
+            "precision": "0.6950",
+            "recall": "0.6884"
+        },
+        "selected_featured": null
+    },
+    "6558522d197df679a0cdb0963d353058": {
+        "scores": {
+            "weighted_fbeta": "0.6492",
+            "precision": "0.6979",
+            "recall": "0.6912"
+        },
+        "selected_featured": null
+    },
+    "bd6ddece4c8bb3275eb673831425a379": {
+        "scores": {
+            "weighted_fbeta": "0.6402",
+            "precision": "0.6903",
+            "recall": "0.6843"
+        },
+        "selected_featured": null
+    },
+    "fc478e5e01a9e50b7c318a5ed6e2e9e1": {
+        "scores": {
+            "weighted_fbeta": "0.6407",
+            "precision": "0.6906",
+            "recall": "0.6852"
+        },
+        "selected_featured": null
+    },
+    "f84b1ae1aa80343578dc70d802ad26d8": {
+        "scores": {
+            "weighted_fbeta": "0.6437",
+            "precision": "0.6931",
+            "recall": "0.6881"
+        },
+        "selected_featured": null
+    },
+    "56127250ec80f123db4ffe720e9808d1": {
+        "scores": {
+            "weighted_fbeta": "0.6471",
+            "precision": "0.6960",
+            "recall": "0.6901"
+        },
+        "selected_featured": null
+    },
+    "e0174f104e5d44e84589dca200f51133": {
+        "scores": {
+            "weighted_fbeta": "0.6452",
+            "precision": "0.6945",
+            "recall": "0.6885"
+        },
+        "selected_featured": null
+    },
+    "b1cdd51392924490db4c27681e3eadde": {
+        "scores": {
+            "weighted_fbeta": "0.6429",
+            "precision": "0.6923",
+            "recall": "0.6871"
+        },
+        "selected_featured": null
+    },
+    "4989f9c4a5b17d5dfd6ea31727ef3124": {
+        "scores": {
+            "weighted_fbeta": "0.6487",
+            "precision": "0.6972",
+            "recall": "0.6912"
+        },
+        "selected_featured": null
+    },
+    "a559cc7bd9340d717ba3ea873c90ec55": {
+        "scores": {
+            "weighted_fbeta": "0.6555",
+            "precision": "0.7028",
+            "recall": "0.6969"
+        },
+        "selected_featured": null
+    },
+    "88d842f78007970ad78039488abaded2": {
+        "scores": {
+            "weighted_fbeta": "0.6529",
+            "precision": "0.7006",
+            "recall": "0.6953"
+        },
+        "selected_featured": null
+    },
+    "05e529eb9eb63c7947843fa6ad752a0d": {
+        "scores": {
+            "weighted_fbeta": "0.6393",
+            "precision": "0.6901",
+            "recall": "0.6825"
+        },
+        "selected_featured": null
+    },
+    "a68366e2d7e57b2c9b0f04dba969f207": {
+        "scores": {
+            "weighted_fbeta": "0.6455",
+            "precision": "0.6951",
+            "recall": "0.6876"
+        },
+        "selected_featured": null
+    },
+    "52c72b448fc9239c6bf762bbc563ab9a": {
+        "scores": {
+            "weighted_fbeta": "0.6490",
+            "precision": "0.6977",
+            "recall": "0.6911"
+        },
+        "selected_featured": null
+    },
+    "4ba5a6ade13046be950b0b2a2db272be": {
+        "scores": {
+            "weighted_fbeta": "0.6346",
+            "precision": "0.6859",
+            "recall": "0.6796"
+        },
+        "selected_featured": null
+    },
+    "c727344d7b67c8892a313f4134b086d8": {
+        "scores": {
+            "weighted_fbeta": "0.6415",
+            "precision": "0.6912",
+            "recall": "0.6863"
+        },
+        "selected_featured": null
+    },
+    "5dc2c694c3c2b593af080423219a96ed": {
+        "scores": {
+            "weighted_fbeta": "0.6458",
+            "precision": "0.6949",
+            "recall": "0.6896"
+        },
+        "selected_featured": null
+    },
+    "8857d759b7c5c1eab5a019f1421c36a0": {
+        "scores": {
+            "weighted_fbeta": "0.6370",
+            "precision": "0.6875",
+            "recall": "0.6819"
+        },
+        "selected_featured": null
+    },
+    "2e4d06e98c4137dd80fff710ae9352b9": {
+        "scores": {
+            "weighted_fbeta": "0.6415",
+            "precision": "0.6911",
+            "recall": "0.6867"
+        },
+        "selected_featured": null
+    },
+    "fc70d3ca3906c9dc6038c8cec57c78fe": {
+        "scores": {
+            "weighted_fbeta": "0.6432",
+            "precision": "0.6925",
+            "recall": "0.6880"
+        },
+        "selected_featured": null
+    },
+    "a8f7417acb66c029c8d260184a5fd6a2": {
+        "scores": {
+            "weighted_fbeta": "0.6431",
+            "precision": "0.6928",
+            "recall": "0.6866"
+        },
+        "selected_featured": null
+    },
+    "f595155bdaef00078e5d787d19f568be": {
+        "scores": {
+            "weighted_fbeta": "0.6468",
+            "precision": "0.6958",
+            "recall": "0.6899"
+        },
+        "selected_featured": null
+    },
+    "5fab9fd8961ea3efa27d7140a498ca12": {
+        "scores": {
+            "weighted_fbeta": "0.6507",
+            "precision": "0.6989",
+            "recall": "0.6930"
+        },
+        "selected_featured": null
+    },
+    "8de4ea0c494cc4e445c69adb9bff1c45": {
+        "scores": {
+            "weighted_fbeta": "0.6451",
+            "precision": "0.6946",
+            "recall": "0.6874"
+        },
+        "selected_featured": null
+    },
+    "f087d573b5431183fda82ff9bbbf7bc8": {
+        "scores": {
+            "weighted_fbeta": "0.6472",
+            "precision": "0.6963",
+            "recall": "0.6896"
+        },
+        "selected_featured": null
+    },
+    "3b3d9fa3f9c339f1d826bdd6501b6ae4": {
+        "scores": {
+            "weighted_fbeta": "0.6456",
+            "precision": "0.6949",
+            "recall": "0.6886"
+        },
+        "selected_featured": null
+    },
+    "22f1352d7d313f1474ce4eafeeaa5287": {
+        "scores": {
+            "weighted_fbeta": "0.6383",
+            "precision": "0.6886",
+            "recall": "0.6832"
+        },
+        "selected_featured": null
+    },
+    "245d28b102b7c742b7b8b08e8e1d6b7d": {
+        "scores": {
+            "weighted_fbeta": "0.6456",
+            "precision": "0.6947",
+            "recall": "0.6893"
+        },
+        "selected_featured": null
+    },
+    "48f537c6123600ba8e48272c8b410f10": {
+        "scores": {
+            "weighted_fbeta": "0.6428",
+            "precision": "0.6923",
+            "recall": "0.6877"
+        },
+        "selected_featured": null
+    },
+    "f9b9c8eaed49e7fe64f3876cbf50d77d": {
+        "scores": {
+            "weighted_fbeta": "0.6502",
+            "precision": "0.6987",
+            "recall": "0.6924"
+        },
+        "selected_featured": null
+    },
+    "b51be25b218be615204ba7f48f5dc662": {
+        "scores": {
+            "weighted_fbeta": "0.6483",
+            "precision": "0.6972",
+            "recall": "0.6914"
+        },
+        "selected_featured": null
+    },
+    "000aa6780a176c689c55a8b5d512ee6c": {
+        "scores": {
+            "weighted_fbeta": "0.6542",
+            "precision": "0.7022",
+            "recall": "0.6963"
+        },
+        "selected_featured": null
+    },
+    "53208d0e0b7c04cd91efab495669dad4": {
+        "scores": {
+            "weighted_fbeta": "0.6472",
+            "precision": "0.6962",
+            "recall": "0.6892"
+        },
+        "selected_featured": null
+    },
+    "e5ff3513ba535efabc3bace59db8f463": {
+        "scores": {
+            "weighted_fbeta": "0.6474",
+            "precision": "0.6964",
+            "recall": "0.6897"
+        },
+        "selected_featured": null
+    },
+    "518db4168de9899ca14c616f7b06c22d": {
+        "scores": {
+            "weighted_fbeta": "0.6519",
+            "precision": "0.7000",
+            "recall": "0.6940"
+        },
+        "selected_featured": null
+    },
+    "4a0a888d3d10ba9cf430c2b023e2d0e1": {
+        "scores": {
+            "weighted_fbeta": "0.6419",
+            "precision": "0.6923",
+            "recall": "0.6850"
+        },
+        "selected_featured": null
+    },
+    "a0bdabe19388fd525553885952f1e0da": {
+        "scores": {
+            "weighted_fbeta": "0.6479",
+            "precision": "0.6969",
+            "recall": "0.6905"
+        },
+        "selected_featured": null
+    },
+    "447e6400eadb8351e165de215416bd29": {
+        "scores": {
+            "weighted_fbeta": "0.6462",
+            "precision": "0.6957",
+            "recall": "0.6891"
+        },
+        "selected_featured": null
+    },
+    "0f607d14046a774b2bd864ece0715124": {
+        "scores": {
+            "weighted_fbeta": "0.6519",
+            "precision": "0.7003",
+            "recall": "0.6927"
+        },
+        "selected_featured": null
+    },
+    "cd24dfb233f393db29f583bfa36c6345": {
+        "scores": {
+            "weighted_fbeta": "0.6474",
+            "precision": "0.6967",
+            "recall": "0.6896"
+        },
+        "selected_featured": null
+    },
+    "6a853725c7b869ad7c3930fb5a64be3c": {
+        "scores": {
+            "weighted_fbeta": "0.6501",
+            "precision": "0.6984",
+            "recall": "0.6927"
+        },
+        "selected_featured": null
+    },
+    "2f50be52422fb04933c4360920b777a3": {
+        "scores": {
+            "weighted_fbeta": "0.6480",
+            "precision": "0.6970",
+            "recall": "0.6893"
+        },
+        "selected_featured": null
+    },
+    "bf59afe2f10dfef07e4b8575088b5d35": {
+        "scores": {
+            "weighted_fbeta": "0.6460",
+            "precision": "0.6950",
+            "recall": "0.6892"
+        },
+        "selected_featured": null
+    },
+    "a8d020c39f27bd6711c0e405382a775e": {
+        "scores": {
+            "weighted_fbeta": "0.6494",
+            "precision": "0.6979",
+            "recall": "0.6918"
+        },
+        "selected_featured": null
+    },
+    "3f5370159c9f1f280eadd130437136d1": {
+        "scores": {
+            "weighted_fbeta": "0.6454",
+            "precision": "0.6950",
+            "recall": "0.6877"
+        },
+        "selected_featured": null
+    },
+    "33a3b3e9dfb1678a1b99d2a926aa710f": {
+        "scores": {
+            "weighted_fbeta": "0.6501",
+            "precision": "0.6986",
+            "recall": "0.6920"
+        },
+        "selected_featured": null
+    },
+    "9be5543cad1c5fed80e19254b40a066f": {
+        "scores": {
+            "weighted_fbeta": "0.6475",
+            "precision": "0.6965",
+            "recall": "0.6900"
+        },
+        "selected_featured": null
+    },
+    "ad49726368a9dd36a0746a79ec811fff": {
+        "scores": {
+            "weighted_fbeta": "0.6357",
+            "precision": "0.6867",
+            "recall": "0.6806"
+        },
+        "selected_featured": null
+    },
+    "185e5ecdbea7e41956e02c1fd9d1bb3b": {
+        "scores": {
+            "weighted_fbeta": "0.6420",
+            "precision": "0.6920",
+            "recall": "0.6858"
+        },
+        "selected_featured": null
+    },
+    "4f6df153ae65b1664acc51fc84e7519a": {
+        "scores": {
+            "weighted_fbeta": "0.6465",
+            "precision": "0.6956",
+            "recall": "0.6895"
+        },
+        "selected_featured": null
+    },
+    "6d65ec6ebaf098071bd64b643d30956d": {
+        "scores": {
+            "weighted_fbeta": "0.6498",
+            "precision": "0.6983",
+            "recall": "0.6920"
+        },
+        "selected_featured": null
+    },
+    "96caccb1638f83c35ae21d84a3afa5a3": {
+        "scores": {
+            "weighted_fbeta": "0.6409",
+            "precision": "0.6910",
+            "recall": "0.6850"
+        },
+        "selected_featured": null
+    },
+    "dfa844052272917c739c976b2a94a1ff": {
+        "scores": {
+            "weighted_fbeta": "0.6371",
+            "precision": "0.6876",
+            "recall": "0.6826"
+        },
+        "selected_featured": null
+    },
+    "c72491e7c2f580699e858b72d795c37a": {
+        "scores": {
+            "weighted_fbeta": "0.6497",
+            "precision": "0.6983",
+            "recall": "0.6915"
+        },
+        "selected_featured": null
+    },
+    "acade40fe145172281a81ff00084dbf3": {
+        "scores": {
+            "weighted_fbeta": "0.6430",
+            "precision": "0.6925",
+            "recall": "0.6867"
+        },
+        "selected_featured": null
+    },
+    "aac5bbaf093e3749c647ff8c8893b926": {
+        "scores": {
+            "weighted_fbeta": "0.6442",
+            "precision": "0.6935",
+            "recall": "0.6878"
+        },
+        "selected_featured": null
+    },
+    "be9c5c1ff22cd66931f518f3418d170a": {
+        "scores": {
+            "weighted_fbeta": "0.6454",
+            "precision": "0.6950",
+            "recall": "0.6875"
+        },
+        "selected_featured": null
+    },
+    "7e13f794fcf67f5f1d11280656294764": {
+        "scores": {
+            "weighted_fbeta": "0.6446",
+            "precision": "0.6941",
+            "recall": "0.6870"
+        },
+        "selected_featured": null
+    },
+    "923987e915f919a67b4bc71a72ae8c32": {
+        "scores": {
+            "weighted_fbeta": "0.6466",
+            "precision": "0.6958",
+            "recall": "0.6890"
+        },
+        "selected_featured": null
+    },
+    "075ea52cea15035a36b5eecbf8159bc5": {
+        "scores": {
+            "weighted_fbeta": "0.6470",
+            "precision": "0.6962",
+            "recall": "0.6885"
+        },
+        "selected_featured": null
+    },
+    "f2584506484306145571068e8dee5aab": {
+        "scores": {
+            "weighted_fbeta": "0.6502",
+            "precision": "0.6986",
+            "recall": "0.6917"
+        },
+        "selected_featured": null
+    },
+    "4cc009f6efaeb2519b15969171f0ee02": {
+        "scores": {
+            "weighted_fbeta": "0.6539",
+            "precision": "0.7016",
+            "recall": "0.6948"
+        },
+        "selected_featured": null
+    },
+    "24e6504893d38a4869baecf6be5f3771": {
+        "scores": {
+            "weighted_fbeta": "0.6541",
+            "precision": "0.7039",
+            "recall": "0.6893"
+        },
+        "selected_featured": null
+    },
+    "7d80d5e7dc075c55967241a28a3537a0": {
+        "scores": {
+            "weighted_fbeta": "0.6549",
+            "precision": "0.7031",
+            "recall": "0.6932"
+        },
+        "selected_featured": null
+    },
+    "f3390ecc368dfa688b5d02e73a29c3a4": {
+        "scores": {
+            "weighted_fbeta": "0.6586",
+            "precision": "0.7060",
+            "recall": "0.6969"
+        },
+        "selected_featured": null
+    },
+    "ef1099bc9a4be8635e8e3ba93578c45f": {
+        "scores": {
+            "weighted_fbeta": "0.6510",
+            "precision": "0.7005",
+            "recall": "0.6888"
+        },
+        "selected_featured": null
+    },
+    "7ea7b1631cee290cf25f8469a6ec5306": {
+        "scores": {
+            "weighted_fbeta": "0.6529",
+            "precision": "0.7012",
+            "recall": "0.6922"
+        },
+        "selected_featured": null
+    },
+    "0a07738d2fb4ce874150fa8194a6f702": {
+        "scores": {
+            "weighted_fbeta": "0.6534",
+            "precision": "0.7015",
+            "recall": "0.6930"
+        },
+        "selected_featured": null
+    },
+    "975ff5b2fa5397b8affb225863bdeebb": {
+        "scores": {
+            "weighted_fbeta": "0.6524",
+            "precision": "0.7011",
+            "recall": "0.6916"
+        },
+        "selected_featured": null
+    },
+    "5c6268955eb8ca53214b0841c084e205": {
+        "scores": {
+            "weighted_fbeta": "0.6553",
+            "precision": "0.7031",
+            "recall": "0.6949"
+        },
+        "selected_featured": null
+    },
+    "895fd4c1201846fc7283c4842833103c": {
+        "scores": {
+            "weighted_fbeta": "0.6515",
+            "precision": "0.6997",
+            "recall": "0.6927"
+        },
+        "selected_featured": null
+    },
+    "97a0e130e6d95b525e15df85b555a3b4": {
+        "scores": {
+            "weighted_fbeta": "0.6584",
+            "precision": "0.7061",
+            "recall": "0.6957"
+        },
+        "selected_featured": null
+    },
+    "6938855a4b94a6b69f27104ce4380b93": {
+        "scores": {
+            "weighted_fbeta": "0.6612",
+            "precision": "0.7080",
+            "recall": "0.6993"
+        },
+        "selected_featured": null
+    },
+    "ec8e42a07b5a074181489ceb61761e0f": {
+        "scores": {
+            "weighted_fbeta": "0.6630",
+            "precision": "0.7095",
+            "recall": "0.7005"
+        },
+        "selected_featured": null
+    },
+    "0f3ff662390a6497141e82dc045769d1": {
+        "scores": {
+            "weighted_fbeta": "0.6540",
+            "precision": "0.7039",
+            "recall": "0.6890"
+        },
+        "selected_featured": null
+    },
+    "020af21e1f22d68b5aa5f6293e58950c": {
+        "scores": {
+            "weighted_fbeta": "0.6540",
+            "precision": "0.7023",
+            "recall": "0.6927"
+        },
+        "selected_featured": null
+    },
+    "cca0e1c18fb287431ec332d711d4a94c": {
+        "scores": {
+            "weighted_fbeta": "0.6533",
+            "precision": "0.7015",
+            "recall": "0.6929"
+        },
+        "selected_featured": null
+    },
+    "c1fd4635ec3fa0ff0b4caa8bd46088ec": {
+        "scores": {
+            "weighted_fbeta": "0.6542",
+            "precision": "0.7034",
+            "recall": "0.6908"
+        },
+        "selected_featured": null
+    },
+    "b04729eff58cb6b4516ec4266c720329": {
+        "scores": {
+            "weighted_fbeta": "0.6562",
+            "precision": "0.7041",
+            "recall": "0.6948"
+        },
+        "selected_featured": null
+    },
+    "802d168efb9b3ce9d31fc76770ed315a": {
+        "scores": {
+            "weighted_fbeta": "0.6561",
+            "precision": "0.7039",
+            "recall": "0.6952"
+        },
+        "selected_featured": null
+    },
+    "8ed70942e60e6b78b4081f7e68f5a43b": {
+        "scores": {
+            "weighted_fbeta": "0.6537",
+            "precision": "0.7021",
+            "recall": "0.6928"
+        },
+        "selected_featured": null
+    },
+    "853d5125b9091598d2788daf4f3c711f": {
+        "scores": {
+            "weighted_fbeta": "0.6544",
+            "precision": "0.7026",
+            "recall": "0.6935"
+        },
+        "selected_featured": null
+    },
+    "d8859c2445f5d345a10865a3fa87aae8": {
+        "scores": {
+            "weighted_fbeta": "0.6549",
+            "precision": "0.7031",
+            "recall": "0.6936"
+        },
+        "selected_featured": null
+    },
+    "84a15d4d512ae1ef0d53335cb9c01798": {
+        "scores": {
+            "weighted_fbeta": "0.6579",
+            "precision": "0.7058",
+            "recall": "0.6947"
+        },
+        "selected_featured": null
+    },
+    "bd59192f2dd9f13f1f79115cad761dc9": {
+        "scores": {
+            "weighted_fbeta": "0.6548",
+            "precision": "0.7030",
+            "recall": "0.6936"
+        },
+        "selected_featured": null
+    },
+    "6a4a841043f25098dd583b7c8db3fd71": {
+        "scores": {
+            "weighted_fbeta": "0.6549",
+            "precision": "0.7029",
+            "recall": "0.6945"
+        },
+        "selected_featured": null
+    },
+    "b8e3023320fa9bd22a581d303fa6fe87": {
+        "scores": {
+            "weighted_fbeta": "0.6558",
+            "precision": "0.7054",
+            "recall": "0.6904"
+        },
+        "selected_featured": null
+    },
+    "ea3b8aecce1e0f707edb08f621437ecc": {
+        "scores": {
+            "weighted_fbeta": "0.6575",
+            "precision": "0.7052",
+            "recall": "0.6954"
+        },
+        "selected_featured": null
+    },
+    "f37a508370b5f9c0d1bdd6854b41c7a4": {
+        "scores": {
+            "weighted_fbeta": "0.6571",
+            "precision": "0.7047",
+            "recall": "0.6961"
+        },
+        "selected_featured": null
+    },
+    "509d95fa3809b65a8aa45e323cd9bffe": {
+        "scores": {
+            "weighted_fbeta": "0.6503",
+            "precision": "0.6999",
+            "recall": "0.6884"
+        },
+        "selected_featured": null
+    },
+    "6f4e347a433d3cd0d9770ec4423dd46c": {
+        "scores": {
+            "weighted_fbeta": "0.6548",
+            "precision": "0.7028",
+            "recall": "0.6944"
+        },
+        "selected_featured": null
+    },
+    "5bdeda786ecac079f17892b99b3ac848": {
+        "scores": {
+            "weighted_fbeta": "0.6526",
+            "precision": "0.7008",
+            "recall": "0.6931"
+        },
+        "selected_featured": null
+    },
+    "d9a17a367b6718f03ba56e4129cd13b5": {
+        "scores": {
+            "weighted_fbeta": "0.6559",
+            "precision": "0.7046",
+            "recall": "0.6931"
+        },
+        "selected_featured": null
+    },
+    "6cb6013fe5464c1122ac98a9f24f49df": {
+        "scores": {
+            "weighted_fbeta": "0.6559",
+            "precision": "0.7039",
+            "recall": "0.6945"
+        },
+        "selected_featured": null
+    },
+    "33c660b9a338887163b83425d5de3cd5": {
+        "scores": {
+            "weighted_fbeta": "0.6517",
+            "precision": "0.7004",
+            "recall": "0.6915"
+        },
+        "selected_featured": null
+    },
+    "bf154d8c07e30f369e4b7e21781eac97": {
+        "scores": {
+            "weighted_fbeta": "0.6546",
+            "precision": "0.7034",
+            "recall": "0.6922"
+        },
+        "selected_featured": null
+    },
+    "07c86e118ed02dd592a24a9eed20d4fb": {
+        "scores": {
+            "weighted_fbeta": "0.6565",
+            "precision": "0.7044",
+            "recall": "0.6948"
+        },
+        "selected_featured": null
+    },
+    "2c716bfc501b7d4ff7362da91b2fba64": {
+        "scores": {
+            "weighted_fbeta": "0.6577",
+            "precision": "0.7053",
+            "recall": "0.6961"
+        },
+        "selected_featured": null
+    },
+    "a19e22c18fa507259ac5fe88d0907d0c": {
+        "scores": {
+            "weighted_fbeta": "0.6453",
+            "precision": "0.6970",
+            "recall": "0.6825"
+        },
+        "selected_featured": null
+    },
+    "17b16f1eaefb885aef02e5ce97ec5994": {
+        "scores": {
+            "weighted_fbeta": "0.6581",
+            "precision": "0.7061",
+            "recall": "0.6950"
+        },
+        "selected_featured": null
+    },
+    "b5d7205394c6c2c868d77002c2b9d414": {
+        "scores": {
+            "weighted_fbeta": "0.6607",
+            "precision": "0.7077",
+            "recall": "0.6988"
+        },
+        "selected_featured": null
+    },
+    "23157c51efad6079d1389111ef35fdb5": {
+        "scores": {
+            "weighted_fbeta": "0.6560",
+            "precision": "0.7051",
+            "recall": "0.6917"
+        },
+        "selected_featured": null
+    },
+    "4b632f5b3e0fedc681bb13e2dc40c562": {
+        "scores": {
+            "weighted_fbeta": "0.6550",
+            "precision": "0.7033",
+            "recall": "0.6935"
+        },
+        "selected_featured": null
+    },
+    "b2cec244a34bacc6b44167201d97b588": {
+        "scores": {
+            "weighted_fbeta": "0.6558",
+            "precision": "0.7034",
+            "recall": "0.6955"
+        },
+        "selected_featured": null
+    },
+    "51d7323ec4a451801ff7132a013af8bd": {
+        "scores": {
+            "weighted_fbeta": "0.6562",
+            "precision": "0.7045",
+            "recall": "0.6940"
+        },
+        "selected_featured": null
+    },
+    "f1b1a4f4dbedaf181b851b6c03e8af72": {
+        "scores": {
+            "weighted_fbeta": "0.6570",
+            "precision": "0.7047",
+            "recall": "0.6957"
+        },
+        "selected_featured": null
+    },
+    "fc0ab37266a4ac2148e8b5e93d044220": {
+        "scores": {
+            "weighted_fbeta": "0.6563",
+            "precision": "0.7042",
+            "recall": "0.6955"
+        },
+        "selected_featured": null
+    },
+    "151947ab902ef19a176619e1bb0e0a6d": {
+        "scores": {
+            "weighted_fbeta": "0.6528",
+            "precision": "0.7017",
+            "recall": "0.6909"
+        },
+        "selected_featured": null
+    },
+    "39e2052456e7582d5a9a2a15133c5ce1": {
+        "scores": {
+            "weighted_fbeta": "0.6572",
+            "precision": "0.7050",
+            "recall": "0.6954"
+        },
+        "selected_featured": null
+    },
+    "7e222ae5587d1c8c38a8e19e9a6b8648": {
+        "scores": {
+            "weighted_fbeta": "0.6595",
+            "precision": "0.7068",
+            "recall": "0.6971"
+        },
+        "selected_featured": null
+    },
+    "821352d6495957290df58c90a4ea2700": {
+        "scores": {
+            "weighted_fbeta": "0.6490",
+            "precision": "0.7001",
+            "recall": "0.6855"
+        },
+        "selected_featured": null
+    },
+    "fba4e65f1934b219025e8268f18933f8": {
+        "scores": {
+            "weighted_fbeta": "0.6561",
+            "precision": "0.7042",
+            "recall": "0.6940"
+        },
+        "selected_featured": null
+    },
+    "b80eb6d4e17912ee229e8ec65a26427d": {
+        "scores": {
+            "weighted_fbeta": "0.6531",
+            "precision": "0.7014",
+            "recall": "0.6932"
+        },
+        "selected_featured": null
+    },
+    "1ebbd8101154269543ea34898225e00e": {
+        "scores": {
+            "weighted_fbeta": "0.6521",
+            "precision": "0.7015",
+            "recall": "0.6897"
+        },
+        "selected_featured": null
+    },
+    "088a6cfc8a85558d744cb290aa806a58": {
+        "scores": {
+            "weighted_fbeta": "0.6560",
+            "precision": "0.7038",
+            "recall": "0.6946"
+        },
+        "selected_featured": null
+    },
+    "a99b24d956a13fc5f38d55980bc212c5": {
+        "scores": {
+            "weighted_fbeta": "0.6546",
+            "precision": "0.7027",
+            "recall": "0.6934"
+        },
+        "selected_featured": null
+    },
+    "4041b5ea98aabae92b788781826d552b": {
+        "scores": {
+            "weighted_fbeta": "0.6565",
+            "precision": "0.7049",
+            "recall": "0.6934"
+        },
+        "selected_featured": null
+    },
+    "63760ecf254b66cb3c3d2e805519a453": {
+        "scores": {
+            "weighted_fbeta": "0.6573",
+            "precision": "0.7049",
+            "recall": "0.6957"
+        },
+        "selected_featured": null
+    },
+    "3bcdfb5a9f981b1f3eeac3206952aa2d": {
+        "scores": {
+            "weighted_fbeta": "0.6522",
+            "precision": "0.7007",
+            "recall": "0.6921"
+        },
+        "selected_featured": null
+    },
+    "dfc6202daded1c3c2db8835782be0f9b": {
+        "scores": {
+            "weighted_fbeta": "0.6600",
+            "precision": "0.7076",
+            "recall": "0.6959"
+        },
+        "selected_featured": null
+    },
+    "e971d8ab261ed2dcbe01470f62bfd5d0": {
+        "scores": {
+            "weighted_fbeta": "0.6596",
+            "precision": "0.7071",
+            "recall": "0.6964"
+        },
+        "selected_featured": null
+    },
+    "470a22b7ca563ccf5ea516f2d4c16fd7": {
+        "scores": {
+            "weighted_fbeta": "0.6533",
+            "precision": "0.7018",
+            "recall": "0.6921"
+        },
+        "selected_featured": null
+    },
+    "3c2753b03795dafa79be02374f931adb": {
+        "scores": {
+            "weighted_fbeta": "0.6427",
+            "precision": "0.6931",
+            "recall": "0.6842"
+        },
+        "selected_featured": null
+    },
+    "5bdb67b5695459a0d0d83f342112f8e6": {
+        "scores": {
+            "weighted_fbeta": "0.6529",
+            "precision": "0.7009",
+            "recall": "0.6944"
+        },
+        "selected_featured": null
+    },
+    "10ba8f7722305f5bbb95593bea5cfc3f": {
+        "scores": {
+            "weighted_fbeta": "0.6458",
+            "precision": "0.6950",
+            "recall": "0.6893"
+        },
+        "selected_featured": null
+    },
+    "9e37e78867fc9ab2550bed6914868342": {
+        "scores": {
+            "weighted_fbeta": "0.6522",
+            "precision": "0.7005",
+            "recall": "0.6928"
+        },
+        "selected_featured": null
+    },
+    "c5f6ac810aa48fda7b201cf9199c8b8e": {
+        "scores": {
+            "weighted_fbeta": "0.6563",
+            "precision": "0.7039",
+            "recall": "0.6962"
+        },
+        "selected_featured": null
+    },
+    "4f1778b043aaff7933549d4971988141": {
+        "scores": {
+            "weighted_fbeta": "0.6552",
+            "precision": "0.7028",
+            "recall": "0.6963"
+        },
+        "selected_featured": null
+    },
+    "7a31dc2d2e46aece3ae7e7041d29327b": {
+        "scores": {
+            "weighted_fbeta": "0.6479",
+            "precision": "0.6972",
+            "recall": "0.6889"
+        },
+        "selected_featured": null
+    },
+    "9e16ecd1b499ac161638ca5f83a07b96": {
+        "scores": {
+            "weighted_fbeta": "0.6533",
+            "precision": "0.7015",
+            "recall": "0.6939"
+        },
+        "selected_featured": null
+    },
+    "94276cf6d56d0867c56cc2079c6793b4": {
+        "scores": {
+            "weighted_fbeta": "0.6536",
+            "precision": "0.7017",
+            "recall": "0.6937"
+        },
+        "selected_featured": null
+    },
+    "ea780128374d19c66e8d770808d91c3c": {
+        "scores": {
+            "weighted_fbeta": "0.6486",
+            "precision": "0.6976",
+            "recall": "0.6899"
+        },
+        "selected_featured": null
+    },
+    "0164d1a95643569c297216290a8069fd": {
+        "scores": {
+            "weighted_fbeta": "0.6503",
+            "precision": "0.6988",
+            "recall": "0.6914"
+        },
+        "selected_featured": null
+    },
+    "e5f7d24298caf70b35fdc8130e7caa3d": {
+        "scores": {
+            "weighted_fbeta": "0.6507",
+            "precision": "0.6992",
+            "recall": "0.6919"
+        },
+        "selected_featured": null
+    },
+    "948416c3a53ed920625715a1f8910ba2": {
+        "scores": {
+            "weighted_fbeta": "0.6556",
+            "precision": "0.7038",
+            "recall": "0.6940"
+        },
+        "selected_featured": null
+    },
+    "65858772e8ec86ed43ab1064b0094543": {
+        "scores": {
+            "weighted_fbeta": "0.6541",
+            "precision": "0.7023",
+            "recall": "0.6939"
+        },
+        "selected_featured": null
+    },
+    "5375b83aaf98036e87c5d161b9ecf103": {
+        "scores": {
+            "weighted_fbeta": "0.6508",
+            "precision": "0.6993",
+            "recall": "0.6927"
+        },
+        "selected_featured": null
+    },
+    "d1dbe44327e03f5f0e3e616f7a4aed08": {
+        "scores": {
+            "weighted_fbeta": "0.6574",
+            "precision": "0.7048",
+            "recall": "0.6971"
+        },
+        "selected_featured": null
+    },
+    "a3446d413b1146eb8ec7d7d6008e0f91": {
+        "scores": {
+            "weighted_fbeta": "0.6614",
+            "precision": "0.7078",
+            "recall": "0.7013"
+        },
+        "selected_featured": null
+    },
+    "017de1abd2a9a59b12506fb1c89c2d12": {
+        "scores": {
+            "weighted_fbeta": "0.6626",
+            "precision": "0.7088",
+            "recall": "0.7020"
+        },
+        "selected_featured": null
+    },
+    "842f2efbfdccfc52be2731d34ff7ab57": {
+        "scores": {
+            "weighted_fbeta": "0.6488",
+            "precision": "0.6974",
+            "recall": "0.6909"
+        },
+        "selected_featured": null
+    },
+    "4269622f37ce92603d0d5726b5df26c6": {
+        "scores": {
+            "weighted_fbeta": "0.6539",
+            "precision": "0.7018",
+            "recall": "0.6946"
+        },
+        "selected_featured": null
+    },
+    "ff9c85dc584e9791393a62f429b6986a": {
+        "scores": {
+            "weighted_fbeta": "0.6505",
+            "precision": "0.6990",
+            "recall": "0.6920"
+        },
+        "selected_featured": null
+    },
+    "1702d5deca7287b50657922a57c166db": {
+        "scores": {
+            "weighted_fbeta": "0.6537",
+            "precision": "0.7019",
+            "recall": "0.6934"
+        },
+        "selected_featured": null
+    },
+    "f73b625a3fe7f8942d89d42c7de1888a": {
+        "scores": {
+            "weighted_fbeta": "0.6566",
+            "precision": "0.7043",
+            "recall": "0.6957"
+        },
+        "selected_featured": null
+    },
+    "aea1e9ecccc988a838598648879e9b4c": {
+        "scores": {
+            "weighted_fbeta": "0.6580",
+            "precision": "0.7052",
+            "recall": "0.6977"
+        },
+        "selected_featured": null
+    },
+    "1741a9678edfa5a8a4d30069a3381d97": {
+        "scores": {
+            "weighted_fbeta": "0.6494",
+            "precision": "0.6984",
+            "recall": "0.6902"
+        },
+        "selected_featured": null
+    },
+    "7f1b73975f25c3953aae7f6380643b4c": {
+        "scores": {
+            "weighted_fbeta": "0.6554",
+            "precision": "0.7030",
+            "recall": "0.6963"
+        },
+        "selected_featured": null
+    },
+    "b014dab475aa755a541ecc603a76a751": {
+        "scores": {
+            "weighted_fbeta": "0.6553",
+            "precision": "0.7028",
+            "recall": "0.6965"
+        },
+        "selected_featured": null
+    },
+    "c7d9ad105ea50aabdbed65a3e364ae0a": {
+        "scores": {
+            "weighted_fbeta": "0.6504",
+            "precision": "0.6993",
+            "recall": "0.6903"
+        },
+        "selected_featured": null
+    },
+    "6789547fba57d36b8c31c799c99d8ca1": {
+        "scores": {
+            "weighted_fbeta": "0.6480",
+            "precision": "0.6975",
+            "recall": "0.6889"
+        },
+        "selected_featured": null
+    },
+    "49650f5335e65ace5a0a19e84b17697d": {
+        "scores": {
+            "weighted_fbeta": "0.6522",
+            "precision": "0.7005",
+            "recall": "0.6929"
+        },
+        "selected_featured": null
+    },
+    "3be48f7969642e0721119388360df8eb": {
+        "scores": {
+            "weighted_fbeta": "0.6500",
+            "precision": "0.6987",
+            "recall": "0.6910"
+        },
+        "selected_featured": null
+    },
+    "bff354fc61baf1fbb2aa03a3d67d4678": {
+        "scores": {
+            "weighted_fbeta": "0.6539",
+            "precision": "0.7019",
+            "recall": "0.6943"
+        },
+        "selected_featured": null
+    },
+    "08e57eecd4d54f12fc5183feac6bfeda": {
+        "scores": {
+            "weighted_fbeta": "0.6535",
+            "precision": "0.7014",
+            "recall": "0.6948"
+        },
+        "selected_featured": null
+    },
+    "75bb6785d4ea11c0064ce7166f7c51f9": {
+        "scores": {
+            "weighted_fbeta": "0.6511",
+            "precision": "0.7001",
+            "recall": "0.6906"
+        },
+        "selected_featured": null
+    },
+    "831cecd689293e9cca20e765a375380f": {
+        "scores": {
+            "weighted_fbeta": "0.6524",
+            "precision": "0.7007",
+            "recall": "0.6926"
+        },
+        "selected_featured": null
+    },
+    "371327256a1619997228f68f4e14c84b": {
+        "scores": {
+            "weighted_fbeta": "0.6519",
+            "precision": "0.7003",
+            "recall": "0.6924"
+        },
+        "selected_featured": null
+    },
+    "b20f1e306105646f6ad54a8d30a2f66b": {
+        "scores": {
+            "weighted_fbeta": "0.6547",
+            "precision": "0.7028",
+            "recall": "0.6937"
+        },
+        "selected_featured": null
+    },
+    "9e2c36e20f48d3b572c7b31fa2fd2a8a": {
+        "scores": {
+            "weighted_fbeta": "0.6533",
+            "precision": "0.7014",
+            "recall": "0.6934"
+        },
+        "selected_featured": null
+    },
+    "b8b69633d194ee16cf8c8cf9ea657685": {
+        "scores": {
+            "weighted_fbeta": "0.6528",
+            "precision": "0.7010",
+            "recall": "0.6932"
+        },
+        "selected_featured": null
+    },
+    "4d75fdc25fd0a8449d783693abdff701": {
+        "scores": {
+            "weighted_fbeta": "0.6531",
+            "precision": "0.7013",
+            "recall": "0.6931"
+        },
+        "selected_featured": null
+    },
+    "40b44653b708be94ab2b668224d6a1ab": {
+        "scores": {
+            "weighted_fbeta": "0.6552",
+            "precision": "0.7028",
+            "recall": "0.6958"
+        },
+        "selected_featured": null
+    },
+    "ba2e3ba2baa1e04dc6e9568af9b93f15": {
+        "scores": {
+            "weighted_fbeta": "0.6510",
+            "precision": "0.6996",
+            "recall": "0.6917"
+        },
+        "selected_featured": null
+    },
+    "0bad5a4f7bad9c7daf92549283e44e1b": {
+        "scores": {
+            "weighted_fbeta": "0.6520",
+            "precision": "0.7007",
+            "recall": "0.6913"
+        },
+        "selected_featured": null
+    },
+    "f86508ef98c2fa42622cfe12f01b98ef": {
+        "scores": {
+            "weighted_fbeta": "0.6476",
+            "precision": "0.6968",
+            "recall": "0.6891"
+        },
+        "selected_featured": null
+    },
+    "617b1f22585fbadea65c2d2078d38c5a": {
+        "scores": {
+            "weighted_fbeta": "0.6466",
+            "precision": "0.6960",
+            "recall": "0.6883"
+        },
+        "selected_featured": null
+    },
+    "e51c38a1ad9dcb6721137fc1a9dd53a2": {
+        "scores": {
+            "weighted_fbeta": "0.6476",
+            "precision": "0.6966",
+            "recall": "0.6890"
+        },
+        "selected_featured": null
+    },
+    "1a3d66613a16ad412c3950463b77d430": {
+        "scores": {
+            "weighted_fbeta": "0.6516",
+            "precision": "0.6998",
+            "recall": "0.6923"
+        },
+        "selected_featured": null
+    },
+    "e91a328ad09b53bb6cb75f70d93d1efc": {
+        "scores": {
+            "weighted_fbeta": "0.6508",
+            "precision": "0.6992",
+            "recall": "0.6922"
+        },
+        "selected_featured": null
+    },
+    "b67c94bec1d9a37ee625f78d33a467d5": {
+        "scores": {
+            "weighted_fbeta": "0.6538",
+            "precision": "0.7018",
+            "recall": "0.6933"
+        },
+        "selected_featured": null
+    },
+    "fe1e406271047f9b9fcb207f14f1b78e": {
+        "scores": {
+            "weighted_fbeta": "0.6496",
+            "precision": "0.6979",
+            "recall": "0.6921"
+        },
+        "selected_featured": null
+    },
+    "670988ca9e38a88728945b4a410047c1": {
+        "scores": {
+            "weighted_fbeta": "0.6491",
+            "precision": "0.6975",
+            "recall": "0.6923"
+        },
+        "selected_featured": null
+    },
+    "43ed3df4eb64ea1a2a0d1b13d58177ef": {
+        "scores": {
+            "weighted_fbeta": "0.6478",
+            "precision": "0.6969",
+            "recall": "0.6896"
+        },
+        "selected_featured": null
+    },
+    "5552687639f48dc59a6396c14d067b12": {
+        "scores": {
+            "weighted_fbeta": "0.6551",
+            "precision": "0.7027",
+            "recall": "0.6965"
+        },
+        "selected_featured": null
+    },
+    "cf28ef0364dee585a8291472583511f5": {
+        "scores": {
+            "weighted_fbeta": "0.6525",
+            "precision": "0.7005",
+            "recall": "0.6939"
+        },
+        "selected_featured": null
+    },
+    "10ed322629df578c3cf3e643d24eaad6": {
+        "scores": {
+            "weighted_fbeta": "0.6522",
+            "precision": "0.7008",
+            "recall": "0.6915"
+        },
+        "selected_featured": null
+    },
+    "d3c3194c4c9cdfbd9505b6257ffefb86": {
+        "scores": {
+            "weighted_fbeta": "0.6521",
+            "precision": "0.7004",
+            "recall": "0.6923"
+        },
+        "selected_featured": null
+    },
+    "5a3e09a3658221cdd054dbc5a4cc7545": {
+        "scores": {
+            "weighted_fbeta": "0.6499",
+            "precision": "0.6986",
+            "recall": "0.6903"
+        },
+        "selected_featured": null
+    },
+    "7a67568f58fdb2e5ba702a13a8951249": {
+        "scores": {
+            "weighted_fbeta": "0.6381",
+            "precision": "0.6893",
+            "recall": "0.6807"
+        },
+        "selected_featured": null
+    },
+    "025d0b6fc6de046b5ab14924965b2bc9": {
+        "scores": {
+            "weighted_fbeta": "0.6456",
+            "precision": "0.6953",
+            "recall": "0.6869"
+        },
+        "selected_featured": null
+    },
+    "fa0da1b30b4cc67cc8eac8e6c8d97b4c": {
+        "scores": {
+            "weighted_fbeta": "0.6466",
+            "precision": "0.6960",
+            "recall": "0.6880"
+        },
+        "selected_featured": null
+    },
+    "cdbd08ef12bf5d91b405fccb8c8fda18": {
+        "scores": {
+            "weighted_fbeta": "0.6518",
+            "precision": "0.7006",
+            "recall": "0.6911"
+        },
+        "selected_featured": null
+    },
+    "931cf2022de5d609e9afb659e6929d77": {
+        "scores": {
+            "weighted_fbeta": "0.6486",
+            "precision": "0.6974",
+            "recall": "0.6901"
+        },
+        "selected_featured": null
+    },
+    "36ae52602126de1b84b267076eb3c53f": {
+        "scores": {
+            "weighted_fbeta": "0.6497",
+            "precision": "0.6982",
+            "recall": "0.6916"
+        },
+        "selected_featured": null
+    },
+    "0ec7f7550211ac1293a4a7e9d23c1585": {
+        "scores": {
+            "weighted_fbeta": "0.6487",
+            "precision": "0.6975",
+            "recall": "0.6907"
+        },
+        "selected_featured": null
+    },
+    "2b3ccd556d2a72eb13b5e683cc39016f": {
+        "scores": {
+            "weighted_fbeta": "0.6485",
+            "precision": "0.6972",
+            "recall": "0.6909"
+        },
+        "selected_featured": null
+    },
+    "24fcd2552df65db243ed5f8847a5119f": {
+        "scores": {
+            "weighted_fbeta": "0.6525",
+            "precision": "0.7005",
+            "recall": "0.6947"
+        },
+        "selected_featured": null
+    },
+    "464e0bccd757dd52c39f6062701efff2": {
+        "scores": {
+            "weighted_fbeta": "0.6499",
+            "precision": "0.6987",
+            "recall": "0.6904"
+        },
+        "selected_featured": null
+    },
+    "c69ab3972291814fad5940f55635d9f7": {
+        "scores": {
+            "weighted_fbeta": "0.6463",
+            "precision": "0.6956",
+            "recall": "0.6884"
+        },
+        "selected_featured": null
+    },
+    "a65eef3cf1ae32a2c00691f2e8378f31": {
+        "scores": {
+            "weighted_fbeta": "0.6489",
+            "precision": "0.6975",
+            "recall": "0.6911"
+        },
+        "selected_featured": null
+    },
+    "c07abc88d1152d6db70637e962f10ab4": {
+        "scores": {
+            "weighted_fbeta": "0.6467",
+            "precision": "0.6962",
+            "recall": "0.6876"
+        },
+        "selected_featured": null
+    },
+    "5f2041914947e04329cc09589836faed": {
+        "scores": {
+            "weighted_fbeta": "0.6479",
+            "precision": "0.6970",
+            "recall": "0.6890"
+        },
+        "selected_featured": null
+    },
+    "86d299b9937a6e0323ebd7c39837a8ee": {
+        "scores": {
+            "weighted_fbeta": "0.6494",
+            "precision": "0.6981",
+            "recall": "0.6907"
+        },
+        "selected_featured": null
+    },
+    "11c63fdb2b826141188b783192782f42": {
+        "scores": {
+            "weighted_fbeta": "0.6493",
+            "precision": "0.6980",
+            "recall": "0.6905"
+        },
+        "selected_featured": null
+    },
+    "431815b749f6654c4447b0ed2e54f0ae": {
+        "scores": {
+            "weighted_fbeta": "0.6452",
+            "precision": "0.6945",
+            "recall": "0.6879"
+        },
+        "selected_featured": null
+    },
+    "e45f7fdbaa715f69a67f170fb3dc8557": {
+        "scores": {
+            "weighted_fbeta": "0.6486",
+            "precision": "0.6971",
+            "recall": "0.6913"
+        },
+        "selected_featured": null
+    },
+    "3f9ae5889596e1fcee1010c747c4fa8b": {
+        "scores": {
+            "weighted_fbeta": "0.6503",
+            "precision": "0.6989",
+            "recall": "0.6907"
+        },
+        "selected_featured": null
+    },
+    "6755293af45025a3c1828db4d8cc616d": {
+        "scores": {
+            "weighted_fbeta": "0.6436",
+            "precision": "0.6932",
+            "recall": "0.6861"
+        },
+        "selected_featured": null
+    },
+    "5a79c6d74b7596d0dcb8d2e177edfe97": {
+        "scores": {
+            "weighted_fbeta": "0.6426",
+            "precision": "0.6923",
+            "recall": "0.6856"
+        },
+        "selected_featured": null
+    },
+    "fce5e6dbc68496859c588f474c2117ea": {
+        "scores": {
+            "weighted_fbeta": "0.6424",
+            "precision": "0.6924",
+            "recall": "0.6848"
+        },
+        "selected_featured": null
+    },
+    "33e6f9a2b2c963d11795ad6094bd7a7c": {
+        "scores": {
+            "weighted_fbeta": "0.6442",
+            "precision": "0.6940",
+            "recall": "0.6860"
+        },
+        "selected_featured": null
+    },
+    "1def13d7df4095b3a27588699e1c4a83": {
+        "scores": {
+            "weighted_fbeta": "0.6431",
+            "precision": "0.6929",
+            "recall": "0.6856"
+        },
+        "selected_featured": null
+    },
+    "f1c2792a602787a3e7844c123eb5f5ca": {
+        "scores": {
+            "weighted_fbeta": "0.6505",
+            "precision": "0.6990",
+            "recall": "0.6918"
+        },
+        "selected_featured": null
+    },
+    "0df93d07e4457e76d8b4b45c01e0f8d8": {
+        "scores": {
+            "weighted_fbeta": "0.6479",
+            "precision": "0.6969",
+            "recall": "0.6894"
+        },
+        "selected_featured": null
+    },
+    "8058fdb145b8c438799fe21cb01fef2d": {
+        "scores": {
+            "weighted_fbeta": "0.6493",
+            "precision": "0.6980",
+            "recall": "0.6909"
+        },
+        "selected_featured": null
+    },
+    "9093350f55978af4259af6750e9edf46": {
+        "scores": {
+            "weighted_fbeta": "0.6475",
+            "precision": "0.6968",
+            "recall": "0.6891"
+        },
+        "selected_featured": null
+    },
+    "e99664524f014a9662222867c185d71c": {
+        "scores": {
+            "weighted_fbeta": "0.6509",
+            "precision": "0.6992",
+            "recall": "0.6935"
+        },
+        "selected_featured": null
+    },
+    "cdb79e29404666e3298124e5ffb8c455": {
+        "scores": {
+            "weighted_fbeta": "0.6446",
+            "precision": "0.6940",
+            "recall": "0.6888"
+        },
+        "selected_featured": null
+    },
+    "a374594fd0a06db291e98bab707e065b": {
+        "scores": {
+            "weighted_fbeta": "0.6556",
+            "precision": "0.7034",
+            "recall": "0.6951"
+        },
+        "selected_featured": null
+    },
+    "ac21e3e82e79d5593eba274407fc506c": {
+        "scores": {
+            "weighted_fbeta": "0.6471",
+            "precision": "0.6962",
+            "recall": "0.6890"
+        },
+        "selected_featured": null
+    },
+    "399e0377359d64ef20e52ab0ac237685": {
+        "scores": {
+            "weighted_fbeta": "0.6536",
+            "precision": "0.7016",
+            "recall": "0.6942"
+        },
+        "selected_featured": null
+    },
+    "302922a5aed6777386e5a55caf148dc0": {
+        "scores": {
+            "weighted_fbeta": "0.6446",
+            "precision": "0.6946",
+            "recall": "0.6860"
+        },
+        "selected_featured": null
+    },
+    "aee9f84322b7097efc07943627f47eac": {
+        "scores": {
+            "weighted_fbeta": "0.6517",
+            "precision": "0.7001",
+            "recall": "0.6921"
+        },
+        "selected_featured": null
+    },
+    "4f3b18eb1e91bd4a49b813c40a645c64": {
+        "scores": {
+            "weighted_fbeta": "0.6461",
+            "precision": "0.6953",
+            "recall": "0.6881"
+        },
+        "selected_featured": null
+    },
+    "d9a51de06bc8d3553fa10d6c8b7e7a4e": {
+        "scores": {
+            "weighted_fbeta": "0.6459",
+            "precision": "0.6949",
+            "recall": "0.6890"
+        },
+        "selected_featured": null
+    },
+    "56dfd50a2aa0e50d501bb88bcf098d3b": {
+        "scores": {
+            "weighted_fbeta": "0.6446",
+            "precision": "0.6940",
+            "recall": "0.6882"
+        },
+        "selected_featured": null
+    },
+    "a46f017b6f74e8beb979f72edc9a96c4": {
+        "scores": {
+            "weighted_fbeta": "0.6450",
+            "precision": "0.6944",
+            "recall": "0.6883"
+        },
+        "selected_featured": null
+    },
+    "253a72d40530dc81a1904366fef669a0": {
+        "scores": {
+            "weighted_fbeta": "0.6504",
+            "precision": "0.6990",
+            "recall": "0.6910"
+        },
+        "selected_featured": null
+    },
+    "80fff2ff91bf3f9b0d7e2a5ae9a01f97": {
+        "scores": {
+            "weighted_fbeta": "0.6504",
+            "precision": "0.6988",
+            "recall": "0.6924"
+        },
+        "selected_featured": null
+    },
+    "1a95d8198ef0bbeba7d8d4a18495814a": {
+        "scores": {
+            "weighted_fbeta": "0.6530",
+            "precision": "0.7010",
+            "recall": "0.6942"
+        },
+        "selected_featured": null
+    },
+    "c231635610d637e5fb098ea9b9bd82db": {
+        "scores": {
+            "weighted_fbeta": "0.6547",
+            "precision": "0.7024",
+            "recall": "0.6954"
+        },
+        "selected_featured": null
+    },
+    "e529c9249384ad06ae98e2ce8f7f8a25": {
+        "scores": {
+            "weighted_fbeta": "0.6570",
+            "precision": "0.7042",
+            "recall": "0.6973"
+        },
+        "selected_featured": null
+    },
+    "e2a7cf0daedf4a62d2b55e73b5bf3633": {
+        "scores": {
+            "weighted_fbeta": "0.6516",
+            "precision": "0.6997",
+            "recall": "0.6930"
+        },
+        "selected_featured": null
+    },
+    "3d2f64a3b2318f1636b25e3249aacb7c": {
+        "scores": {
+            "weighted_fbeta": "0.6427",
+            "precision": "0.6929",
+            "recall": "0.6842"
+        },
+        "selected_featured": null
+    },
+    "a1bdaa6797742950d25779010708a833": {
+        "scores": {
+            "weighted_fbeta": "0.6478",
+            "precision": "0.6969",
+            "recall": "0.6887"
+        },
+        "selected_featured": null
+    },
+    "b0e7aa6c1ecd58878f3d5cfa9874f615": {
+        "scores": {
+            "weighted_fbeta": "0.6543",
+            "precision": "0.7021",
+            "recall": "0.6940"
+        },
+        "selected_featured": null
+    },
+    "51969bf7ea9016e17eeb7e61ed0e3d04": {
+        "scores": {
+            "weighted_fbeta": "0.6511",
+            "precision": "0.6997",
+            "recall": "0.6920"
+        },
+        "selected_featured": null
+    },
+    "d6dc42c28c61bf5b8bd018177a6ce7fa": {
+        "scores": {
+            "weighted_fbeta": "0.6456",
+            "precision": "0.6951",
+            "recall": "0.6874"
+        },
+        "selected_featured": null
+    },
+    "9297bbcc012c40905c99ce9aeb247d0b": {
+        "scores": {
+            "weighted_fbeta": "0.6475",
+            "precision": "0.6966",
+            "recall": "0.6892"
+        },
+        "selected_featured": null
+    },
+    "fd699aab2b7ba2761479ae2526b42bdd": {
+        "scores": {
+            "weighted_fbeta": "0.6495",
+            "precision": "0.6984",
+            "recall": "0.6899"
+        },
+        "selected_featured": null
+    },
+    "030870866420cbf9c4d43a909065cd94": {
+        "scores": {
+            "weighted_fbeta": "0.6489",
+            "precision": "0.6977",
+            "recall": "0.6903"
+        },
+        "selected_featured": null
+    },
+    "bec226cb6983aee30812be4fc0f78382": {
+        "scores": {
+            "weighted_fbeta": "0.6519",
+            "precision": "0.6998",
+            "recall": "0.6940"
+        },
+        "selected_featured": null
+    },
+    "55806f3d56c15be0c81b8c01bbadf2c4": {
+        "scores": {
+            "weighted_fbeta": "0.6432",
+            "precision": "0.6930",
+            "recall": "0.6857"
+        },
+        "selected_featured": null
+    },
+    "867db90e8d011dab4385ff1799a894b4": {
+        "scores": {
+            "weighted_fbeta": "0.6491",
+            "precision": "0.6976",
+            "recall": "0.6912"
+        },
+        "selected_featured": null
+    },
+    "4b30cbe44b827090e69b16779b8f6e30": {
+        "scores": {
+            "weighted_fbeta": "0.6508",
+            "precision": "0.6990",
+            "recall": "0.6926"
+        },
+        "selected_featured": null
+    },
+    "4371f64217a4c478bdbdc2ceeec9120f": {
+        "scores": {
+            "weighted_fbeta": "0.6457",
+            "precision": "0.6951",
+            "recall": "0.6881"
+        },
+        "selected_featured": null
+    },
+    "2bc549d3920f62dd269e3b86f9857e1d": {
+        "scores": {
+            "weighted_fbeta": "0.6500",
+            "precision": "0.6985",
+            "recall": "0.6921"
+        },
+        "selected_featured": null
+    },
+    "6cd1f2208da22e0130e1c54622f9f8d0": {
+        "scores": {
+            "weighted_fbeta": "0.6467",
+            "precision": "0.6957",
+            "recall": "0.6894"
+        },
+        "selected_featured": null
+    },
+    "882f441adf3292d6224d37df24387d37": {
+        "scores": {
+            "weighted_fbeta": "0.6488",
+            "precision": "0.6979",
+            "recall": "0.6896"
+        },
+        "selected_featured": null
+    },
+    "e43ad57a6e118a31cc96e5ac6b6c485b": {
+        "scores": {
+            "weighted_fbeta": "0.6509",
+            "precision": "0.6994",
+            "recall": "0.6916"
+        },
+        "selected_featured": null
+    },
+    "1484ca8a469567efb5d30a2cc8a777e9": {
+        "scores": {
+            "weighted_fbeta": "0.6497",
+            "precision": "0.6983",
+            "recall": "0.6912"
+        },
+        "selected_featured": null
+    },
+    "1d981057651d32028cf04dd7dc6bed0b": {
+        "scores": {
+            "weighted_fbeta": "0.6511",
+            "precision": "0.6995",
+            "recall": "0.6920"
+        },
+        "selected_featured": null
+    },
+    "ab3913035a16d7700081e75bb04251fb": {
+        "scores": {
+            "weighted_fbeta": "0.6480",
+            "precision": "0.6970",
+            "recall": "0.6900"
+        },
+        "selected_featured": null
+    },
+    "57635a19c08f53f550678065f743806d": {
+        "scores": {
+            "weighted_fbeta": "0.6462",
+            "precision": "0.6953",
+            "recall": "0.6895"
+        },
+        "selected_featured": null
+    },
+    "076f7ecc1ca1a181e192d4e66c6734cd": {
+        "scores": {
+            "weighted_fbeta": "0.6414",
+            "precision": "0.6913",
+            "recall": "0.6856"
+        },
+        "selected_featured": null
+    },
+    "d9a26fe63404fdcbc30e05278f0b68a7": {
+        "scores": {
+            "weighted_fbeta": "0.6394",
+            "precision": "0.6893",
+            "recall": "0.6843"
+        },
+        "selected_featured": null
+    },
+    "9bcdb901edec137f01a19c05d1bca282": {
+        "scores": {
+            "weighted_fbeta": "0.6398",
+            "precision": "0.6898",
+            "recall": "0.6842"
+        },
+        "selected_featured": null
+    },
+    "90dc8984531453ace3ca76fc563e645d": {
+        "scores": {
+            "weighted_fbeta": "0.6451",
+            "precision": "0.6945",
+            "recall": "0.6880"
+        },
+        "selected_featured": null
+    },
+    "a5b18c3d0a54edcab1d846dcf6ecf674": {
+        "scores": {
+            "weighted_fbeta": "0.6441",
+            "precision": "0.6934",
+            "recall": "0.6877"
+        },
+        "selected_featured": null
+    },
+    "589dc1325ca168077286515e3a6b60df": {
+        "scores": {
+            "weighted_fbeta": "0.6495",
+            "precision": "0.6980",
+            "recall": "0.6918"
+        },
+        "selected_featured": null
+    },
+    "6ca86baa1295a83ffc3713730810549e": {
+        "scores": {
+            "weighted_fbeta": "0.6393",
+            "precision": "0.6897",
+            "recall": "0.6828"
+        },
+        "selected_featured": null
+    },
+    "04e1ed420226e09b639e0918463590ef": {
+        "scores": {
+            "weighted_fbeta": "0.6424",
+            "precision": "0.6923",
+            "recall": "0.6851"
+        },
+        "selected_featured": null
+    },
+    "07ca472fa1db13f2488981f24b9d26db": {
+        "scores": {
+            "weighted_fbeta": "0.6462",
+            "precision": "0.6953",
+            "recall": "0.6885"
+        },
+        "selected_featured": null
+    },
+    "4ca3cc9f8d4973a944fa9fc06b39f4fa": {
+        "scores": {
+            "weighted_fbeta": "0.6354",
+            "precision": "0.6864",
+            "recall": "0.6806"
+        },
+        "selected_featured": null
+    },
+    "62f316f84e156a0f6dbb82bd9e80f83f": {
+        "scores": {
+            "weighted_fbeta": "0.6411",
+            "precision": "0.6909",
+            "recall": "0.6854"
+        },
+        "selected_featured": null
+    },
+    "9d6d3b2330cfa90fc5d1437c1597df43": {
+        "scores": {
+            "weighted_fbeta": "0.6421",
+            "precision": "0.6919",
+            "recall": "0.6856"
+        },
+        "selected_featured": null
+    },
+    "6cd2d45899a86f071acadc31eaafc367": {
+        "scores": {
+            "weighted_fbeta": "0.6407",
+            "precision": "0.6906",
+            "recall": "0.6852"
+        },
+        "selected_featured": null
+    },
+    "42a4606f7f4c63177219db2e7dd84511": {
+        "scores": {
+            "weighted_fbeta": "0.6390",
+            "precision": "0.6894",
+            "recall": "0.6838"
+        },
+        "selected_featured": null
+    },
+    "a47fc9ff29003f47a0f44d9ba6117c7b": {
+        "scores": {
+            "weighted_fbeta": "0.6428",
+            "precision": "0.6925",
+            "recall": "0.6865"
+        },
+        "selected_featured": null
+    },
+    "e9e2126ab65a5d74d37c916f4f40316c": {
+        "scores": {
+            "weighted_fbeta": "0.6473",
+            "precision": "0.6966",
+            "recall": "0.6898"
+        },
+        "selected_featured": null
+    },
+    "8f65409c99ad54530026c6ece7537e65": {
+        "scores": {
+            "weighted_fbeta": "0.6459",
+            "precision": "0.6954",
+            "recall": "0.6884"
+        },
+        "selected_featured": null
+    },
+    "895eea3a59306b4147bb11ed1dc08888": {
+        "scores": {
+            "weighted_fbeta": "0.6454",
+            "precision": "0.6948",
+            "recall": "0.6880"
+        },
+        "selected_featured": null
+    },
+    "ad07d42523752efde3265b9a9d8c1e05": {
+        "scores": {
+            "weighted_fbeta": "0.6477",
+            "precision": "0.6970",
+            "recall": "0.6893"
+        },
+        "selected_featured": null
+    },
+    "2adb23768447aac73b2891e93662567e": {
+        "scores": {
+            "weighted_fbeta": "0.6465",
+            "precision": "0.6959",
+            "recall": "0.6885"
+        },
+        "selected_featured": null
+    },
+    "133e9e9e9f0048780d11ecd75f941a35": {
+        "scores": {
+            "weighted_fbeta": "0.6471",
+            "precision": "0.6964",
+            "recall": "0.6888"
+        },
+        "selected_featured": null
+    },
+    "4709bfbed9df1b331c559cbc0c268d26": {
+        "scores": {
+            "weighted_fbeta": "0.6463",
+            "precision": "0.6956",
+            "recall": "0.6880"
+        },
+        "selected_featured": null
+    },
+    "7b0123c121ad056b627ceb06580a66a4": {
+        "scores": {
+            "weighted_fbeta": "0.6468",
+            "precision": "0.6958",
+            "recall": "0.6894"
+        },
+        "selected_featured": null
+    },
+    "55a166a3417e72cbf5ec55fbb2d54599": {
+        "scores": {
+            "weighted_fbeta": "0.6486",
+            "precision": "0.6974",
+            "recall": "0.6905"
+        },
+        "selected_featured": null
+    },
+    "f56e6ab112bdb140df314265b4338332": {
+        "scores": {
+            "weighted_fbeta": "0.6418",
+            "precision": "0.6917",
+            "recall": "0.6847"
+        },
+        "selected_featured": null
+    },
+    "080d392ec98e71426fb9cf161df9ba38": {
+        "scores": {
+            "weighted_fbeta": "0.6408",
+            "precision": "0.6907",
+            "recall": "0.6847"
+        },
+        "selected_featured": null
+    },
+    "fe9f46a4d74c62caa86fe4fa5c4634ea": {
+        "scores": {
+            "weighted_fbeta": "0.6406",
+            "precision": "0.6904",
+            "recall": "0.6850"
+        },
+        "selected_featured": null
+    },
+    "47bebca6c06e8dd6e3f6b05d11c6557d": {
+        "scores": {
+            "weighted_fbeta": "0.6527",
+            "precision": "0.7010",
+            "recall": "0.6932"
+        },
+        "selected_featured": null
+    },
+    "bc68cb4c6bf18f3cdcd5be6252572aa1": {
+        "scores": {
+            "weighted_fbeta": "0.6530",
+            "precision": "0.7009",
+            "recall": "0.6947"
+        },
+        "selected_featured": null
+    },
+    "b306303367cf8ba33adc4e7fcdf2ac11": {
+        "scores": {
+            "weighted_fbeta": "0.6491",
+            "precision": "0.6978",
+            "recall": "0.6920"
+        },
+        "selected_featured": null
+    },
+    "bf4b8525f93d1a74c69fa73c12f092ef": {
+        "scores": {
+            "weighted_fbeta": "0.6455",
+            "precision": "0.6947",
+            "recall": "0.6882"
+        },
+        "selected_featured": null
+    },
+    "6b0890b7c91e410bc553c144c50cd187": {
+        "scores": {
+            "weighted_fbeta": "0.6464",
+            "precision": "0.6953",
+            "recall": "0.6895"
+        },
+        "selected_featured": null
+    },
+    "f72f39935b23b2e3d1555b226f66e8db": {
+        "scores": {
+            "weighted_fbeta": "0.6495",
+            "precision": "0.6979",
+            "recall": "0.6917"
+        },
+        "selected_featured": null
+    },
+    "101e15ac1316730a4d2c037b2d455b5e": {
+        "scores": {
+            "weighted_fbeta": "0.6475",
+            "precision": "0.6965",
+            "recall": "0.6889"
+        },
+        "selected_featured": null
+    },
+    "00e9a313373c651e3a07059eef96ad23": {
+        "scores": {
+            "weighted_fbeta": "0.6450",
+            "precision": "0.6943",
+            "recall": "0.6880"
+        },
+        "selected_featured": null
+    },
+    "ff24990ae87ab6727492114602ba77c9": {
+        "scores": {
+            "weighted_fbeta": "0.6442",
+            "precision": "0.6938",
+            "recall": "0.6868"
+        },
+        "selected_featured": null
+    },
+    "45b7fe401030e47ccdb8fd7bb2527e67": {
+        "scores": {
+            "weighted_fbeta": "0.6467",
+            "precision": "0.6960",
+            "recall": "0.6886"
+        },
+        "selected_featured": null
+    },
+    "99411e61b1e784057fa5824724bb86d4": {
+        "scores": {
+            "weighted_fbeta": "0.6482",
+            "precision": "0.6973",
+            "recall": "0.6899"
+        },
+        "selected_featured": null
+    },
+    "c34d44b4433c6fbf53fd59e37bf0988d": {
+        "scores": {
+            "weighted_fbeta": "0.6485",
+            "precision": "0.6972",
+            "recall": "0.6909"
+        },
+        "selected_featured": null
+    },
+    "81fc77b2f7ca15b6aa6513b33d31ddbc": {
+        "scores": {
+            "weighted_fbeta": "0.6565",
+            "precision": "0.7042",
+            "recall": "0.6953"
+        },
+        "selected_featured": null
+    },
+    "76ac8ed2b0c4e917309c895a55e852ad": {
+        "scores": {
+            "weighted_fbeta": "0.6561",
+            "precision": "0.7035",
+            "recall": "0.6961"
+        },
+        "selected_featured": null
+    },
+    "b99f9b35fafe0208372f7b71ba807e92": {
+        "scores": {
+            "weighted_fbeta": "0.6574",
+            "precision": "0.7046",
+            "recall": "0.6973"
+        },
+        "selected_featured": null
+    },
+    "ffed9f27ffa5dcadc1abb9523ee73382": {
+        "scores": {
+            "weighted_fbeta": "0.6390",
+            "precision": "0.6896",
+            "recall": "0.6823"
+        },
+        "selected_featured": null
+    },
+    "dd56b3976aba79dd1878537fa5dfee35": {
+        "scores": {
+            "weighted_fbeta": "0.6423",
+            "precision": "0.6919",
+            "recall": "0.6859"
+        },
+        "selected_featured": null
+    },
+    "71ffa53cf1bd72b472101115ccb356c4": {
+        "scores": {
+            "weighted_fbeta": "0.6441",
+            "precision": "0.6935",
+            "recall": "0.6873"
+        },
+        "selected_featured": null
+    },
+    "2a407e231b7d2e320529c07132b9b9c7": {
+        "scores": {
+            "weighted_fbeta": "0.6431",
+            "precision": "0.6932",
+            "recall": "0.6847"
+        },
+        "selected_featured": null
+    },
+    "78c93fc043f723e528ae8e3b3bb5a621": {
+        "scores": {
+            "weighted_fbeta": "0.6412",
+            "precision": "0.6914",
+            "recall": "0.6838"
+        },
+        "selected_featured": null
+    },
+    "7552b615931b4e78492d39ba48b3b61e": {
+        "scores": {
+            "weighted_fbeta": "0.6464",
+            "precision": "0.6954",
+            "recall": "0.6890"
+        },
+        "selected_featured": null
+    },
+    "59601c953e90a93d917b27d6dcc4a6db": {
+        "scores": {
+            "weighted_fbeta": "0.6461",
+            "precision": "0.6953",
+            "recall": "0.6884"
+        },
+        "selected_featured": null
+    },
+    "603e0e9cfe6de979e28d7d989ae72cda": {
+        "scores": {
+            "weighted_fbeta": "0.6465",
+            "precision": "0.6957",
+            "recall": "0.6883"
+        },
+        "selected_featured": null
+    },
+    "fa9601377a4320bbc43d2ca013873ebe": {
+        "scores": {
+            "weighted_fbeta": "0.6477",
+            "precision": "0.6966",
+            "recall": "0.6897"
+        },
+        "selected_featured": null
+    },
+    "c1cd0e478bea543f8613ba4f3bad1098": {
+        "scores": {
+            "weighted_fbeta": "0.6480",
+            "precision": "0.6968",
+            "recall": "0.6898"
+        },
+        "selected_featured": null
+    },
+    "d092db9926a12e6e1e10e0bdc76b12f1": {
+        "scores": {
+            "weighted_fbeta": "0.6484",
+            "precision": "0.6973",
+            "recall": "0.6901"
+        },
+        "selected_featured": null
+    },
+    "68aee0793dd45b65c6c7a2ad20efe614": {
+        "scores": {
+            "weighted_fbeta": "0.6494",
+            "precision": "0.6980",
+            "recall": "0.6916"
+        },
+        "selected_featured": null
+    },
+    "c93f3c20adaa4ad3f9ac252c55b33d6c": {
+        "scores": {
+            "weighted_fbeta": "0.6421",
+            "precision": "0.6926",
+            "recall": "0.6833"
+        },
+        "selected_featured": null
+    },
+    "87ece296fc8d83fc40712b368e177558": {
+        "scores": {
+            "weighted_fbeta": "0.6489",
+            "precision": "0.6980",
+            "recall": "0.6891"
+        },
+        "selected_featured": null
+    },
+    "a4cce771ba1ac6697c248581e20208cf": {
+        "scores": {
+            "weighted_fbeta": "0.6489",
+            "precision": "0.6979",
+            "recall": "0.6891"
+        },
+        "selected_featured": null
+    },
+    "3b0365c9fa7fbc17114f61b4943bc4b2": {
+        "scores": {
+            "weighted_fbeta": "0.6504",
+            "precision": "0.7011",
+            "recall": "0.6866"
+        },
+        "selected_featured": null
+    },
+    "381046dcfad1461869d962bdaa38e4d9": {
+        "scores": {
+            "weighted_fbeta": "0.6513",
+            "precision": "0.7004",
+            "recall": "0.6903"
+        },
+        "selected_featured": null
+    },
+    "c78e6739aa67a494d58bc9ca6305fa89": {
+        "scores": {
+            "weighted_fbeta": "0.6536",
+            "precision": "0.7018",
+            "recall": "0.6933"
+        },
+        "selected_featured": null
+    },
+    "2af0b733cdca55bbab0c333a9a7e35f2": {
+        "scores": {
+            "weighted_fbeta": "0.6564",
+            "precision": "0.7052",
+            "recall": "0.6928"
+        },
+        "selected_featured": null
+    },
+    "d49851840b832825c55cded67ff376ae": {
+        "scores": {
+            "weighted_fbeta": "0.6547",
+            "precision": "0.7027",
+            "recall": "0.6939"
+        },
+        "selected_featured": null
+    },
+    "a0a0f8f4a054eeac55189f2ef83ed998": {
+        "scores": {
+            "weighted_fbeta": "0.6530",
+            "precision": "0.7013",
+            "recall": "0.6928"
+        },
+        "selected_featured": null
+    },
+    "b1e342bfd0f0e0b35afd97ef008aaf1a": {
+        "scores": {
+            "weighted_fbeta": "0.6570",
+            "precision": "0.7051",
+            "recall": "0.6941"
+        },
+        "selected_featured": null
+    },
+    "d4bbcc1f26b58c596500f8f6f5638d24": {
+        "scores": {
+            "weighted_fbeta": "0.6595",
+            "precision": "0.7067",
+            "recall": "0.6975"
+        },
+        "selected_featured": null
+    },
+    "913ca168a0b6bc3e8b15588beb26a752": {
+        "scores": {
+            "weighted_fbeta": "0.6572",
+            "precision": "0.7046",
+            "recall": "0.6965"
+        },
+        "selected_featured": null
+    },
+    "0294ac41878f4ac9cff757d8a768c9cb": {
+        "scores": {
+            "weighted_fbeta": "0.6593",
+            "precision": "0.7073",
+            "recall": "0.6949"
+        },
+        "selected_featured": null
+    },
+    "69fa96acb279b4453fe274b8c3e92325": {
+        "scores": {
+            "weighted_fbeta": "0.6591",
+            "precision": "0.7067",
+            "recall": "0.6962"
+        },
+        "selected_featured": null
+    },
+    "d700224875a7c5e3a36c7a1486065fee": {
+        "scores": {
+            "weighted_fbeta": "0.6530",
+            "precision": "0.7017",
+            "recall": "0.6917"
+        },
+        "selected_featured": null
+    },
+    "0b8893937b41b8c3afcd4fb50f05d3cd": {
+        "scores": {
+            "weighted_fbeta": "0.6538",
+            "precision": "0.7037",
+            "recall": "0.6892"
+        },
+        "selected_featured": null
+    },
+    "a7a4e973ab571103d5897cd192c67841": {
+        "scores": {
+            "weighted_fbeta": "0.6607",
+            "precision": "0.7077",
+            "recall": "0.6984"
+        },
+        "selected_featured": null
+    },
+    "f11cef30e5795bfb44af0ecd66b60efa": {
+        "scores": {
+            "weighted_fbeta": "0.6575",
+            "precision": "0.7049",
+            "recall": "0.6962"
+        },
+        "selected_featured": null
+    },
+    "641c890cae9b708df505aac68df2b1ce": {
+        "scores": {
+            "weighted_fbeta": "0.6489",
+            "precision": "0.6991",
+            "recall": "0.6867"
+        },
+        "selected_featured": null
+    },
+    "04bad069cbb13ca2973a1a11f75741be": {
+        "scores": {
+            "weighted_fbeta": "0.6524",
+            "precision": "0.7009",
+            "recall": "0.6917"
+        },
+        "selected_featured": null
+    },
+    "447e6d8fa81a9c683b60adeb955a1d7b": {
+        "scores": {
+            "weighted_fbeta": "0.6587",
+            "precision": "0.7060",
+            "recall": "0.6969"
+        },
+        "selected_featured": null
+    },
+    "aad5b2af5d341e603a0905b02e21f9a9": {
+        "scores": {
+            "weighted_fbeta": "0.6555",
+            "precision": "0.7037",
+            "recall": "0.6939"
+        },
+        "selected_featured": null
+    },
+    "c31b0bc85d4f2e77ed97152117b348f7": {
+        "scores": {
+            "weighted_fbeta": "0.6507",
+            "precision": "0.6996",
+            "recall": "0.6908"
+        },
+        "selected_featured": null
+    },
+    "d5c551dc83adbbb03830b8ece5072a42": {
+        "scores": {
+            "weighted_fbeta": "0.6543",
+            "precision": "0.7023",
+            "recall": "0.6942"
+        },
+        "selected_featured": null
+    },
+    "c2050a8f038c6ad6a450ec6dc101b718": {
+        "scores": {
+            "weighted_fbeta": "0.6562",
+            "precision": "0.7049",
+            "recall": "0.6928"
+        },
+        "selected_featured": null
+    },
+    "fa35f7202d978f4a0550505876bac178": {
+        "scores": {
+            "weighted_fbeta": "0.6562",
+            "precision": "0.7041",
+            "recall": "0.6942"
+        },
+        "selected_featured": null
+    },
+    "ea8be8f0377c9ac5c10338f89b7c9d75": {
+        "scores": {
+            "weighted_fbeta": "0.6548",
+            "precision": "0.7030",
+            "recall": "0.6933"
+        },
+        "selected_featured": null
+    },
+    "58d58cc1d4d8b3bbb80ff83698df804d": {
+        "scores": {
+            "weighted_fbeta": "0.6539",
+            "precision": "0.7039",
+            "recall": "0.6893"
+        },
+        "selected_featured": null
+    },
+    "75384e1f32d643fd684186ba8fbf7116": {
+        "scores": {
+            "weighted_fbeta": "0.6525",
+            "precision": "0.7011",
+            "recall": "0.6916"
+        },
+        "selected_featured": null
+    },
+    "84e799c95f5a37b67bc3e4230626eb3e": {
+        "scores": {
+            "weighted_fbeta": "0.6563",
+            "precision": "0.7039",
+            "recall": "0.6954"
+        },
+        "selected_featured": null
+    },
+    "5be10d7f8430f73661c37d1de20bbbba": {
+        "scores": {
+            "weighted_fbeta": "0.6521",
+            "precision": "0.7016",
+            "recall": "0.6893"
+        },
+        "selected_featured": null
+    },
+    "3a842d13e7d3f24af42fbe371ea3fc36": {
+        "scores": {
+            "weighted_fbeta": "0.6578",
+            "precision": "0.7057",
+            "recall": "0.6954"
+        },
+        "selected_featured": null
+    },
+    "210d1a8d6c983626e925c1863bae7344": {
+        "scores": {
+            "weighted_fbeta": "0.6579",
+            "precision": "0.7052",
+            "recall": "0.6967"
+        },
+        "selected_featured": null
+    },
+    "88d7afa0043a461d2fa1ab5e60e6e1e9": {
+        "scores": {
+            "weighted_fbeta": "0.6531",
+            "precision": "0.7022",
+            "recall": "0.6906"
+        },
+        "selected_featured": null
+    },
+    "577ac29ab4a201d9b2927bcb3d95c170": {
+        "scores": {
+            "weighted_fbeta": "0.6565",
+            "precision": "0.7044",
+            "recall": "0.6950"
+        },
+        "selected_featured": null
+    },
+    "28af0a265d4dfb325083b046d3115b07": {
+        "scores": {
+            "weighted_fbeta": "0.6525",
+            "precision": "0.7009",
+            "recall": "0.6925"
+        },
+        "selected_featured": null
+    },
+    "d622dd24207cb41b5137c86cfcc0ec5a": {
+        "scores": {
+            "weighted_fbeta": "0.6536",
+            "precision": "0.7025",
+            "recall": "0.6909"
+        },
+        "selected_featured": null
+    },
+    "b547931d772ad4ad1082468e2270cefe": {
+        "scores": {
+            "weighted_fbeta": "0.6535",
+            "precision": "0.7023",
+            "recall": "0.6919"
+        },
+        "selected_featured": null
+    },
+    "421c361281f8b5b9df521275c1146861": {
+        "scores": {
+            "weighted_fbeta": "0.6514",
+            "precision": "0.7004",
+            "recall": "0.6908"
+        },
+        "selected_featured": null
+    },
+    "0af17f63b6b590fe1a50fd49c918caef": {
+        "scores": {
+            "weighted_fbeta": "0.6480",
+            "precision": "0.6991",
+            "recall": "0.6847"
+        },
+        "selected_featured": null
+    },
+    "2ce9c52310a981c774470254e6508b24": {
+        "scores": {
+            "weighted_fbeta": "0.6537",
+            "precision": "0.7021",
+            "recall": "0.6925"
+        },
+        "selected_featured": null
+    },
+    "1eba786792335f74b8624088af548da6": {
+        "scores": {
+            "weighted_fbeta": "0.6562",
+            "precision": "0.7039",
+            "recall": "0.6957"
+        },
+        "selected_featured": null
+    },
+    "fbfc155af4f1a0eee7acf8e3475e86d9": {
+        "scores": {
+            "weighted_fbeta": "0.6487",
+            "precision": "0.6984",
+            "recall": "0.6878"
+        },
+        "selected_featured": null
+    },
+    "0b6fde5090f600f1c3b47b303da5d2b8": {
+        "scores": {
+            "weighted_fbeta": "0.6461",
+            "precision": "0.6958",
+            "recall": "0.6868"
+        },
+        "selected_featured": null
+    },
+    "0b2126af2d79e75e7708920860e5450f": {
+        "scores": {
+            "weighted_fbeta": "0.6487",
+            "precision": "0.6976",
+            "recall": "0.6899"
+        },
+        "selected_featured": null
+    },
+    "b6666c2465a7f5c4b0faa188dbc92481": {
+        "scores": {
+            "weighted_fbeta": "0.6603",
+            "precision": "0.7081",
+            "recall": "0.6961"
+        },
+        "selected_featured": null
+    },
+    "bc00bb36fddfc2f1ad45f2cf7f7eccec": {
+        "scores": {
+            "weighted_fbeta": "0.6572",
+            "precision": "0.7050",
+            "recall": "0.6954"
+        },
+        "selected_featured": null
+    },
+    "e782f63f0491b12f7c6c9273978ab8fb": {
+        "scores": {
+            "weighted_fbeta": "0.6555",
+            "precision": "0.7033",
+            "recall": "0.6945"
+        },
+        "selected_featured": null
+    },
+    "0b875dcbca8713ce16fb18f62d161113": {
+        "scores": {
+            "weighted_fbeta": "0.6540",
+            "precision": "0.7028",
+            "recall": "0.6914"
+        },
+        "selected_featured": null
+    },
+    "8a0d3f7ea396187a6094d32616493f59": {
+        "scores": {
+            "weighted_fbeta": "0.6550",
+            "precision": "0.7035",
+            "recall": "0.6928"
+        },
+        "selected_featured": null
+    },
+    "8561064bb911c6b99bf220ca9671e0db": {
+        "scores": {
+            "weighted_fbeta": "0.6542",
+            "precision": "0.7026",
+            "recall": "0.6928"
+        },
+        "selected_featured": null
+    },
+    "6366900d292044941cb4feb0ff7c9d05": {
+        "scores": {
+            "weighted_fbeta": "0.6510",
+            "precision": "0.7018",
+            "recall": "0.6871"
+        },
+        "selected_featured": null
+    },
+    "4704770233c4390ae7002c894717553c": {
+        "scores": {
+            "weighted_fbeta": "0.6575",
+            "precision": "0.7055",
+            "recall": "0.6952"
+        },
+        "selected_featured": null
+    },
+    "9155dc66d5fc77ce2ad456a265635e29": {
+        "scores": {
+            "weighted_fbeta": "0.6512",
+            "precision": "0.7000",
+            "recall": "0.6909"
+        },
+        "selected_featured": null
+    },
+    "895d9891e0056a8eac3d7d9e6beab466": {
+        "scores": {
+            "weighted_fbeta": "0.6533",
+            "precision": "0.7024",
+            "recall": "0.6907"
+        },
+        "selected_featured": null
+    },
+    "f119342d4740dd4062dbc2169101bd9f": {
+        "scores": {
+            "weighted_fbeta": "0.6554",
+            "precision": "0.7033",
+            "recall": "0.6943"
+        },
+        "selected_featured": null
+    },
+    "198491896f1849b3dbaf54932ffbf769": {
+        "scores": {
+            "weighted_fbeta": "0.6544",
+            "precision": "0.7023",
+            "recall": "0.6945"
+        },
+        "selected_featured": null
+    },
+    "4413df71e1d6ff79ead310c6a195dd99": {
+        "scores": {
+            "weighted_fbeta": "0.6538",
+            "precision": "0.7024",
+            "recall": "0.6922"
+        },
+        "selected_featured": null
+    },
+    "113ebb42ea723cd7ef6d62afde9538a8": {
+        "scores": {
+            "weighted_fbeta": "0.6569",
+            "precision": "0.7046",
+            "recall": "0.6955"
+        },
+        "selected_featured": null
+    },
+    "7a031d1ad320ba11d62ef8e80a7f7be3": {
+        "scores": {
+            "weighted_fbeta": "0.6554",
+            "precision": "0.7030",
+            "recall": "0.6953"
+        },
+        "selected_featured": null
+    },
+    "74d250c51c35777c9405e3373a5e3139": {
+        "scores": {
+            "weighted_fbeta": "0.6497",
+            "precision": "0.6994",
+            "recall": "0.6880"
+        },
+        "selected_featured": null
+    },
+    "6af4cd0567d55b790aedcaa61b9f23d6": {
+        "scores": {
+            "weighted_fbeta": "0.6514",
+            "precision": "0.7002",
+            "recall": "0.6905"
+        },
+        "selected_featured": null
+    },
+    "f6a392d8766c0e03fa9228f96ea9b659": {
+        "scores": {
+            "weighted_fbeta": "0.6515",
+            "precision": "0.7002",
+            "recall": "0.6910"
+        },
+        "selected_featured": null
+    },
+    "875be3fe0a68fe7f18066ff565068d21": {
+        "scores": {
+            "weighted_fbeta": "0.6482",
+            "precision": "0.6976",
+            "recall": "0.6886"
+        },
+        "selected_featured": null
+    },
+    "ea59b02d32837e31e9bad07293ef611c": {
+        "scores": {
+            "weighted_fbeta": "0.6524",
+            "precision": "0.7004",
+            "recall": "0.6935"
+        },
+        "selected_featured": null
+    },
+    "d9934cf78a1949d85dacf85eeed5a068": {
+        "scores": {
+            "weighted_fbeta": "0.6521",
+            "precision": "0.7017",
+            "recall": "0.6891"
+        },
+        "selected_featured": null
+    },
+    "19562df83ccaaa062a677100055b9a1a": {
+        "scores": {
+            "weighted_fbeta": "0.6326",
+            "precision": "0.6912",
+            "recall": "0.6690"
+        },
+        "selected_featured": null
+    },
+    "b0280733851ecbb4c679c9a328341af0": {
+        "scores": {
+            "weighted_fbeta": "0.6534",
+            "precision": "0.7015",
+            "recall": "0.6931"
+        },
+        "selected_featured": null
+    },
+    "2f6f5be609dc54a8638c667f4e4e4182": {
+        "scores": {
+            "weighted_fbeta": "0.6508",
+            "precision": "0.6996",
+            "recall": "0.6909"
+        },
+        "selected_featured": null
+    },
+    "ddef4e4f9303ef8dfd03f1ba8575dbde": {
+        "scores": {
+            "weighted_fbeta": "0.5445",
+            "precision": "0.6438",
+            "recall": "0.6079"
+        },
+        "selected_featured": null
+    },
+    "d7b0021b7cfd4ee0eb368e07b61edb89": {
+        "scores": {
+            "weighted_fbeta": "0.6522",
+            "precision": "0.7007",
+            "recall": "0.6916"
+        },
+        "selected_featured": null
+    },
+    "6b16f9ffbb57e8c4be6dcd48897ff16f": {
+        "scores": {
+            "weighted_fbeta": "0.6543",
+            "precision": "0.7025",
+            "recall": "0.6931"
+        },
+        "selected_featured": null
+    },
+    "5f7b7bda016c6f36a8c78bd82d8abedb": {
+        "scores": {
+            "weighted_fbeta": "0.6537",
+            "precision": "0.7020",
+            "recall": "0.6929"
+        },
+        "selected_featured": null
+    },
+    "948e4fe3fe07d57f9c3eb65cf1cfcd55": {
+        "scores": {
+            "weighted_fbeta": "0.6613",
+            "precision": "0.7082",
+            "recall": "0.6993"
+        },
+        "selected_featured": null
+    },
+    "a9e7259a1d8d4ae89feee93106d2476c": {
+        "scores": {
+            "weighted_fbeta": "0.5454",
+            "precision": "0.6442",
+            "recall": "0.6085"
+        },
+        "selected_featured": null
+    },
+    "255aacd4dddd0b9a5719bf324f87941e": {
+        "scores": {
+            "weighted_fbeta": "0.6508",
+            "precision": "0.7009",
+            "recall": "0.6875"
+        },
+        "selected_featured": null
+    },
+    "479e91a0f55184e65605ed12cfb625ff": {
+        "scores": {
+            "weighted_fbeta": "0.6593",
+            "precision": "0.7066",
+            "recall": "0.6972"
+        },
+        "selected_featured": null
+    },
+    "4fdcba6c87258ef549c081849b9abb97": {
+        "scores": {
+            "weighted_fbeta": "0.6529",
+            "precision": "0.7018",
+            "recall": "0.6915"
+        },
+        "selected_featured": null
+    },
+    "dc0abb5bd90eba61ccfcb8a5b27deeb6": {
+        "scores": {
+            "weighted_fbeta": "0.6452",
+            "precision": "0.6957",
+            "recall": "0.6850"
+        },
+        "selected_featured": null
+    },
+    "fbcb978f9093cfdf61e5957ba1338fdf": {
+        "scores": {
+            "weighted_fbeta": "0.6526",
+            "precision": "0.7013",
+            "recall": "0.6915"
+        },
+        "selected_featured": null
+    },
+    "b96d27e34d1d209fdfea958a6ec8994e": {
+        "scores": {
+            "weighted_fbeta": "0.6564",
+            "precision": "0.7040",
+            "recall": "0.6958"
+        },
+        "selected_featured": null
+    },
+    "98179bc1b1aabbf5351ecee154637c11": {
+        "scores": {
+            "weighted_fbeta": "0.5476",
+            "precision": "0.6457",
+            "recall": "0.6097"
+        },
+        "selected_featured": null
+    },
+    "3d1604fb35ce2c9a9c0c7fe7fadf747b": {
+        "scores": {
+            "weighted_fbeta": "0.5475",
+            "precision": "0.6457",
+            "recall": "0.6096"
+        },
+        "selected_featured": null
+    },
+    "3cf0f357b43a412917a500e53e5e4dbd": {
+        "scores": {
+            "weighted_fbeta": "0.5428",
+            "precision": "0.6406",
+            "recall": "0.6069"
+        },
+        "selected_featured": null
+    },
+    "5c155d1fd34f83b6a6d93f58d998110e": {
+        "scores": {
+            "weighted_fbeta": "0.6482",
+            "precision": "0.6989",
+            "recall": "0.6854"
+        },
+        "selected_featured": null
+    },
+    "1706cee0f1026c9fa2787566d324e241": {
+        "scores": {
+            "weighted_fbeta": "0.6516",
+            "precision": "0.7016",
+            "recall": "0.6882"
+        },
+        "selected_featured": null
+    },
+    "4dada21e2ef1a1c294e2019bdd0ab9aa": {
+        "scores": {
+            "weighted_fbeta": "0.6496",
+            "precision": "0.7000",
+            "recall": "0.6868"
+        },
+        "selected_featured": null
+    },
+    "f8a01b73124201307071d1351daaf96d": {
+        "scores": {
+            "weighted_fbeta": "0.6572",
+            "precision": "0.7046",
+            "recall": "0.6960"
+        },
+        "selected_featured": null
+    },
+    "1507db81edd77ce36467a4d0f0977c50": {
+        "scores": {
+            "weighted_fbeta": "0.6563",
+            "precision": "0.7039",
+            "recall": "0.6955"
+        },
+        "selected_featured": null
+    },
+    "c88c2f65215f11d14671d2c613474f64": {
+        "scores": {
+            "weighted_fbeta": "0.6498",
+            "precision": "0.6986",
+            "recall": "0.6907"
+        },
+        "selected_featured": null
+    },
+    "f6a2ab17b48b1adcec53484e4facd927": {
+        "scores": {
+            "weighted_fbeta": "0.6476",
+            "precision": "0.6974",
+            "recall": "0.6872"
+        },
+        "selected_featured": null
+    },
+    "7f9c3bb5dd07187e5c62c2ffad434c65": {
+        "scores": {
+            "weighted_fbeta": "0.6533",
+            "precision": "0.7018",
+            "recall": "0.6926"
+        },
+        "selected_featured": null
+    },
+    "1ad52582600a6b1e4d7dc80ddd0dc99b": {
+        "scores": {
+            "weighted_fbeta": "0.6603",
+            "precision": "0.7073",
+            "recall": "0.6986"
+        },
+        "selected_featured": null
+    },
+    "d5e646f89a90389311f19bd8e9fdd74e": {
+        "scores": {
+            "weighted_fbeta": "0.6473",
+            "precision": "0.6968",
+            "recall": "0.6875"
+        },
+        "selected_featured": null
+    },
+    "9502852ac5a3c5efcc9dcb8f403d1bbc": {
+        "scores": {
+            "weighted_fbeta": "0.6503",
+            "precision": "0.6992",
+            "recall": "0.6901"
+        },
+        "selected_featured": null
+    },
+    "45d7f1aa0a14dffe00fd3603a68dcc6c": {
+        "scores": {
+            "weighted_fbeta": "0.6589",
+            "precision": "0.7060",
+            "recall": "0.6981"
+        },
+        "selected_featured": null
+    },
+    "6ba2dd0a37dc3faeb4f9cf8038a75dd3": {
+        "scores": {
+            "weighted_fbeta": "0.5469",
+            "precision": "0.6456",
+            "recall": "0.6094"
+        },
+        "selected_featured": null
+    },
+    "8510903470c5c61c8f2b11df8664f55c": {
+        "scores": {
+            "weighted_fbeta": "0.5469",
+            "precision": "0.6456",
+            "recall": "0.6094"
+        },
+        "selected_featured": null
+    },
+    "751c352f3b95ba507795c0633622bb2f": {
+        "scores": {
+            "weighted_fbeta": "0.5391",
+            "precision": "0.6375",
+            "recall": "0.6048"
+        },
+        "selected_featured": null
+    },
+    "f3121097bc8d488efe8dd81f4c8a7725": {
+        "scores": {
+            "weighted_fbeta": "0.6542",
+            "precision": "0.7036",
+            "recall": "0.6904"
+        },
+        "selected_featured": null
+    },
+    "3331723a2db9fefbcff171405b9eecc7": {
+        "scores": {
+            "weighted_fbeta": "0.6485",
+            "precision": "0.6987",
+            "recall": "0.6864"
+        },
+        "selected_featured": null
+    },
+    "35d4dce6ad2287293621c88dff9b7974": {
+        "scores": {
+            "weighted_fbeta": "0.6463",
+            "precision": "0.6972",
+            "recall": "0.6848"
+        },
+        "selected_featured": null
+    },
+    "91592df4b09e1b5c466517065d7a8d0a": {
+        "scores": {
+            "weighted_fbeta": "0.6581",
+            "precision": "0.7055",
+            "recall": "0.6971"
+        },
+        "selected_featured": null
+    },
+    "78fa83d35d7dd690f9673f8b57998b2f": {
+        "scores": {
+            "weighted_fbeta": "0.6603",
+            "precision": "0.7073",
+            "recall": "0.6981"
+        },
+        "selected_featured": null
+    },
+    "c2852f79808e80684f6ac022ae43d073": {
+        "scores": {
+            "weighted_fbeta": "0.6540",
+            "precision": "0.7023",
+            "recall": "0.6932"
+        },
+        "selected_featured": null
+    },
+    "ae75dc165d88cef28ec860c46d3d0e03": {
+        "scores": {
+            "weighted_fbeta": "0.6547",
+            "precision": "0.7029",
+            "recall": "0.6932"
+        },
+        "selected_featured": null
+    },
+    "3af46950317a76b819fc8e09efce14d2": {
+        "scores": {
+            "weighted_fbeta": "0.6560",
+            "precision": "0.7041",
+            "recall": "0.6941"
+        },
+        "selected_featured": null
+    },
+    "d175bf9913e70bb6f20cd5522e7b768d": {
+        "scores": {
+            "weighted_fbeta": "0.6561",
+            "precision": "0.7040",
+            "recall": "0.6952"
+        },
+        "selected_featured": null
+    },
+    "b4c0bf4e91824ddc67f5b4bffd9d711b": {
+        "scores": {
+            "weighted_fbeta": "0.6494",
+            "precision": "0.6987",
+            "recall": "0.6886"
+        },
+        "selected_featured": null
+    },
+    "1b548e62eafd24d0b74ffb3e8aa284ff": {
+        "scores": {
+            "weighted_fbeta": "0.6633",
+            "precision": "0.7097",
+            "recall": "0.7001"
+        },
+        "selected_featured": null
+    },
+    "62ea1e70d66dc8400eaff1a8a3163029": {
+        "scores": {
+            "weighted_fbeta": "0.6609",
+            "precision": "0.7080",
+            "recall": "0.6988"
+        },
+        "selected_featured": null
+    },
+    "d3d7425664a260c4cf91b7c047200268": {
+        "scores": {
+            "weighted_fbeta": "0.6539",
+            "precision": "0.7023",
+            "recall": "0.6933"
+        },
+        "selected_featured": null
+    },
+    "e5ea62379551051834f059b68cae8eeb": {
+        "scores": {
+            "weighted_fbeta": "0.5473",
+            "precision": "0.6458",
+            "recall": "0.6096"
+        },
+        "selected_featured": null
+    },
+    "b6a0fc2c02712a92fe4e7c48028e5d28": {
+        "scores": {
+            "weighted_fbeta": "0.5473",
+            "precision": "0.6458",
+            "recall": "0.6096"
+        },
+        "selected_featured": null
+    },
+    "35c05464b22713de592b27de5fbdd1cd": {
+        "scores": {
+            "weighted_fbeta": "0.5459",
+            "precision": "0.6449",
+            "recall": "0.6087"
+        },
+        "selected_featured": null
+    },
+    "4b2536ca908c3ac320d91fc72819c10d": {
+        "scores": {
+            "weighted_fbeta": "0.5421",
+            "precision": "0.6396",
+            "recall": "0.6065"
+        },
+        "selected_featured": null
+    },
+    "d617a8f6b0234e110cf2c1f5a175e50b": {
+        "scores": {
+            "weighted_fbeta": "0.6448",
+            "precision": "0.6957",
+            "recall": "0.6836"
+        },
+        "selected_featured": null
+    },
+    "6fb2ae8c318d6c45b0b3b0244f99f345": {
+        "scores": {
+            "weighted_fbeta": "0.6525",
+            "precision": "0.7019",
+            "recall": "0.6894"
+        },
+        "selected_featured": null
+    },
+    "615b6c931188659dafba5d8fcd823db0": {
+        "scores": {
+            "weighted_fbeta": "0.6483",
+            "precision": "0.6990",
+            "recall": "0.6857"
+        },
+        "selected_featured": null
+    },
+    "ceb7f8d5e32789d6d1cff2d6a9340431": {
+        "scores": {
+            "weighted_fbeta": "0.6484",
+            "precision": "0.6988",
+            "recall": "0.6861"
+        },
+        "selected_featured": null
+    },
+    "9e3c2174e554f14fbb1e99a5dcc5160d": {
+        "scores": {
+            "weighted_fbeta": "0.6608",
+            "precision": "0.7078",
+            "recall": "0.6982"
+        },
+        "selected_featured": null
+    },
+    "341d293219be26db85a5c78b793a4c27": {
+        "scores": {
+            "weighted_fbeta": "0.6570",
+            "precision": "0.7045",
+            "recall": "0.6961"
+        },
+        "selected_featured": null
+    },
+    "7198cbf40e2a6ef5dd6a74ca61f32b3f": {
+        "scores": {
+            "weighted_fbeta": "0.6609",
+            "precision": "0.7080",
+            "recall": "0.6985"
+        },
+        "selected_featured": null
+    },
+    "ffd39647cc17a097c6b795c77b6830c1": {
+        "scores": {
+            "weighted_fbeta": "0.6503",
+            "precision": "0.6995",
+            "recall": "0.6899"
+        },
+        "selected_featured": null
+    },
+    "e97d9f3c545bc41595e460b91e183feb": {
+        "scores": {
+            "weighted_fbeta": "0.6604",
+            "precision": "0.7074",
+            "recall": "0.6980"
+        },
+        "selected_featured": null
+    },
+    "df4dc779f91b81892f940bb6b4ed5386": {
+        "scores": {
+            "weighted_fbeta": "0.6530",
+            "precision": "0.7014",
+            "recall": "0.6921"
+        },
+        "selected_featured": null
+    },
+    "dc99f1c17bec0bc8699a52a35e89ff9d": {
+        "scores": {
+            "weighted_fbeta": "0.6516",
+            "precision": "0.7003",
+            "recall": "0.6917"
+        },
+        "selected_featured": null
+    },
+    "f94c5c77b27a3a6206e69bd2d0f3ac01": {
+        "scores": {
+            "weighted_fbeta": "0.6605",
+            "precision": "0.7075",
+            "recall": "0.6986"
+        },
+        "selected_featured": null
+    },
+    "4894a0376ac239f99021e0bfa51b7ec9": {
+        "scores": {
+            "weighted_fbeta": "0.6536",
+            "precision": "0.7019",
+            "recall": "0.6930"
+        },
+        "selected_featured": null
+    },
+    "ea7900137ca94a2cc53d700d9e90dfdd": {
+        "scores": {
+            "weighted_fbeta": "0.6534",
+            "precision": "0.7019",
+            "recall": "0.6925"
+        },
+        "selected_featured": null
+    },
+    "2c557b4d21cd3aa492f47cb206d68e1d": {
+        "scores": {
+            "weighted_fbeta": "0.6585",
+            "precision": "0.7058",
+            "recall": "0.6972"
+        },
+        "selected_featured": null
+    },
+    "80ac9c297079f69f4c49d4ae02c9888b": {
+        "scores": {
+            "weighted_fbeta": "0.6587",
+            "precision": "0.7063",
+            "recall": "0.6965"
+        },
+        "selected_featured": null
+    },
+    "97d00592f2ed2dd5cec9e456502f04eb": {
+        "scores": {
+            "weighted_fbeta": "0.5409",
+            "precision": "0.6404",
+            "recall": "0.6059"
+        },
+        "selected_featured": null
+    },
+    "1efb91f4ec65843aabb2e40f764758a4": {
+        "scores": {
+            "weighted_fbeta": "0.5409",
+            "precision": "0.6404",
+            "recall": "0.6059"
+        },
+        "selected_featured": null
+    },
+    "5e322c0f00583fd36d7791e59b33b40e": {
+        "scores": {
+            "weighted_fbeta": "0.5409",
+            "precision": "0.6404",
+            "recall": "0.6059"
+        },
+        "selected_featured": null
+    },
+    "0dd319ad3924deeee57fb25fec63a2f9": {
+        "scores": {
+            "weighted_fbeta": "0.5389",
+            "precision": "0.6367",
+            "recall": "0.6047"
+        },
+        "selected_featured": null
+    },
+    "00b59494861f3414729a3785f0159581": {
+        "scores": {
+            "weighted_fbeta": "0.6496",
+            "precision": "0.6997",
+            "recall": "0.6870"
+        },
+        "selected_featured": null
+    },
+    "efe3367091d1bd6416ce21ae8ae1ec10": {
+        "scores": {
+            "weighted_fbeta": "0.6474",
+            "precision": "0.6984",
+            "recall": "0.6847"
+        },
+        "selected_featured": null
+    },
+    "a6ca435e2fd6d1083ca41a862c5b0cd8": {
+        "scores": {
+            "weighted_fbeta": "0.6446",
+            "precision": "0.6960",
+            "recall": "0.6829"
+        },
+        "selected_featured": null
+    },
+    "278eabe1fbf64a9357a9661c6abf9d83": {
+        "scores": {
+            "weighted_fbeta": "0.6466",
+            "precision": "0.6972",
+            "recall": "0.6849"
+        },
+        "selected_featured": null
+    },
+    "09913fa335c015fb0bf1aab019e5aabe": {
+        "scores": {
+            "weighted_fbeta": "0.6606",
+            "precision": "0.7077",
+            "recall": "0.6979"
+        },
+        "selected_featured": null
+    },
+    "3326f9a3598e891d7da906e8f0bde67c": {
+        "scores": {
+            "weighted_fbeta": "0.6597",
+            "precision": "0.7069",
+            "recall": "0.6980"
+        },
+        "selected_featured": null
+    },
+    "03037cc37d594e1a4003984e1ed6a76b": {
+        "scores": {
+            "weighted_fbeta": "0.6536",
+            "precision": "0.7022",
+            "recall": "0.6917"
+        },
+        "selected_featured": null
+    },
+    "1ff79a7e1c27bb3c5c6b5f77bd0dea26": {
+        "scores": {
+            "weighted_fbeta": "0.6543",
+            "precision": "0.7026",
+            "recall": "0.6935"
+        },
+        "selected_featured": null
+    },
+    "9c59cef13b7967287cfb6c2d6cff2626": {
+        "scores": {
+            "weighted_fbeta": "0.6557",
+            "precision": "0.7037",
+            "recall": "0.6950"
+        },
+        "selected_featured": null
+    },
+    "d6ae2812154cab660455088f03fab613": {
+        "scores": {
+            "weighted_fbeta": "0.6568",
+            "precision": "0.7048",
+            "recall": "0.6949"
+        },
+        "selected_featured": null
+    },
+    "f6e4c6dd1b29544f2c886d67c769b2d2": {
+        "scores": {
+            "weighted_fbeta": "0.6620",
+            "precision": "0.7089",
+            "recall": "0.6993"
+        },
+        "selected_featured": null
+    },
+    "7d695c4233759cc8d97728363498ea18": {
+        "scores": {
+            "weighted_fbeta": "0.6549",
+            "precision": "0.7029",
+            "recall": "0.6942"
+        },
+        "selected_featured": null
+    },
+    "c88192197a1af4fda44e880cd2268bc6": {
+        "scores": {
+            "weighted_fbeta": "0.6569",
+            "precision": "0.7045",
+            "recall": "0.6960"
+        },
+        "selected_featured": null
+    },
+    "ef5a533c34bb7856ec31e25ec30123b2": {
+        "scores": {
+            "weighted_fbeta": "0.6571",
+            "precision": "0.7049",
+            "recall": "0.6952"
+        },
+        "selected_featured": null
+    },
+    "149d7c4fff16540f2fcb823334bdb455": {
+        "scores": {
+            "weighted_fbeta": "0.6564",
+            "precision": "0.7039",
+            "recall": "0.6962"
+        },
+        "selected_featured": null
+    },
+    "c2f22c1b6160e712d1eddecc41ada552": {
+        "scores": {
+            "weighted_fbeta": "0.6583",
+            "precision": "0.7055",
+            "recall": "0.6974"
+        },
+        "selected_featured": null
+    },
+    "98694aa16d6a68634ef793d28be3106e": {
+        "scores": {
+            "weighted_fbeta": "0.5400",
+            "precision": "0.6396",
+            "recall": "0.6053"
+        },
+        "selected_featured": null
+    },
+    "ce4dd3776b0f8652ea11f565dbb6b64e": {
+        "scores": {
+            "weighted_fbeta": "0.5400",
+            "precision": "0.6396",
+            "recall": "0.6053"
+        },
+        "selected_featured": null
+    },
+    "46aacd6dedbe82a252481615ff74fa28": {
+        "scores": {
+            "weighted_fbeta": "0.5400",
+            "precision": "0.6396",
+            "recall": "0.6053"
+        },
+        "selected_featured": null
+    },
+    "37a8225feece0fc5c3f6e932f1672ff3": {
+        "scores": {
+            "weighted_fbeta": "0.5369",
+            "precision": "0.6363",
+            "recall": "0.6035"
+        },
+        "selected_featured": null
+    },
+    "8dc2b5bb9bf125cab6f983f225b96d4a": {
+        "scores": {
+            "weighted_fbeta": "0.6467",
+            "precision": "0.6976",
+            "recall": "0.6845"
+        },
+        "selected_featured": null
+    },
+    "e5de56ad4ce459cf1dda1e9c29aa3227": {
+        "scores": {
+            "weighted_fbeta": "0.6515",
+            "precision": "0.7013",
+            "recall": "0.6884"
+        },
+        "selected_featured": null
+    },
+    "b35659b3b52d8296ab3e703a252a463f": {
+        "scores": {
+            "weighted_fbeta": "0.6451",
+            "precision": "0.6963",
+            "recall": "0.6833"
+        },
+        "selected_featured": null
+    },
+    "d051ed8ede2b13e1038d6871b8ba8727": {
+        "scores": {
+            "weighted_fbeta": "0.6479",
+            "precision": "0.6986",
+            "recall": "0.6851"
+        },
+        "selected_featured": null
+    },
+    "f945c56f21dec1530a4bca6f1dcc0a10": {
+        "scores": {
+            "weighted_fbeta": "0.6630",
+            "precision": "0.7095",
+            "recall": "0.7006"
+        },
+        "selected_featured": null
+    },
+    "fb339d7a22c208936d8e5002a5c726c4": {
+        "scores": {
+            "weighted_fbeta": "0.6624",
+            "precision": "0.7091",
+            "recall": "0.6994"
+        },
+        "selected_featured": null
+    },
+    "bbdb2f424974416c1d75b5642eb994aa": {
+        "scores": {
+            "weighted_fbeta": "0.6569",
+            "precision": "0.7046",
+            "recall": "0.6956"
+        },
+        "selected_featured": null
+    },
+    "c6fe860fd0d3759689697958d0256d5f": {
+        "scores": {
+            "weighted_fbeta": "0.6576",
+            "precision": "0.7052",
+            "recall": "0.6956"
+        },
+        "selected_featured": null
+    },
+    "e7b1c46aac6518c3e8af8bfcfcce864e": {
+        "scores": {
+            "weighted_fbeta": "0.6533",
+            "precision": "0.7017",
+            "recall": "0.6925"
+        },
+        "selected_featured": null
+    },
+    "15e42cf34c1cc0ccc478b457b0fbe3b6": {
+        "scores": {
+            "weighted_fbeta": "0.6553",
+            "precision": "0.7034",
+            "recall": "0.6940"
+        },
+        "selected_featured": null
+    },
+    "a59669effc6b99600c35400e516d16f6": {
+        "scores": {
+            "weighted_fbeta": "0.6589",
+            "precision": "0.7061",
+            "recall": "0.6970"
+        },
+        "selected_featured": null
+    },
+    "a898b447fa7caf1c5f6338b70feae9a8": {
+        "scores": {
+            "weighted_fbeta": "0.6610",
+            "precision": "0.7077",
+            "recall": "0.6998"
+        },
+        "selected_featured": null
     }
 }

@@ -1,24 +1,32 @@
 //prettier-ignore
 {
-    "model__categorical_features": ["warn"], // default: warn
-    "model__class_weight":        [null],    // default: None
-    "model__early_stopping":      ["auto"],  // default: auto
-    "model__interaction_cst":     [null],    // default: None
-    "model__l2_regularization":   [0.0],     // [0.0, 1.0, 9.0, 10.0, 11.0] default: 0.0
-    "model__learning_rate":       [0.1],     // [0.01, 0.05, 0.1, 0.3, 0.5], default: 0.1
-    "model__loss":                ["log_loss"], // default: log_loss
-    "model__max_bins":            [255],     // default: 255
-    "model__max_depth":           [null, 3], // [null, 3, 7, 8, 9, 10, 11], default: None
-    "model__max_features":        [1.0],     // default: 1.0
-    "model__max_iter":            [300],     // [100, 200, 500] default: 100
-    "model__max_leaf_nodes":      [31],      // default: 31
-    "model__min_samples_leaf":    [20],      // default: 20
-    "model__monotonic_cst":       [null],    // default: None
-    "model__n_iter_no_change":    [10],      // default: 10
-    "model__random_state":        [42],      // default: 42
-    "model__scoring":             [null],    // default: loss
-    "model__tol":                 [1e-7],    // default: 1e-07
-    "model__validation_fraction": [0.1],     // default: 0.1
-    "model__verbose":             [0],       // default: 0
-    "model__warm_start":          [false]    // default: False
+    "model__categorical_features": ["warn"],  // Suggest: ["auto", None] - If handling categorical data automatically or ignoring it may help.
+    "model__class_weight":         [null, "balanced", { "0": 1, "1": 5 }],    // Suggest: ["balanced", {0: 1, 1: 5}] - For addressing class imbalance.
+    "model__early_stopping":       ["auto"],  // Suggest: [True, False] - Test with explicitly enabling/disabling early stopping.
+    "model__interaction_cst":      [null],    // Suggest: [None, [1, -1]] - Consider simple interaction constraints if your features support it.
+    "model__l2_regularization":    [0.0, 1.0, 3, 5, 7],     // Suggest: [0.01, 0.5, 5.0] - Fine-tune with smaller steps to avoid under/over-regularization.
+    "model__learning_rate":        [0.1],  // Suggest: [0.05, 0.2, 0.25] - Fine-tune around your current default.
+    "model__loss":                 ["log_loss"], // Suggest: ["auto", "binary_crossentropy"] - Depending on what your library allows, this could offer alternatives.
+    "model__max_bins":             [255],     // Suggest: [128, 512] - Test with fewer bins for speed or more bins for finer granularity.
+    "model__max_depth":            [null, 1, 3, 5, 10], // Suggest: [5, 6, None] - Testing intermediate depths or unrestricted trees.
+    "model__max_features":         [1.0],   // Suggest: [0.8, "sqrt"] - Use fewer features per split or the square root heuristic.
+    "model__max_iter":             [300],   // Suggest: [400, 1000] - Try longer iterations for complex datasets.
+    "model__max_leaf_nodes":       [31],    // Suggest: [15, 50, 100] - Test smaller or larger trees depending on data complexity.
+    "model__min_samples_leaf":     [1, 10, 20, 50],    // Suggest: [10, 50] - Allow smaller or larger leaves to affect overfitting.
+    "model__monotonic_cst":        [null],  // Suggest: [[1, 0, -1], None] - If you have monotonic constraints, test enforcing them.
+    "model__n_iter_no_change":     [10],    // Suggest: [5, 20] - Adjust patience for early stopping based on data.
+    "model__random_state":         [42],    // Suggest: [0, 100] - Optional to ensure reproducibility with varied seeds.
+    "model__scoring":              [null],  // Suggest: ["accuracy", "roc_auc"] - Test metrics that align with your project goals.
+    "model__tol":                  [1e-7],  // Suggest: [1e-6, 1e-8] - Adjust convergence tolerance for numerical precision.
+    "model__validation_fraction":  [0.1],   // Suggest: [0.2, 0.3] - Test larger fractions to retain more data for validation.
+    "model__verbose":              [0],     // Suggest: [1, 2] - Increase verbosity for monitoring during hyperparameter tuning.
+    "model__warm_start":           [false]  // Suggest: [True] - Useful if you plan iterative training or want model continuation.
+
+    // Top Priorities:
+ 
+
+    // Helps with overfitting. Suggested values: [0.01, 0.1, 1.0, 10.0].
+    // model__class_weight
+
+    // Directly addresses the class imbalance. Suggested values: ["balanced", {0: 1, 1: 5}].
 }
