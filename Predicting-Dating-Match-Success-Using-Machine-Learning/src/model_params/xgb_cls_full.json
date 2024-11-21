@@ -8,10 +8,10 @@
     "model__colsample_bytree":  [1.0],                 
     "model__device":            [null],                
     "model__eta":               [ 0.1, 0.2, 0.25, 0.3], 
-    "model__gamma":             [0], // default=0
+    "model__gamma":             [0], 
     "model__lambda":            [0, 0.5, 1, 1.5, 2],      
     "model__max_depth":         [5, 6, 8, 10],          
-    "model__min_child_weight":  [5],                    // default=1
+    "model__min_child_weight":  [5],                  
     "model__n_estimators":      [100, 200, 300],        
     "model__objective":         ["binary:logistic"],    
     "model__scale_pos_weight":  [1],                  
