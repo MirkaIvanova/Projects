@@ -1,78 +1,20 @@
 //prettier-ignore
 {
-    "model__alpha":             [0, 0.5, 1, 1.5, 1.6], // [2] default=0, L1 regularization term on weights
-    "model__base_score":        [null],                // default: null
-    "model__booster":           ["gbtree"],            // Type of booster to use
-    "model__colsample_bylevel": [1.0],                 // default=1
-    "model__colsample_bynode":  [1.0],                 // default=1
-    "model__colsample_bytree":  [1.0],                 // default=1
-    "model__device":            [null],                // default: null
-    "model__eta":               [ 0.1, 0.2, 0.25, 0.3], // [0.01, 0.05,] Learning rate (slower = more robust)
+    "model__alpha":             [0, 0.5, 1, 1.5, 1.6], 
+    "model__base_score":        [null],                
+    "model__booster":           ["gbtree"],            
+    "model__colsample_bylevel": [1.0],                 
+    "model__colsample_bynode":  [1.0],                 
+    "model__colsample_bytree":  [1.0],                 
+    "model__device":            [null],                
+    "model__eta":               [ 0.1, 0.2, 0.25, 0.3], 
     "model__gamma":             [0], // default=0
-    "model__lambda":            [0, 0.5, 1, 1.5, 2],       // default=1, L2 regularization term on weights
-    "model__max_depth":         [5, 6, 8, 10],          // [3, 4, 10] default=6
+    "model__lambda":            [0, 0.5, 1, 1.5, 2],      
+    "model__max_depth":         [5, 6, 8, 10],          
     "model__min_child_weight":  [5],                    // default=1
-    "model__n_estimators":      [100, 200, 300],        // [400, 💛500] Number of boosting rounds
-    "model__objective":         ["binary:logistic"],    // default: binary:logistic, dont use binary:hinge if you need probabilities
-    "model__scale_pos_weight":  [1],                    // default=1, Balance for positive classes
-    "model__subsample":         [1.0],                  // default: 1
-    "model__tree_method":       ["hist"]                // [💛"exact", "approx"] Method for building trees
-                                                        //   - "hist" is faster and memory-efficient for large datasets.
-                                                        //   - "exact" is slower but can work better for small datasets.  
-                                                        //   - "approx" is suitable for datasets where the exact method is computationally infeasible. 
-
-   
-
-    // "model__alpha":             [0, 0.5, 1, 1.5, 1.6, 2], // [2] default=0, L1 regularization term on weights
-    // "model__base_score":        [null, 0.5],             // [0.5] default: null
-    // "model__booster":           ["gbtree", "dart"],      // ["dart"] Type of booster to use
-    // "model__colsample_bylevel": [1.0, 0.8, 0.6],         // [0.8, 0.6] default=1
-    // "model__colsample_bynode":  [1.0, 0.8],              // [0.8] default=1
-    // "model__colsample_bytree":  [1.0, 0.8, 0.7],         // [0.8, 0.7] default=1
-    // "model__device":            [null, "cpu"],           // ["cpu"] default: null
-    // "model__eta":               [0.1, 0.2, 0.25, 0.3, 0.01, 0.05], // [0.01, 0.05] Learning rate (slower = more robust)
-    // "model__gamma":             [0, 0.1, 0.5, 1],       // [0.1, 0.5, 1] default=0
-    // "model__lambda":            [0, 0.5, 1, 1.5, 2, 3], // [3] default=1, L2 regularization term on weights
-    // "model__max_depth":         [5, 6, 8, 10, 12, 15],  // [12, 15] default=6
-    // "model__min_child_weight":  [5, 3, 7],              // [3, 7] default=1
-    // "model__n_estimators":      [100, 200, 300, 400, 500], // [400, 500] Number of boosting rounds
-    // "model__objective":         ["binary:logistic", "binary:hinge"], // ["binary:hinge"] default: binary:logistic
-    // "model__scale_pos_weight":  [1, 0.5, 2, 5],         // [0.5, 2, 5] default=1, Balance for positive classes
-    // "model__subsample":         [1.0, 0.8, 0.6],        // [0.8, 0.6] default: 1
-    // "model__tree_method":       ["hist", "exact", "approx"] // ["exact", "approx"] Method for building trees
-
-
-
-// - **"model__scale_pos_weight":**  
-//   This is particularly important if your dataset is imbalanced. You can use it to adjust the impact of positive classes, which matches your use case of imbalanced binary classification.  
-
-// ### Parameters to Review:  
-// - **"model__base_score":**  
-//   This is the initial prediction value for all instances. The default value ("0.5") works for binary classification but can be tuned for imbalanced datasets or if you have domain-specific knowledge.  
-
-
-
-// - **"model__device":**  
-//   Use "null" or ""cpu"" unless you plan to train on GPUs, in which case ""gpu_hist"" would be the appropriate choice.  
-
-// - **"model__booster":**  
-//   - ""gbtree"" is most commonly used for binary classification tasks.  
-//   - ""dart"" (Dropout Additive Regression Trees) can help with overfitting but may require more tuning.  
-//   - ""gblinear"" is not included because it is less effective for most binary classification problems.
-
-// ### Parameters with General Applicability:
-// - Regularization parameters ("alpha", "lambda", "gamma") and feature sampling rates ("colsample_*") are applicable across all tasks, including binary classification.
-// - "max_depth", "min_child_weight", "n_estimators", "subsample", and "eta" are critical for controlling model complexity and performance in any classification problem.
-
-// ### Summary:
-// The parameters are valid for binary classification, but keep the following in mind:
-// 1. Use "binary:logistic" for soft predictions and metrics like AUC, precision, and recall.  
-// 2. "scale_pos_weight" is crucial for imbalanced datasets like yours.  
-// 3. Use "hist" or "gpu_hist" (if applicable) for faster training with large datasets.  
-
-// Would you like me to tailor the list further or help you prioritize certain parameters based on your data?
-
-
-
-
+    "model__n_estimators":      [100, 200, 300],        
+    "model__objective":         ["binary:logistic"],    
+    "model__scale_pos_weight":  [1],                  
+    "model__subsample":         [1.0],                
+    "model__tree_method":       ["hist"]              
 }

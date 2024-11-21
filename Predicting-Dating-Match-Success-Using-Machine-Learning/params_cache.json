@@ -29118,5 +29118,85 @@
             "recall": "0.6404"
         },
         "selected_featured": null
+    },
+    "94b1f9cf0c92ca1c46c987f410f84b26": {
+        "scores": {
+            "weighted_fbeta": "0.5526",
+            "precision": "0.6123",
+            "recall": "0.6151"
+        },
+        "selected_featured": null
+    },
+    "0dd9f3ccf789fa2e2cb46000c3f60994": {
+        "scores": {
+            "weighted_fbeta": "0.2164",
+            "precision": "0.6232",
+            "recall": "0.5030"
+        },
+        "selected_featured": null
+    },
+    "182ea6bd87ae9d359135190962e545b0": {
+        "scores": {
+            "weighted_fbeta": "0.5864",
+            "precision": "0.6435",
+            "recall": "0.6467"
+        },
+        "selected_featured": null
+    },
+    "fdb99a0a4f8e13a66f0d5974dd0eef11": {
+        "scores": {
+            "weighted_fbeta": "0.5446",
+            "precision": "0.6043",
+            "recall": "0.6069"
+        },
+        "selected_featured": null
+    },
+    "932619e697303edf5aa223fdc016cbee": {
+        "scores": {
+            "weighted_fbeta": "0.6106",
+            "precision": "0.6649",
+            "recall": "0.6679"
+        },
+        "selected_featured": null
+    },
+    "47af4fb8bc4df88f0d0c077ece1a5b6d": {
+        "scores": {
+            "weighted_fbeta": "0.5899",
+            "precision": "0.6470",
+            "recall": "0.6505"
+        },
+        "selected_featured": null
+    },
+    "ca0b27ef6cef5087fa3da4e734f7197b": {
+        "scores": {
+            "weighted_fbeta": "0.6061",
+            "precision": "0.6604",
+            "recall": "0.6613"
+        },
+        "selected_featured": null
+    },
+    "9cbf67b05a736544a2a18fba4d17df4b": {
+        "scores": {
+            "weighted_fbeta": "0.6204",
+            "precision": "0.6732",
+            "recall": "0.6749"
+        },
+        "selected_featured": null
+    },
+    "19e35a33471c12aae554ce3d1317e514": {
+        "scores": {
+            "weighted_fbeta": "0.5982",
+            "precision": "0.6536",
+            "recall": "0.6541"
+        },
+        "selected_featured": null
+    },
+    "10e930906fcebd89cb90cbf363250cc2": {
+        "scores": {
+            "weighted_fbeta": "0.6132",
+            "precision": "0.6668",
+            "recall": "0.6657"
+        },
+        "selected_featured": null
     }
 }
