@@ -25,13 +25,15 @@ def print_info(msg, end=True, dst="automl_debug.log"):
 def evaluate_parameter_grid(param_grid, X, y):
     results = []
     cache = _load_cache(location="./")
+    best_score = 0.0
 
-    for grid in param_grid:
+    for j, grid in enumerate(param_grid, 1):
         param_combinations = _generate_param_combinations(grid)
         total_combinations = len(param_combinations)
 
         for i, params in enumerate(param_combinations, 1):
-            print(f"Evaluating combination {i}/{total_combinations}: ", end="")
+            # print(f"Evaluating combination {i}/{total_combinations}: ", end="")
+            print(f"Evaluating model {j}, combination {i}/{total_combinations}: ", end="", flush=True)
 
             params_hash = _generate_param_hash(params)
             cached_params_filename = f"params_{params_hash}.pkl"
@@ -39,8 +41,9 @@ def evaluate_parameter_grid(param_grid, X, y):
             if params_hash in cache:
                 cached_score = deepcopy(cache[params_hash])
                 if "weighted_fbeta" in cached_score["scores"]:
+                    best_score = max(best_score, float(cached_score["scores"]["weighted_fbeta"]))
                     print(
-                        f"Weighted fbeta score: {cached_score['scores']['weighted_fbeta']} (from cache {params_hash})"
+                        f"Weighted fbeta score: {cached_score['scores']['weighted_fbeta']} (from cache {params_hash}). Best score so far: {best_score}"
                     )
                     cached_params = _load_object(cached_params_filename, location="param_grid_pkl")
                     cached_score["parameters"] = cached_params
@@ -53,7 +56,8 @@ def evaluate_parameter_grid(param_grid, X, y):
             # Train and evaluate
             pipeline.fit(X, y)
             scores = _evaluate_model(pipeline, X, y, calculate_fbeta_score)
-            print(f"Weighted fbeta score: {scores['weighted_fbeta']}")
+            best_score = max(best_score, float(scores["weighted_fbeta"]))
+            print(f"Weighted fbeta score: {scores['weighted_fbeta']}, Best score so far: {best_score}")
 
             result = {
                 "scores": scores,
@@ -100,13 +104,6 @@ def print_scores(scores):
     print(f"Precision:  {scores["precision"]:.4f}")
     print(f"Recall:     {scores["recall"]:.4f}")
     print(f"Accuracy:   {scores["accuracy"]:.4f}")
-
-    # 💛MII remove!!!
-    print_info(f"F1:         {scores["f1"]:.4f}")
-    print_info(f"Fbeta:      {scores["fbeta"]:.4f}")
-    print_info(f"Precision:  {scores["precision"]:.4f}")
-    print_info(f"Recall:     {scores["recall"]:.4f}")
-    print_info(f"Accuracy:   {scores["accuracy"]:.4f}")
 
 
 def display_top_models(
