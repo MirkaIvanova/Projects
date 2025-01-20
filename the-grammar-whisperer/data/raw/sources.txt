@@ -1,0 +1,2 @@
+wl_bul_wikipedia_2021_1M-sentences.txt - wortschatz_leipzig
+wiki1000_plus_words.tsv - Wiki1000+

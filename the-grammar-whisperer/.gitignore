@@ -1,2 +1,4 @@
-data/
+data/processed/sent_wikipedia_nlp_features.csv
+data/raw/wiki1000_plus_words_notusedyet.tsv
+data/raw/wl_bul_wikipedia_2021_1M-sentences.txt
 __pycache__/
