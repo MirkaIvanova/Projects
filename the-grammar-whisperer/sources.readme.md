@@ -1,13 +1,13 @@
 # Files in Google Drive/bg
 
 -   00_dbourke_introduction_to_nlp_original.ipynb
--   [Wip] Exp01_Split_sentences_wip.ipynb - load 1000 sentences, split using nlp and using space, which is faster
+-   [Wip_] Exp01_Split_sentences_wip.ipynb - load 1000 sentences, split using nlp and using space, which is faster
 
--   [???] 01 Experiment DB.ipynb
--   [???] 01_experiment_dbourke_nlp.ipynb
--   [Rev] 03_Prepare-Data_Vocabulary_process.ipynb - read raw csv file with words, clean it, process it
--   [Rev] 04_Prepare-Data_Sentences_clean.ipynb - read raw file with sentences from wikipedia and clean it, save to two csv files
--   [Tdo] 05_Prepare_Data_Sentences_process.ipynb - ?
+-   [????] 01 Experiment DB.ipynb
+-   [????] 01_experiment_dbourke_nlp.ipynb
+-   [Rev1] 03_Prepare-Data_Vocabulary_process.ipynb - read raw csv file with words, clean it, process it
+-   [Rev1] 04_Prepare-Data_Sentences_clean.ipynb - read raw file with sentences from wikipedia and clean it, save to two csv files
+-   [Rev1] 05_Prepare_Data_Sentences_process.ipynb - read clean file with sentences from wikipedia and add nlp tags using udpipe
 
 # Files in Google Drive/bg/data/raw
 
@@ -19,31 +19,31 @@
 
 # Possible raw data
 
-1. Folder: Wiki1000+ Bulgarian Dataset
+1. Folder: wortschatz_leipzig
+   Source: https://wortschatz.uni-leipzig.de/en/download/Bulgarian
+   news - има нецензурни коментари, не става
+   newscrawl - има нецензурни коментари, не става
+   wikipedia - става
+
+2. Folder: Wiki1000+ Bulgarian Dataset
    files: words.tsv.zip: it is OK
    sents.tsv.zip: do not use, very unclean
    Source: https://www.kaggle.com/datasets/auhide/wiki1000-bulgarian-dataset
    Info: This is the same as Wiki1000.zip but in csv format
 
-2. File: Bulgarian Part Of Speech Dataset_alt,
+3. File: Bulgarian Part Of Speech Dataset_alt,
    Bulgarian Part Of Speech Dataset_raw.csv <-- use this. I split into two to be smaller than 100MB and renamed to bg_pos_raw_part1.csv and bg_pos_raw_part2.csv.
    Source: https://www.kaggle.com/datasets/auhide/bulgarian-part-of-speech-dataset
 
-3. File: Random_Bulgarian_paragraphs.zip
+4. File: Random_Bulgarian_paragraphs.zip
    Source: https://www.kaggle.com/datasets/nikitricky/random-bulgarian-paragraphs?resource=download
 
-4. bulgarian_articles_with_keywords.zip
+5. bulgarian_articles_with_keywords.zip
    Source: https://www.kaggle.com/datasets/auhide/bulgarian-articles-with-keywords
 
-5. File: Wiki1000.zip
+6. File: Wiki1000.zip
    Source: https://dcl.bas.bg/wikiCorpus.html
    Info: XML?
-
-6. Folder: wortschatz_leipzig
-   Source: https://wortschatz.uni-leipzig.de/en/download/Bulgarian
-   news - има нецензурни коментари, не става
-   newscrawl - има нецензурни коментари, не става
-   wikipedia - става
 
 7. Folder: chitanka
    Source: https://www.kaggle.com/datasets/nikitricky/the-ultimate-bulgarian-nlp-dataset?select=chitanka_info+chunks
