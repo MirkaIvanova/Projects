@@ -8,7 +8,7 @@ def extract_feature(features_obj, feature_name):
     return ""
 
 
-def ud_features_to_obj(sentence_features_str):
+def extract_features(sentence_features_str):
     sentence_features = ast.literal_eval(sentence_features_str)
     gender = []
     number = []
@@ -35,7 +35,7 @@ if __name__ == "__main__":
     df = pd.read_csv(file_path, low_memory=False)
     df = df.dropna()
 
-    results = df["features"].apply(ud_features_to_obj).apply(pd.Series)
+    results = df["features"].apply(extract_features).apply(pd.Series)
 
     results.columns = ["gender", "number", "person"]
     df[results.columns] = results

@@ -7,7 +7,8 @@
 -   [????] 01_experiment_dbourke_nlp.ipynb
 -   [Rev1] 03_Prepare-Data_Vocabulary_process.ipynb - read raw csv file with words, clean it, process it
 -   [Rev1] 04_Prepare-Data_Sentences_clean.ipynb - read raw file with sentences from wikipedia and clean it, save to two csv files
--   [Rev1] 05_Prepare_Data_Sentences_process.ipynb - read clean file with sentences from wikipedia and add nlp tags using udpipe
+-   [Rev2] 05_Prepare_Data_Sentences_process.ipynb - read clean file with sentences from wikipedia and add nlp tags using udpipe.
+    Final file: {data_processed_dir}/sent_wikipedia_nlp_more_features_no_repeat.csv
 
 # Files in Google Drive/bg/data/raw
 
