@@ -96,7 +96,7 @@ def extract_xpostag(sentence_xpostag_str):
         if "case" in xpostag_obj:
             case.append(case_map[xpostag_obj["case"]])
         else:
-            case.append(" ")
+            case.append(".")
 
     return ("".join(case),)
 
