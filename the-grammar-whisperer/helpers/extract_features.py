@@ -23,9 +23,9 @@ def extract_features(sentence_features_str):
 
         features_obj = dict(pair.split("=") for pair in features.split("|"))
 
-        gender.append(extract_feature(features_obj, "Gender"))
-        number.append(extract_feature(features_obj, "Number"))
-        person.append(extract_feature(features_obj, "Person"))
+        gender.append(extract_feature(features_obj, "Gender") or ".")
+        number.append(extract_feature(features_obj, "Number") or ".")
+        person.append(extract_feature(features_obj, "Person") or ".")
 
     return "".join(gender), "".join(number), "".join(person)
 
