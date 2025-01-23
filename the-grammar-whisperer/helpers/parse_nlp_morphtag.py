@@ -2,7 +2,7 @@ import ast
 import pandas as pd
 
 
-def parse_bulgarian_xpostag(tag: str) -> dict:
+def parse_nlp_morphtag(tag: str) -> dict:
     """
     Parse Bulgarian Universal Dependencies notation.
 
@@ -83,7 +83,7 @@ def parse_bulgarian_xpostag(tag: str) -> dict:
     return features
 
 
-def extract_xpostag(sentence_xpostag_str):
+def parse_nlp_morphtags(sentence_xpostag_str):
     sentence_xpostags = ast.literal_eval(sentence_xpostag_str)
     case = []
     # here add other xpostags
@@ -91,7 +91,7 @@ def extract_xpostag(sentence_xpostag_str):
     case_map = {"definite": "d", "indefinite": "i", "full": "f", "short": "h"}
 
     for xpostags in sentence_xpostags:
-        xpostag_obj = parse_bulgarian_xpostag(xpostags)
+        xpostag_obj = parse_nlp_morphtag(xpostags)
 
         if "case" in xpostag_obj:
             case.append(case_map[xpostag_obj["case"]])
@@ -106,7 +106,7 @@ if __name__ == "__main__":
     df = pd.read_csv(file_path, low_memory=False)
     df = df.dropna()
 
-    results = df["morph"].apply(extract_xpostag).apply(pd.Series)
+    results = df["morph"].apply(parse_nlp_morphtags).apply(pd.Series)
 
     results.columns = ["case"]
     df[results.columns] = results

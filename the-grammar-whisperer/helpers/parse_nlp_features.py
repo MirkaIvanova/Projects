@@ -2,13 +2,13 @@ import ast
 import pandas as pd
 
 
-def extract_feature(features_obj, feature_name):
+def parse_nlp_feature(features_obj, feature_name):
     if feature_name in features_obj:
         return features_obj[feature_name][0]
     return ""
 
 
-def extract_features(sentence_features_str):
+def parse_nlp_features(sentence_features_str):
     sentence_features = ast.literal_eval(sentence_features_str)
     gender = []
     number = []
@@ -23,9 +23,9 @@ def extract_features(sentence_features_str):
 
         features_obj = dict(pair.split("=") for pair in features.split("|"))
 
-        gender.append(extract_feature(features_obj, "Gender") or ".")
-        number.append(extract_feature(features_obj, "Number") or ".")
-        person.append(extract_feature(features_obj, "Person") or ".")
+        gender.append(parse_nlp_feature(features_obj, "Gender") or ".")
+        number.append(parse_nlp_feature(features_obj, "Number") or ".")
+        person.append(parse_nlp_feature(features_obj, "Person") or ".")
 
     return "".join(gender), "".join(number), "".join(person)
 
@@ -35,7 +35,7 @@ if __name__ == "__main__":
     df = pd.read_csv(file_path, low_memory=False)
     df = df.dropna()
 
-    results = df["features"].apply(extract_features).apply(pd.Series)
+    results = df["features"].apply(parse_nlp_features).apply(pd.Series)
 
     results.columns = ["gender", "number", "person"]
     df[results.columns] = results
