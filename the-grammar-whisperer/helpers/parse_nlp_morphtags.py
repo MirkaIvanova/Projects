@@ -94,7 +94,8 @@ def parse_nlp_morphtags(sentence_xpostag_str):
         xpostag_obj = parse_nlp_morphtag(xpostags)
 
         if "case" in xpostag_obj:
-            case.append(case_map[xpostag_obj["case"]])
+            # case.append(case_map[xpostag_obj["case"]])
+            case.append(case_map.get(xpostag_obj["case"], "i"))
         else:
             case.append(".")
 

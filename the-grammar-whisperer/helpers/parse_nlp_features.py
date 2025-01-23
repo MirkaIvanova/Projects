@@ -15,7 +15,8 @@ def parse_nlp_features(sentence_features_str):
     person = []
 
     for features in sentence_features:
-        if features == "_":
+        # udpipe: "_", spacy_stanza: ""
+        if features == "_" or features == "":
             gender.append(".")
             number.append(".")
             person.append(".")
