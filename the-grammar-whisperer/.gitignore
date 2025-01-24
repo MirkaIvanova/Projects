@@ -6,3 +6,4 @@ stanza_resources/
 .virtual_documents/
 tmp/
 __pycache__/
+*.udpipe

@@ -22,6 +22,7 @@ def map_pos_sentence_to_vocabulary(pos):
         return pos_map[pos]
 
     print(f"❌Error: POS {pos} not found in vocabulary")
+    return None
 
 
 def find_word_opposite_case_by_lemma(df_vocabulary, lemma, other_case, pos_in_vocab):
@@ -62,6 +63,8 @@ def get_opposite_case_word(df_vocabulary, word, lemma, pos, case):
 
     # search in vocabulary by lemma:
     pos_vocab = map_pos_sentence_to_vocabulary(pos)
+    if not pos_vocab:
+        print(f"POS not found in vocabulary for word {word}")
 
     other_word = find_word_opposite_case_by_lemma(df_vocabulary, lemma, other_case_vocab, pos_vocab)
     if other_word:
@@ -98,14 +101,17 @@ def add_error_definite_article(df, df_vocabulary, index, row):
     new_rows = []
 
     for i in range(length):
-        if genders[i] == "M" and numbers[i] == "S" and cases[i] in "fh":
+        if pos[i] in ["NOUN", "ADJ"] and genders[i] == "M" and numbers[i] == "S" and cases[i] in "fh":
             new_word = get_opposite_case_word(df_vocabulary, words[i], lemmas[i], pos[i], cases[i])
             # print("Index: ", index, words[i], lemmas[i], new_word)
             if new_word:
                 new_row = row.copy()
                 new_words = words.copy()
                 new_words[i] = new_word
-                new_words_list = [" " + new_words[i] if pos[i] != "PUNCT" else new_words[i] for i in range(len(words))]
+
+                new_words_list = [
+                    " " + new_words[idx] if pos[idx] != "PUNCT" else new_words[idx] for idx in range(len(words))
+                ]
                 new_row["words"] = new_words
                 new_row["sentence"] = "".join(new_words_list)
                 new_row["error_type"] = BgError.DEFINITE_ARTICLE.value
@@ -134,22 +140,22 @@ if __name__ == "__main__":
 
     data_processed_dir = f"{root_dir}/data/processed"
 
-    sentences_csv = f"{data_processed_dir}/sent_wikipedia_nlp_features_final_10000_tmp.csv"
-    vocabulary_csv = f"{data_processed_dir}/bg_vocabulary_final.csv"
+    sentences_csv = f"{data_processed_dir}/sent_wikipedia_nlp_features_stanza_final_10000_tmp.csv"
+    vocabulary_csv = f"{data_processed_dir}/bg_vocabulary_final2.csv"
     df = pd.read_csv(sentences_csv)
     df_vocabulary = pd.read_csv(vocabulary_csv)
+    df_vocabulary = df_vocabulary[df_vocabulary["participle"] == 0]
 
     df["error_type"] = 0
 
     start_time = pd.Timestamp.now()
 
-    df1 = add_errors_all_rows(df.iloc[100:200], df_vocabulary)
+    df1 = add_errors_all_rows(df, df_vocabulary)
     # print(tabulate(df1[["sentence", "error_type"]], headers="keys", tablefmt="psql"))
 
-    end_time = pd.Timestamp.now()
-    print("Time elapsed: ", end_time - start_time)
+    print("Time elapsed: ", pd.Timestamp.now() - start_time)
 
     print("Indices with errors: ", indices_with_errors)
 
     # df1 = df.iloc[0:10000]
-    # df.to_csv(f"{data_processed_dir}/sent_wikipedia_nlp_features_final_10000_tmp.csv", index=False)
+    # df1.to_csv(f"{data_processed_dir}/sent_wikipedia_nlp_features_stanza_final_10000_tmp.csv", index=False)
