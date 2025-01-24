@@ -48,14 +48,13 @@ def save_sentences_to_csv(sentences, output_path):
         writer.writerows([[sentence] for sentence in sentences])  # write sentences directly
 
 
-def split_and_save_sentences(bg_text_path, output_path):
+def split_and_save_sentences(bg_text_path):
 
     with open(bg_text_path, "r", encoding="utf-8") as file:
         bulgarian_text = file.read()
 
     sentences = split_bulgarian_text_into_sentences(bulgarian_text)
 
-    save_sentences_to_csv(sentences, output_path)
     return sentences
 
 

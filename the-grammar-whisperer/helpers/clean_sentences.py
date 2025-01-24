@@ -67,7 +67,9 @@ def clean_all_sentences(_df):
     # remove rows containing those substrings
     substrings_to_remove = ["\n", "Б.пр.", "Бел.пр.", "Бележка:"]
     df = filter_rows_containing(df, "text", substrings_to_remove)
-    df.shape
+
+    # Apply a vectorized operation to remove underscores
+    df["text"] = df["text"].str.replace("_", "", regex=False)
 
     # remove quotes/brackets from beginning/ending of sentence
     df["text"] = df["text"].apply(trim_characters)
@@ -79,6 +81,10 @@ def clean_all_sentences(_df):
 
     # Remove rows where the 'text' column starts with a number
     df = df[~df["text"].str.match(r"^\d")]
+
+    # remove rows starting with lowercase Bulgarian letters а-я
+    pattern = r"^[а-я]"
+    df = df[~df["text"].str.match(pattern, na=False)]
 
     # remove duplicate rows and sort
     df = df.drop_duplicates()
