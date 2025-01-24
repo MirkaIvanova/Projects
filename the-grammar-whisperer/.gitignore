@@ -1,6 +1,6 @@
-data/processed/sent_wikipedia_*.csv
-data/raw/wiki1000_plus_words_notusedyet.tsv
-data/raw/wl_bul_wikipedia_2021_1M-sentences.txt
+data/processed/*
+data/raw/*
+data/clean/*
 stanza_resources/
 .ipynb_checkpoints/
 .virtual_documents/
@@ -8,3 +8,5 @@ tmp/
 __pycache__/
 *.udpipe
 *.csv
+*.tsv
+
