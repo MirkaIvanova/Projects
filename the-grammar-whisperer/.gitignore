@@ -7,3 +7,4 @@ stanza_resources/
 tmp/
 __pycache__/
 *.udpipe
+*.csv
