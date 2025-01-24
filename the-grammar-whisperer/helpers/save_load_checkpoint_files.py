@@ -32,6 +32,9 @@ def save_checkpoint(base_filename, data, N=3):
 
         # Remove oldest files until only N-1 remain (plus the new one we just added)
         while len(checkpoint_files) >= N:
+            # Overwrite file with empty string before deletion, the goal is not to overflow the Trash/Bin
+            with open(checkpoint_files[0][0], "w") as f:
+                f.write("")
             os.remove(checkpoint_files[0][0])
             checkpoint_files.pop(0)
 
