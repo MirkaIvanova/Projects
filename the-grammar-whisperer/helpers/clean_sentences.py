@@ -1,3 +1,6 @@
+import pandas as pd
+
+
 def filter_rows_containing(_df, column_name, substrings_to_remove):
     df = _df.copy()
 
