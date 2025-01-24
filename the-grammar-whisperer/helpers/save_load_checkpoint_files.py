@@ -4,7 +4,7 @@ import re
 import pandas as pd
 
 
-def save_checkpoint(base_filename, data, N=3):
+def save_checkpoint(base_filename, data, N=3, sep="."):
     """Save a checkpoint file while maintaining only the last N versions."""
     # Get existing checkpoints
     name, ext = os.path.splitext(base_filename)
@@ -23,7 +23,7 @@ def save_checkpoint(base_filename, data, N=3):
 
     # Save new checkpoint
     checkpoint_name = f"{name}_checkpoint{next_num}{ext}"
-    data.to_csv(checkpoint_name, index=False)
+    data.to_csv(checkpoint_name, index=False, sep=sep)
 
     # Remove old checkpoints if more than N
     if len(existing_files) >= N:
