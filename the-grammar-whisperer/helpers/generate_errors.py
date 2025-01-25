@@ -2,9 +2,10 @@ import ast
 import pandas as pd
 import numpy as np
 from enum import Enum
-from copy import deepcopy
 import re
-import sys
+from typing import List, Tuple, Set, Dict
+
+from compare_dataframes import compare_dataframes
 
 
 class BgError(Enum):
@@ -14,257 +15,181 @@ class BgError(Enum):
     MISSING_COMMA = 3
 
 
-class VocabularyCase(Enum):
-    FULL = 1  # "непълен член"
-    SHORT = 2  # "пълен член"
-    DEFINITE = 3  # "членувано"     (neither short nor long, for example for feminine/neuter nouns)
+# Precompile regex patterns for punctuation adjustment
+QUOTES_REGEX = re.compile(r'(["\'({\[])\s+([^\]\)\'"]+)\s+(["\')}\]])')
+COMMA_REGEX = re.compile(r"\s+([,.!?;])")
 
 
-def map_pos_sentence_to_vocabulary(pos):
-    pos_map = {"ADJ": 3, "NOUN": 2}
-    if pos in pos_map:
-        return pos_map[pos]
-
-    print(f"❌Error: POS {pos} not found in vocabulary")
-    return None
-
-
-def join_words_with_punctuation(words):
-    res = " ".join(word for word in words)
-
-    quotes_pattern = r'["\'\[\(] ([^\]\)\'"]+) ["\'\]\)]'  # Pattern 1: Matches quoted/bracketed text with spaces
-    comma_pattern = r"\s+([,.!?;])"  # Pattern 2: Matches spaces before punctuation marks
-
-    res = re.sub(quotes_pattern, lambda m: f"{m.group(0)[0]}{m.group(1)}{m.group(0)[-1]}", res)
-    res = re.sub(comma_pattern, r"\1", res)
+def join_words_with_punctuation(words: List[str]) -> str:
+    """Join words and adjust punctuation spacing using precompiled regex patterns."""
+    res = " ".join(words)
+    res = QUOTES_REGEX.sub(r"\1\2\3", res)
+    res = COMMA_REGEX.sub(r"\1", res)
     return res
 
 
-def find_opposite_case_by_lemma(df_vocabulary, lemma, other_case, pos_in_vocab):
-    df_vocabulary_search = df_vocabulary[
-        (df_vocabulary.lemma == lemma)
-        & (df_vocabulary.definite_article == other_case)
-        & (df_vocabulary.number == 1)
-        & (df_vocabulary.participle == 0)
-        & (df_vocabulary.pos_encoded == pos_in_vocab)
-    ]
-
-    num_search_results = df_vocabulary_search.shape[0]
-
-    if num_search_results == 1:
-        other_word = df_vocabulary_search.iloc[0]["word"]
-        return other_word
-
-    return None
-
-
-def find_opposite_case_by_word(df_vocabulary, word, case_vocab, other_case_vocab, pos_vocab):
-    df_vocabulary_search = df_vocabulary[
-        (df_vocabulary.word == word) & (df_vocabulary.definite_article == case_vocab) & (df_vocabulary.participle == 0)
-    ]
-
-    num_search_results = df_vocabulary_search.shape[0]
-
-    if num_search_results == 1:
-        lemma_vocab = df_vocabulary_search.iloc[0]["lemma"]
-        other_word = find_word_opposite_case_by_lemma(df_vocabulary, lemma_vocab, other_case_vocab, pos_vocab)
-        if other_word:
-            return other_word
-
-    return None
-
-
 def find_opposite_case_by_rules(word: str, pos: str) -> str:
-    """
-    Switches between short and long definite article forms for Bulgarian nouns and adjectives.
-
-    Parameters:
-        word (str): The word with definite article
-        pos (str): Part of speech - 'NOUN' or 'ADJ'
-
-    Returns:
-        str: Word with swapped definite article form
-
-    Rules for definite article forms in Bulgarian:
-    Masculine nouns use:
-        Long form (-ът/-ят) for subjects
-        Short form (-а/-я) for objects
-        Choice depends on final consonant:
-        Use -ът/-а for hard consonants (столът → стола)
-        Use -ят/-я for soft consonants (героят → героя)
-
-    Masculine adjectives use:
-        Long form (-ият) for subject position
-        Short form (-ия) for object position
-
-    Exceptions:
-        Some masculine nouns ending in -а/-я use feminine articles:
-        баща → бащата (not *бащаът)
-        съдия → съдията (not *съдият)
-    """
-    # Noun rules
+    """Rule-based switching between definite article forms."""
     if pos == "NOUN":
-        # Exceptions for masculine nouns ending in -а/-я
         if word in ["баща", "съдия"]:
             return word + "та"
         elif word in ["бащата", "съдията"]:
             return word[:-2]
-
-        # Long to short conversion
         elif word.endswith("ът"):
             return word[:-2] + "а"
         elif word.endswith("ят"):
             return word[:-2] + "я"
-        # Short to long conversion
         elif word.endswith("а"):
             return word[:-1] + "ът"
         elif word.endswith("я"):
             return word[:-1] + "ят"
-
-    # Adjective rules
     elif pos == "ADJ":
-        # Long to short conversion
         if word.endswith("ият"):
-            return word[:-1]  # remove final 'т'
-        # Short to long conversion
+            return word[:-1]
         elif word.endswith("ия"):
             return word + "т"
-
-    # Return original if no patterns match
     return None
 
 
-def get_opposite_case_word(df_vocabulary, word, lemma, pos, case):
-    # if this is the full definite article, find the short form of the word
-    # if this is the short definite article, find the full form of the word
-    if case == "f":
-        case_vocab = VocabularyCase.SHORT.value
-        other_case_vocab = VocabularyCase.FULL.value
-    elif case == "h":
-        case_vocab = VocabularyCase.FULL.value
-        other_case_vocab = VocabularyCase.SHORT.value
-    else:
-        print("❌Error: case is not 'f'/full or 'h'/short")
-        return None
-
-    # First search in vocabulary by lemma:
-    pos_vocab = map_pos_sentence_to_vocabulary(pos)
-    if not pos_vocab:
-        print(f"POS not found in vocabulary for word {word}")
-
-    # other_word = find_opposite_case_by_lemma(df_vocabulary, lemma, other_case_vocab, pos_vocab)
-    # if other_word:
-    #     return other_word
-
-    # # If not found, search in vocabulary by word
-    # other_word = find_opposite_case_by_word(df_vocabulary, word, case_vocab, other_case_vocab, pos_vocab)
-    # if other_word:
-    #     return other_word
-
-    # If not found, use rule-based conversion
-    other_word = find_opposite_case_by_rules(word, pos)
-    if other_word:
-        # print(f"⚠️ Using rule-based conversion: {word}/{lemma}/{pos}/{case} -> {other_word}")
-        return other_word
-
-    print(f"❌Error: {word}/{lemma}/{pos}/{case}: other word not found in vocabulary.")
-    return None
+def get_opposite_case_word(word: str, lemma: str, pos: str, case: str) -> str:
+    """Wrapper for rule-based article conversion."""
+    return find_opposite_case_by_rules(word, pos)
 
 
-indices_with_errors = []
+def is_eligible_for_definite_article(pos: str, gender: str, number: str, case: str) -> bool:
+    """Check if a word is eligible for definite article error."""
+    return pos in ["NOUN", "ADJ"] and gender == "M" and number == "S" and case in "fh"
 
 
-def add_error_definite_article(df, index, row, pos, words, lemmas, genders, numbers, cases):
-    length = len(genders)
+def create_error_row(sentence: str, error_type: BgError, parent_row: int) -> Dict:
+    """Create a standardized error row dictionary."""
+    return {"sentence": sentence, "error_type": error_type.value, "parent_row": parent_row}
+
+
+def add_error_definite_article(index: int, row: pd.Series) -> Tuple[List[Dict], Set[int]]:
+    """Generate definite article errors for a row."""
     new_rows = []
+    modified_indices = set()
 
-    for i in range(length):
-        # search for nouns or adjectives in masculine singular form, definite article either short or full
-        if pos[i] in ["NOUN", "ADJ"] and genders[i] == "M" and numbers[i] == "S" and cases[i] in "fh":
-            new_word = get_opposite_case_word(df_vocabulary, words[i], lemmas[i], pos[i], cases[i])
+    pos_list = row["pos"]
+    words = row["words"]
+    lemmas = row["lemmas"]
+    genders = row["gender"]
+    numbers = row["number"]
+    cases = row["case"]
+
+    for i in range(len(pos_list)):
+        if is_eligible_for_definite_article(pos_list[i], genders[i], numbers[i], cases[i]):
+            new_word = get_opposite_case_word(words[i], lemmas[i], pos_list[i], cases[i])
             if new_word:
-                new_words = deepcopy(words)
+                new_words = words.copy()
                 new_words[i] = new_word
-                new_words_list = join_words_with_punctuation(new_words)
-                new_index = df.index.max() + 1
-                df.loc[new_index] = np.nan
+                new_sentence = join_words_with_punctuation(new_words)
+                new_rows.append(create_error_row(new_sentence, BgError.DEFINITE_ARTICLE, index))
+                modified_indices.add(index)
 
-                df.loc[new_index, "sentence"] = "".join(new_words_list)
-                df.loc[new_index, "error_type"] = BgError.DEFINITE_ARTICLE.value
-                df.loc[new_index, "parent_row"] = index
-
-                df.loc[index, "error_type"] = BgError.NO_ERROR.value
-            else:
-                indices_with_errors.append(index)
-    return new_rows
+    return new_rows, modified_indices
 
 
-def add_error_missing_comma(df, index, row, words):
+def add_error_missing_comma(index: int, row: pd.Series) -> Tuple[List[Dict], Set[int]]:
+    """Generate missing comma errors for a row."""
     new_rows = []
+    modified_indices = set()
+    words = row["words"]
 
-    for i, word in enumerate(words):
-        if word == ",":
-            new_words = deepcopy(words)
-            del new_words[i]
-            new_words_list = join_words_with_punctuation(new_words)
-            new_index = df.index.max() + 1
+    comma_indices = [idx for idx, word in enumerate(words) if word == ","]
+    for i in reversed(comma_indices):
+        new_words = words.copy()
+        del new_words[i]
+        new_sentence = join_words_with_punctuation(new_words)
+        new_rows.append(create_error_row(new_sentence, BgError.MISSING_COMMA, index))
+        modified_indices.add(index)
 
-            df.loc[new_index, "sentence"] = "".join(new_words_list)
-            df.loc[new_index, "error_type"] = BgError.MISSING_COMMA.value
-            df.loc[new_index, "parent_row"] = index
-
-            df.loc[index, "error_type"] = BgError.NO_ERROR.value
-
-    return new_rows
+    return new_rows, modified_indices
 
 
-def add_errors_all_rows(_df, df_vocabulary):
-    df = _df.copy(deep=True)
-    new_rows = []
-    for index, row in df.iterrows():
-        pos = ast.literal_eval(row["pos"])
-        words = ast.literal_eval(row["words"])
-        lemmas = ast.literal_eval(row["lemmas"])
-        genders = row["gender"]
-        numbers = row["number"]
-        cases = row["case"]
-        # new_rows = new_rows + add_error_definite_article(df, index, row, pos, words, lemmas, genders, numbers, cases)
-        new_rows = new_rows + add_error_missing_comma(df, index, row, words)
+def create_error_dataframe(all_new_rows: List[Dict], original_columns: pd.Index) -> pd.DataFrame:
+    """Create DataFrame from error rows with original columns structure."""
+    if not all_new_rows:
+        return pd.DataFrame()
 
-    # Concatenate the original DataFrame and the new rows that contain errors
-    df = pd.concat([df, pd.DataFrame(new_rows)], ignore_index=False)
+    new_df = pd.DataFrame(all_new_rows)
+    for col in original_columns:
+        if col not in new_df:
+            new_df[col] = np.nan
+    return new_df
 
-    columns_to_convert = ["error_type", "parent_row"]
-    df[columns_to_convert] = df[columns_to_convert].astype("int32")
 
+def update_error_types(df: pd.DataFrame, modified_indices: Set[int]) -> pd.DataFrame:
+    """Update error types for modified original rows."""
+    if modified_indices:
+        df.loc[df.index.isin(modified_indices), "error_type"] = BgError.NO_ERROR.value
     return df
 
 
-if __name__ == "__main__":
+def adjust_data_types(df: pd.DataFrame) -> pd.DataFrame:
+    """Ensure correct data types for specific columns."""
+    df["error_type"] = df["error_type"].astype("int32")
+    df["parent_row"] = df["parent_row"].astype("int32")
+    return df
 
-    root_dir = "."
-    data_processed_dir = f"{root_dir}/data/processed"
 
-    sentences_csv = f"{data_processed_dir}/sent_wikipedia_nlp_features_stanza_final_10000_tmp.csv"
-    # sentences_csv = r"C:\mirka\git\softuni\04.deep_learning\Project\tmp\deleteme_sent_fiction_nlp_features_part1_v1_checkpoint124.tsv"
-    vocabulary_csv = f"{data_processed_dir}/bg_vocabulary_final2.csv"
-    df = pd.read_csv(sentences_csv)
-    df = df.iloc[0:10001]
-    # df = df.iloc[0:1001]
-    # df.iloc[0:10000].to_csv(f"{data_processed_dir}/sent_wikipedia_nlp_features_stanza_final_10000_tmp.csv", index=False)
-    # sys.exit(1)
-    df_vocabulary = pd.read_csv(vocabulary_csv)
-    df_vocabulary = df_vocabulary[df_vocabulary["participle"] == 0]
+def add_errors_all_rows(_df: pd.DataFrame) -> pd.DataFrame:
+    """Process DataFrame to generate error variants."""
+    df = _df.copy()
+    all_new_rows = []
+    modified_indices = set()
 
-    start_time = pd.Timestamp.now()
+    for index, row in df.iterrows():
+        definite_rows, definite_modified = add_error_definite_article(index, row)
+        comma_rows, comma_modified = add_error_missing_comma(index, row)
+        all_new_rows.extend(definite_rows + comma_rows)
+        modified_indices.update(definite_modified | comma_modified)
 
+    new_df = create_error_dataframe(all_new_rows, df.columns)
+    if not new_df.empty:
+        df = pd.concat([df, new_df], ignore_index=True)
+
+    df = update_error_types(df, modified_indices)
+    return adjust_data_types(df)
+
+
+def convert_list_columns(df: pd.DataFrame, list_cols: List[str]) -> pd.DataFrame:
+    """Convert string-represented lists to actual lists in DataFrame."""
+    for col in list_cols:
+        if col not in df.columns:
+            continue
+        try:
+            sample_value = df[col].dropna().iloc[0] if not df[col].empty else None
+            if isinstance(sample_value, str):
+                df[col] = df[col].apply(ast.literal_eval)
+        except (IndexError, ValueError, SyntaxError):
+            continue
+    return df
+
+
+def initialize_error_columns(df: pd.DataFrame) -> pd.DataFrame:
+    """Initialize error tracking columns."""
     df["error_type"] = BgError.NA.value
     df["parent_row"] = -1
+    return df
 
-    df1 = add_errors_all_rows(df, df_vocabulary)
-    for i, iterrow in df1.iloc[0:10].iterrows():
-        print(f"[{i}] e={iterrow['error_type']} p={iterrow['parent_row']} {iterrow['sentence']}")
 
-    print(f"New df size: {df1.shape}")
-    print("Time elapsed: ", pd.Timestamp.now() - start_time)
-    print("Indices with errors: ", indices_with_errors)
+def load_and_preprocess_data(file_path: str, list_cols: List[str]) -> pd.DataFrame:
+    """Load data and preprocess list columns."""
+    df = pd.read_csv(file_path, nrows=10001)
+    df = convert_list_columns(df, list_cols)
+    return initialize_error_columns(df)
+
+
+if __name__ == "__main__":
+    root_dir = "."
+    data_processed_dir = f"{root_dir}/data/processed"
+    sentences_csv = f"{data_processed_dir}/sent_wikipedia_nlp_features_stanza_final_10000_tmp.csv"
+
+    df = load_and_preprocess_data(sentences_csv, ["pos", "words", "lemmas", "gender", "number", "case"])
+
+    start_time = pd.Timestamp.now()
+    df = add_errors_all_rows(df)
+
+    print(f"Processed {len(df)} rows in {pd.Timestamp.now() - start_time}")
