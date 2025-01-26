@@ -41,9 +41,8 @@ def process_chunk(chunk):
 
 
 if __name__ == "__main__":
-    file_path = "./tmp/sent_wikipedia_nlp_features_checkpoint6.csv"
     file_path = "./data/processed/sent_fiction_nlp_features_part1_v1.tsv"
-    output_path = "./tmp/processed_features.csv"
+    output_path = "./tmp/processed_features.tsv"
     chunk_size = 100_000
 
     # Initialize CSV reader with chunks
@@ -55,8 +54,5 @@ if __name__ == "__main__":
         # Write header only for the first chunk
         mode = "w" if i == 0 else "a"
         header = i == 0
-        processed_chunk.to_csv(output_path, mode=mode, header=header, index=False)
+        processed_chunk.to_csv(output_path, mode=mode, header=header, index=False, sep="\t")
         print(f"Processed chunk {i+1} with {len(processed_chunk)} rows")
-
-    # final_df = pd.read_csv(output_path)
-    # print("Final shape:", final_df.shape)

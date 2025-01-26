@@ -83,8 +83,8 @@ def parse_nlp_morphtag(tag: str) -> dict:
     return features
 
 
-def parse_nlp_morphtags(sentence_xpostag_str):
-    sentence_xpostags = ast.literal_eval(sentence_xpostag_str)
+def parse_nlp_morphtags(sentence_xpostags: list) -> tuple:
+
     case = []
     # here add other xpostags
 
@@ -94,7 +94,6 @@ def parse_nlp_morphtags(sentence_xpostag_str):
         xpostag_obj = parse_nlp_morphtag(xpostags)
 
         if "case" in xpostag_obj:
-            # case.append(case_map[xpostag_obj["case"]])
             case.append(case_map.get(xpostag_obj["case"], "i"))
         else:
             case.append(".")
@@ -103,14 +102,29 @@ def parse_nlp_morphtags(sentence_xpostag_str):
 
 
 if __name__ == "__main__":
-    file_path = "../tmp/sent_wikipedia_nlp_features_checkpoint6.csv"
-    df = pd.read_csv(file_path, low_memory=False)
-    df = df.dropna()
+    import time
+
+    file_path = "./data/processed/sent_fiction_nlp_features_part1_v2.tsv"
+    output_path = "./tmp/processed_fiction_case.csv"
+    df = pd.read_csv(file_path, low_memory=True, sep="\t")
+    df = df.dropna(subset=["morph"])
+
+    start_time = time.time()
+
+    df["morph"] = df["morph"].apply(ast.literal_eval)
 
     results = df["morph"].apply(parse_nlp_morphtags).apply(pd.Series)
 
     results.columns = ["case"]
     df[results.columns] = results
 
-    print(results.shape)
     print(df.shape)
+
+    for i, row in df.iterrows():
+        print(i, row.sentence, row["case"])
+        if i > 5:
+            break
+
+    df.to_csv(output_path, index=False, sep="\t")
+
+    print(f"Execution time: {time.time() - start_time} seconds")
