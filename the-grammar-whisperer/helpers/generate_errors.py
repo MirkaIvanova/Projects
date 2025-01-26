@@ -108,6 +108,33 @@ def add_error_missing_comma(index: int, row: pd.Series) -> Tuple[List[Dict], Set
     return new_rows, modified_indices
 
 
+def add_error_countable(index: int, row: pd.Series) -> Tuple[List[Dict], Set[int]]:
+    """Generate definite article errors for a row."""
+    new_rows = []
+    modified_indices = set()
+
+    # pos_list = row["pos"]
+    # words = row["words"]
+    # lemmas = row["lemmas"]
+    # genders = row["gender"]
+    # numbers = row["number"]
+    # cases = row["case"]
+    features = row["features"]
+    print(type(features))
+
+    # for i in range(len(pos_list)):
+    #     if is_eligible_for_definite_article(pos_list[i], genders[i], numbers[i], cases[i]):
+    #         new_word = get_opposite_case_word(words[i], lemmas[i], pos_list[i], cases[i])
+    #         if new_word:
+    #             new_words = words.copy()
+    #             new_words[i] = new_word
+    #             new_sentence = join_words_with_punctuation(new_words)
+    #             new_rows.append(create_error_row(new_sentence, BgError.DEFINITE_ARTICLE, index))
+    #             modified_indices.add(index)
+
+    return new_rows, modified_indices
+
+
 def create_error_dataframe(all_new_rows: List[Dict], original_columns: pd.Index) -> pd.DataFrame:
     """Create DataFrame from error rows with original columns structure."""
     if not all_new_rows:
@@ -143,6 +170,7 @@ def add_errors_all_rows(_df: pd.DataFrame) -> pd.DataFrame:
     for index, row in df.iterrows():
         definite_rows, definite_modified = add_error_definite_article(index, row)
         comma_rows, comma_modified = add_error_missing_comma(index, row)
+        countable_rows, countable_modified = add_error_countable(index, row)
         all_new_rows.extend(definite_rows + comma_rows)
         modified_indices.update(definite_modified | comma_modified)
 
@@ -177,7 +205,7 @@ def initialize_error_columns(df: pd.DataFrame) -> pd.DataFrame:
 
 def load_and_preprocess_data(file_path: str, list_cols: List[str]) -> pd.DataFrame:
     """Load data and preprocess list columns."""
-    df = pd.read_csv(file_path, nrows=10001)
+    df = pd.read_csv(file_path)
     df = convert_list_columns(df, list_cols)
     return initialize_error_columns(df)
 
@@ -188,6 +216,7 @@ if __name__ == "__main__":
     sentences_csv = f"{data_processed_dir}/sent_wikipedia_nlp_features_stanza_final_10000_tmp.csv"
 
     df = load_and_preprocess_data(sentences_csv, ["pos", "words", "lemmas", "gender", "number", "case"])
+    df = df.iloc[:10]
 
     start_time = pd.Timestamp.now()
     df = add_errors_all_rows(df)
