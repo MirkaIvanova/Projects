@@ -41,7 +41,8 @@ def process_chunk(chunk):
 
 
 if __name__ == "__main__":
-    file_path = "./data/processed/sent_fiction_nlp_features_part1_v1.tsv"
+    pass
+    file_path = "./data/processed/sent_fiction_nlp_features_part2_v1.tsv"
     output_path = "./tmp/processed_features.tsv"
     chunk_size = 100_000
 

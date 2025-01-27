@@ -104,8 +104,8 @@ def parse_nlp_morphtags(sentence_xpostags: list) -> tuple:
 if __name__ == "__main__":
     import time
 
-    file_path = "./data/processed/sent_fiction_nlp_features_part1_v2.tsv"
-    output_path = "./tmp/processed_fiction_case.csv"
+    file_path = "./data/processed/sent_fiction_nlp_features_part2_v2.tsv"
+    output_path = "./tmp/sent_fiction_nlp_features_part2_v2_1.tsv"
     df = pd.read_csv(file_path, low_memory=True, sep="\t")
     df = df.dropna(subset=["morph"])
 
@@ -120,11 +120,11 @@ if __name__ == "__main__":
 
     print(df.shape)
 
+    df.to_csv(output_path, index=False, sep="\t")
+
     for i, row in df.iterrows():
         print(i, row.sentence, row["case"])
         if i > 5:
             break
-
-    df.to_csv(output_path, index=False, sep="\t")
 
     print(f"Execution time: {time.time() - start_time} seconds")
