@@ -1,0 +1,12 @@
+data/processed/*
+data/raw/*
+data/clean/*
+stanza_resources/
+.ipynb_checkpoints/
+.virtual_documents/
+tmp/
+__pycache__/
+*.udpipe
+*.csv
+*.tsv
+
