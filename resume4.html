@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Professional CV</title>
+    <!-- Importing modern fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #2563eb; /* Modern Blue */
+            --text-dark: #1e293b;
+            --text-light: #64748b;
+            --bg-light: #f8fafc;
+            --line-color: #e2e8f0;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #fff;
+            color: var(--text-dark);
+            line-height: 1.6;
+            padding: 40px;
+        }
+
+        /* Optimization for PDF export */
+        @media print {
+            body { padding: 0; margin: 0; }
+            .no-print { display: none; }
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 40px;
+        }
+
+        /* Left Column / Sidebar */
+        .sidebar {
+            border-right: 1px solid var(--line-color);
+            padding-right: 20px;
+        }
+
+        /* Right Column / Main Content */
+        .main-content {
+            padding-left: 0;
+        }
+
+        /* Header Styling */
+        header {
+            grid-column: 1 / span 2;
+            margin-bottom: 30px;
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 20px;
+        }
+
+        header h1 {
+            font-size: 36px;
+            font-weight: 700;
+            letter-spacing: -1px;
+            text-transform: uppercase;
+        }
+
+        header .title {
+            color: var(--primary-color);
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .contact-info {
+            display: flex;
+            gap: 15px;
+            font-size: 13px;
+            color: var(--text-light);
+            flex-wrap: wrap;
+        }
+
+        /* Section Headings */
+        h2 {
+            font-size: 16px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--primary-color);
+            margin-bottom: 15px;
+            margin-top: 25px;
+            display: flex;
+            align-items: center;
+        }
+
+        h2::after {
+            content: "";
+            flex: 1;
+            height: 1px;
+            background: var(--line-color);
+            margin-left: 10px;
+        }
+
+        /* Experience Items */
+        .item {
+            margin-bottom: 20px;
+        }
+
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+        }
+
+        .item-title {
+            font-weight: 700;
+            font-size: 15px;
+        }
+
+        .item-date {
+            font-size: 12px;
+            color: var(--text-light);
+            font-weight: 600;
+        }
+
+        .item-company {
+            font-style: italic;
+            color: var(--text-light);
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        ul {
+            padding-left: 18px;
+            font-size: 14px;
+            color: var(--text-dark);
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        /* Skills "Pills" */
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .skill-badge {
+            background: var(--bg-light);
+            border: 1px solid var(--line-color);
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+
+        .summary {
+            font-size: 14px;
+            color: var(--text-dark);
+            margin-bottom: 20px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- HEADER -->
+        <header>
+            <h1>John Doe</h1>
+            <div class="title">Senior Software Engineer</div>
+            <div class="contact-info">
+                <span>📍 New York, NY</span>
+                <span>📧 email@example.com</span>
+                <span>🔗 linkedin.com/in/johndoe</span>
+                <span>📱 +1 234 567 890</span>
+            </div>
+        </header>
+
+        <!-- LEFT COLUMN -->
+        <div class="sidebar">
+            <section>
+                <h2>Skills</h2>
+                <div class="skills-container">
+                    <span class="skill-badge">JavaScript</span>
+                    <span class="skill-badge">React</span>
+                    <span class="skill-badge">Node.js</span>
+                    <span class="skill-badge">Python</span>
+                    <span class="skill-badge">AWS</span>
+                    <span class="skill-badge">Docker</span>
+                    <span class="skill-badge">UI/UX Design</span>
+                </div>
+            </section>
+
+            <section>
+                <h2>Education</h2>
+                <div class="item">
+                    <div class="item-title">B.Sc. Computer Science</div>
+                    <div class="item-company">University of Technology</div>
+                    <div class="item-date">2014 - 2018</div>
+                </div>
+            </section>
+
+            <section>
+                <h2>Languages</h2>
+                <ul style="list-style: none; padding: 0; font-size: 13px;">
+                    <li><strong>English:</strong> Native</li>
+                    <li><strong>German:</strong> Professional</li>
+                </ul>
+            </section>
+        </div>
+
+        <!-- RIGHT COLUMN -->
+        <div class="main-content">
+            <section>
+                <h2>Summary</h2>
+                <p class="summary">
+                    Results-oriented Software Engineer with 6+ years of experience building scalable web applications. Proven track record of improving system performance and leading cross-functional teams.
+                </p>
+            </section>
+
+            <section>
+                <h2>Experience</h2>
+                
+                <div class="item">
+                    <div class="item-header">
+                        <div class="item-title">Senior Developer</div>
+                        <div class="item-date">2021 — Present</div>
+                    </div>
+                    <div class="item-company">TechCorp Solutions</div>
+                    <ul>
+                        <li>Led a team of 5 developers to rebuild the core API, reducing latency by 40%.</li>
+                        <li>Implemented CI/CD pipelines that cut deployment time in half.</li>
+                        <li>Mentored junior staff and conducted code reviews for quality assurance.</li>
+                    </ul>
+                </div>
+
+                <div class="item">
+                    <div class="item-header">
+                        <div class="item-title">Software Engineer</div>
+                        <div class="item-date">2018 — 2021</div>
+                    </div>
+                    <div class="item-company">Innovate Web Studio</div>
+                    <ul>
+                        <li>Developed responsive frontend components using React and Redux.</li>
+                        <li>Collaborated with design teams to ensure seamless UX transitions.</li>
+                        <li>Integrated third-party payment gateways (Stripe, PayPal).</li>
+                    </ul>
+                </div>
+
+            </section>
+
+            <section>
+                <h2>Projects</h2>
+                <div class="item">
+                    <div class="item-title">Open Source Analytics Tool</div>
+                    <p style="font-size: 14px;">Built a lightweight privacy-focused analytics dashboard with over 500 stars on GitHub.</p>
+                </div>
+            </section>
+        </div>
+    </div>
+
+</body>
+</html>

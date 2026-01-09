@@ -1,0 +1,341 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Miroslava Ivanova - Senior QA Engineer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        :root {
+            --primary: #1e293b; /* Dark Slate */
+            --accent: #0284c7;  /* Modern Blue */
+            --text-main: #334155;
+            --text-light: #64748b;
+            --bg-sidebar: #f8fafc;
+            --border: #e2e8f0;
+        }
+
+        * { box-sizing: border-box; }
+        
+        body { 
+            line-height: 1.6; 
+            margin: 0;
+            padding: 0; 
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            color: var(--text-main);
+            background-color: #fff;
+        }
+
+        /* Layout Grid */
+        .container {
+            display: grid;
+            grid-template-columns: 300px 1fr;
+            min-height: 100vh;
+        }
+
+        /* Sidebar Styling */
+        .sidebar {
+            background-color: var(--bg-sidebar);
+            padding: 40px 30px;
+            border-right: 1px solid var(--border);
+        }
+
+        /* Main Content Styling */
+        .main-content {
+            padding: 40px 50px;
+        }
+
+        /* Typography */
+        h1 { 
+            font-size: 2.5rem; 
+            margin: 0;
+            color: var(--primary);
+            line-height: 1.1;
+            font-weight: 800;
+            letter-spacing: -0.02em;
+        }
+
+        .job-title {
+            font-size: 1.2rem;
+            color: var(--accent);
+            font-weight: 500;
+            margin-bottom: 30px;
+            display: block;
+        }
+
+        h2 { 
+            font-size: 0.9rem; 
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            border-bottom: 2px solid var(--accent);
+            padding-bottom: 5px;
+            margin: 40px 0 20px 0;
+            color: var(--primary);
+        }
+
+        h2:first-of-type { margin-top: 0; }
+
+        h3 {
+            font-size: 1.1rem; 
+            margin: 0;
+            color: var(--primary);
+        }
+
+        h4 {
+            font-size: 1rem;
+            color: var(--text-light);
+            font-weight: 500;
+            margin: 2px 0 10px 0;
+        }
+
+        /* Sidebar Elements */
+        .contact-item {
+            margin-bottom: 15px;
+            font-size: 0.9rem;
+            word-break: break-all;
+        }
+
+        .contact-item b {
+            display: block;
+            color: var(--primary);
+            font-size: 0.75rem;
+            text-transform: uppercase;
+        }
+
+        .contact-item a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        /* Skill Chips */
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .skill-badge {
+            background: #fff;
+            border: 1px solid var(--border);
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            color: var(--text-main);
+            box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+        }
+
+        /* Experience Entries */
+        .job-entry {
+            position: relative;
+            margin-bottom: 35px;
+        }
+
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .company-logo {
+            float: left;
+            width: 40px;
+            height: 40px;
+            margin-right: 15px;
+            border-radius: 4px;
+            object-fit: contain;
+            background: #f1f5f9;
+        }
+
+        .time {
+            font-size: 0.85rem;
+            color: var(--text-light);
+            font-weight: 500;
+            background: #f1f5f9;
+            padding: 2px 8px;
+            border-radius: 4px;
+        }
+
+        ul {
+            margin: 10px 0 0 20px;
+            padding: 0;
+            list-style-type: circle;
+        }
+
+        li {
+            margin-bottom: 6px;
+            font-size: 0.95rem;
+        }
+
+        .summary-text {
+            font-size: 1rem;
+            color: var(--text-main);
+            text-align: justify;
+        }
+
+        /* Print Settings */
+        @media print {
+            body { -webkit-print-color-adjust: exact; }
+            .container { display: grid; }
+            .sidebar { background-color: #f8fafc !important; }
+            button { display: none; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- LEFT SIDEBAR -->
+    <aside class="sidebar">
+        <div class="contact-item">
+            <b>Email</b>
+            miroslava.i.ivanova@gmail.com
+        </div>
+        <div class="contact-item">
+            <b>Phone</b>
+            +359 899 911 463
+        </div>
+        <div class="contact-item">
+            <b>LinkedIn</b>
+            <a href="https://www.linkedin.com/in/miroslava-ivanova-0479563/">View Profile</a>
+        </div>
+
+        <h2>Technical Skills</h2>
+        <div class="skills-container">
+            <span class="skill-badge">TypeScript</span>
+            <span class="skill-badge">JavaScript</span>
+            <span class="skill-badge">Python</span>
+            <span class="skill-badge">C#</span>
+            <span class="skill-badge">Playwright</span>
+            <span class="skill-badge">Cypress</span>
+            <span class="skill-badge">Selenium</span>
+            <span class="skill-badge">Postman</span>
+            <span class="skill-badge">Docker</span>
+            <span class="skill-badge">Git</span>
+            <span class="skill-badge">Agile/Scrum</span>
+            <span class="skill-badge">MongoDB</span>
+            <span class="skill-badge">PostgreSQL</span>
+        </div>
+
+        <h2>Education</h2>
+        <div style="margin-bottom: 20px;">
+            <div class="time">1999 - 2003</div>
+            <div style="font-weight: 700; margin-top: 5px;">American University in Bulgaria</div>
+            <div style="font-size: 0.85rem;">B.S. in Computer Science</div>
+        </div>
+        <div>
+            <div class="time">1995 - 1999</div>
+            <div style="font-weight: 700; margin-top: 5px;">Math & Science High School</div>
+            <div style="font-size: 0.85rem;">English & Mathematics</div>
+        </div>
+    </aside>
+
+    <!-- RIGHT MAIN CONTENT -->
+    <main class="main-content">
+        <header>
+            <h1>Miroslava Ivanova</h1>
+            <span class="job-title">Senior Quality Assurance Engineer</span>
+        </header>
+
+        <section>
+            <h2>Executive Summary</h2>
+            <p class="summary-text">
+                Quality Assurance Specialist with 10+ years helping software teams build better products through early testing integration. 
+                Experienced in E2E, integration, and API automation using <b>Playwright, Cypress, Selenium, and Python</b>. 
+                Passionate about process optimization, task automation, and exploring AI-powered solutions to enhance quality assurance.
+            </p>
+        </section>
+
+        <section>
+            <h2>Professional Experience</h2>
+
+            <!-- JOB 1 -->
+            <div class="job-entry">
+                <div class="job-header">
+                    <div>
+                        <img src="sourcelab.jpg" alt="Logo" class="company-logo">
+                        <h3>SOURCELAB</h3>
+                        <h4>Senior Quality Assurance Engineer</h4>
+                    </div>
+                    <span class="time">Aug 2022 - Present</span>
+                </div>
+                <ul>
+                    <li>Design, implement, and review functional and non-functional test scenarios.</li>
+                    <li>Develop and maintain API automation tests using Postman and JavaScript.</li>
+                    <li>Collaborate with cross-functional teams to resolve complex quality issues.</li>
+                    <li>Contribute to continuous improvement of QA standards.</li>
+                </ul>
+            </div>
+
+            <!-- JOB 2 -->
+            <div class="job-entry">
+                <div class="job-header">
+                    <div>
+                        <img src="officernd.jpg" alt="Logo" class="company-logo">
+                        <h3>OfficeRnD</h3>
+                        <h4>Senior Quality Assurance Engineer</h4>
+                    </div>
+                    <span class="time">Dec 2020 - Aug 2022</span>
+                </div>
+                <ul>
+                    <li>Created API and UI automated tests using Mocha, Cypress, and JavaScript.</li>
+                    <li>Tested complex reports and analytics engines.</li>
+                    <li>Managed the release process and collaborated on acceptance criteria.</li>
+                    <li>Mentored peers and conducted technical interviews.</li>
+                </ul>
+            </div>
+
+            <!-- JOB 3 -->
+            <div class="job-entry">
+                <div class="job-header">
+                    <div>
+                        <img src="designtechnologies.jpg" alt="Logo" class="company-logo">
+                        <h3>Design Technologies</h3>
+                        <h4>Senior Quality Assurance Engineer</h4>
+                    </div>
+                    <span class="time">Jul 2019 - Dec 2020</span>
+                </div>
+                <ul>
+                    <li>Facilitated the team's transition to Agile methodology and culture.</li>
+                    <li>Introduced and developed core testing processes.</li>
+                    <li>Automated key features using Codeception/PHP (Acceptance & API).</li>
+                </ul>
+            </div>
+
+            <!-- JOB 4 -->
+            <div class="job-entry">
+                <div class="job-header">
+                    <div>
+                        <img src="fourth.jpg" alt="Logo" class="company-logo">
+                        <h3>Fourth</h3>
+                        <h4>Senior Quality Assurance Engineer</h4>
+                    </div>
+                    <span class="time">Feb 2019 - Jul 2019</span>
+                </div>
+                <ul>
+                    <li>Developed front-end automation for Web, Android, and iOS using Appium and C#.</li>
+                    <li>Conducted code reviews for Ember.js and C# implementations.</li>
+                    <li>Executed manual functional and regression testing in production environments.</li>
+                </ul>
+            </div>
+
+            <!-- JOB 5 -->
+            <div class="job-entry">
+                <div class="job-header">
+                    <div>
+                        <img src="wiser.jpg" alt="Logo" class="company-logo">
+                        <h3>Wiser Technology</h3>
+                        <h4>Senior Quality Assurance Engineer</h4>
+                    </div>
+                    <span class="time">Nov 2013 - Feb 2019</span>
+                </div>
+                <ul>
+                    <li>Developed API automated tests using bash, curl, Ruby, and SoapUI.</li>
+                    <li>Analyzed field issues and performance bottlenecks in Linux/Tomcat environments.</li>
+                    <li>Triaged tickets and mentored new colleagues during the transition from legacy systems.</li>
+                </ul>
+            </div>
+
+        </section>
+    </main>
+</div>
+
+</body>
+</html>
